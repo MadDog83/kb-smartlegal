@@ -43,12 +43,13 @@ Kod wyjścia 1 przy błędzie, więc nadaje się do uruchomienia przy każdej zm
 
 ## Stan
 
-Pierwsza partia: **8 plików**, wszystkie z obszarów, w których testy na produkcji wykryły
-złe odpowiedzi — nielegalny pobyt, przekroczony termin, trzy ścieżki odwoławcze, właściwy
-urząd, opłaty. Reszta tematów (pobyt czasowy, stały, rezydent UE, wizy, UKR, studia,
-praca) jest do przeniesienia z obecnego `legal-kb.server.ts` w projekcie Lovable.
+**35 plików treści**, dziesięć obszarów tematycznych, walidacja bez błędów.
+Pokryte są wszystkie rozdziały poprzedniej bazy oraz tematy, których w niej nie było,
+a które wyszły w testach na produkcji jako źródło złych odpowiedzi: nielegalny pobyt,
+przekroczony termin, właściwy organ, trzy rozdzielone ścieżki odwoławcze i bezczynność.
 
-Docelowo 45–55 plików treści.
+Do zrobienia w kolejnych etapach: teksty ustaw pocięte na artykuły w `zrodla/`
+oraz indeks wektorowy budowany z treści.
 
 ## Jak to trafi na GitHub
 
