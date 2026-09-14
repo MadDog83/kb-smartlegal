@@ -1,40 +1,308 @@
 [
-  { "id": "oplaty-pl",        "q": "Ile kosztuje karta pobytu czasowego?", "oczekiwane": ["oplaty-karta-pobytu"] },
-  { "id": "termin-pl",        "q": "Jak dlugo czeka sie na decyzje o pobycie czasowym?", "oczekiwane": ["pobyt-czasowy-termin-i-legalnosc"] },
-  { "id": "odw-wojewoda-pl",  "q": "Wojewoda odmowil mi zezwolenia na pobyt czasowy. Co moge zrobic?", "oczekiwane": ["odwolanie-od-wojewody"] },
-  { "id": "odw-wiza-pl",      "q": "Odmowiono mi wizy krajowej. Czy moge sie odwolac i w jakim terminie?", "oczekiwane": ["odmowa-wizy"] },
-  { "id": "odw-sg-pl",        "q": "Straz Graniczna wydala mi decyzje o zobowiazaniu do powrotu. Gdzie sie odwolac?", "oczekiwane": ["odwolanie-od-strazy-granicznej"] },
-  { "id": "nielegalny-pl",    "q": "przeszedlem granice polem i teraz jestem w polsce nie legalnie co mam robic?", "oczekiwane": ["nielegalny-pobyt"] },
-  { "id": "malzenstwo-pl",    "q": "Ile lat malzenstwa z Polka jest potrzebne do pobytu stalego?", "oczekiwane": ["pobyt-staly-podstawy"] },
-  { "id": "obyw-malz-pl",     "q": "Jestem zonaty z Polka od 2 lat. Czy moge juz starac sie o obywatelstwo?", "oczekiwane": ["oplaty-obywatelstwo"] },
-  { "id": "obyw-oplata-pl",   "q": "Ile kosztuje wniosek o uznanie za obywatela polskiego?", "oczekiwane": ["oplaty-obywatelstwo"] },
-  { "id": "gdzie-pl",         "q": "Do jakiego urzedu skladam wniosek o karte pobytu?", "oczekiwane": ["wlasciwy-organ"] },
-  { "id": "praca-czekam-pl",  "q": "Czy moge pracowac czekajac na decyzje w sprawie karty pobytu?", "oczekiwane": ["pobyt-czasowy-termin-i-legalnosc"] },
-  { "id": "bezczynnosc-pl",   "q": "Co zrobic gdy wojewoda nie odpowiada od pol roku?", "oczekiwane": ["bezczynnosc"] },
-  { "id": "przeterm-pl",      "q": "Wygasla mi wiza dwa miesiace temu i dalej jestem w Polsce", "oczekiwane": ["przekroczony-termin"] },
-  { "id": "zatrzymanie-pl",   "q": "Zatrzymala mnie Straz Graniczna, co dalej?", "oczekiwane": ["zatrzymanie"] },
-  { "id": "sezonowa-pl",      "q": "Chce pracowac przy zbiorach, jakie zezwolenie na prace sezonowa?", "oczekiwane": ["praca-sezonowa"] },
-  { "id": "rodzina-pl",       "q": "Jak sprowadzic zone i dzieci do Polski?", "oczekiwane": ["pobyt-czasowy-rodzina"] },
-  { "id": "kontrola-pl",      "q": "Co musze miec przy sobie na wypadek kontroli dokumentow?", "oczekiwane": ["kontrola-dokumentow"] },
-  { "id": "mos-pl",          "q": "Czy wniosek moge zlozyc elektronicznie przez MOS?", "oczekiwane": ["mos-inpol"] },
-  { "id": "oplaty-ua",        "q": "Скільки коштує карта тимчасового побуту?", "oczekiwane": ["oplaty-karta-pobytu"] },
-  { "id": "ukr-30dni-ua",     "q": "Чи втрачу я статус UKR, якщо виїду з Польщі на два місяці?", "oczekiwane": ["ukr-ochrona-czasowa"] },
-  { "id": "ukr-2027-ua",      "q": "До якого часу діє захист для громадян України в Польщі?", "oczekiwane": ["ukr-termin-2027"] },
-  { "id": "ukr-nue-ua",       "q": "Що робити, якщо я не підтвердив особу паспортом до 31 серпня 2026 року?", "oczekiwane": ["ukr-przepisy-przejsciowe"] },
-  { "id": "cukr-ua",          "q": "Як отримати карту побуту CUKR?", "oczekiwane": ["cukr"] },
-  { "id": "rezydent-ua",      "q": "Які вимоги для отримання статусу резидента ЄС?", "oczekiwane": ["rezydent-ue-warunki"] },
-  { "id": "gdzie-ua",         "q": "До якого органу подавати заяву на карту побуту?", "oczekiwane": ["wlasciwy-organ"] },
-  { "id": "pracodawca-ua",    "q": "У мене карта побуту на підставі роботи. Чи можу я змінити роботодавця?", "oczekiwane": ["zmiana-pracodawcy"] },
-  { "id": "student-ua",       "q": "На скільки часу дають першу карту побуту студенту?", "oczekiwane": ["pobyt-czasowy-studia"] },
-  { "id": "nielegalny-ua",    "q": "Я живу в Польщі нелегально. Що мені робити?", "oczekiwane": ["nielegalny-pobyt"] },
-  { "id": "pesel-ua",         "q": "Де подати заяву на PESEL зі статусом UKR?", "oczekiwane": ["pesel-ukr"] },
-  { "id": "fees-en",          "q": "How much does a temporary residence card cost?", "oczekiwane": ["oplaty-karta-pobytu"] },
-  { "id": "overstay-en",      "q": "My Polish visa expired two months ago and I am still in Poland. What should I do?", "oczekiwane": ["przekroczony-termin"] },
-  { "id": "sg-en",            "q": "The Border Guard issued a return decision against me. Where can I appeal?", "oczekiwane": ["odwolanie-od-strazy-granicznej"] },
-  { "id": "citizenship-en",   "q": "What are the requirements for Polish citizenship through marriage?", "oczekiwane": ["oplaty-obywatelstwo"] },
-  { "id": "permanent-en",     "q": "How many years do I need to live in Poland to apply for permanent residence?", "oczekiwane": ["pobyt-staly-podstawy"] },
-  { "id": "lost-card-en",     "q": "What happens if my residence card is lost or stolen?", "oczekiwane": ["dokumenty-i-karta"] },
-  { "id": "visa-en",          "q": "How long is a national visa valid and how long does the consulate take?", "oczekiwane": ["wiza-krajowa"] },
-  { "id": "detention-en",     "q": "I was detained by the Border Guard and they mention a guarded centre", "oczekiwane": ["zatrzymanie"] },
-  { "id": "pogoda-pl",        "q": "Jaka bedzie pogoda w Warszawie w przyszlym tygodniu?", "oczekiwane": [] }
+ {
+  "id": "oplaty-pl",
+  "q": "Ile kosztuje karta pobytu czasowego?",
+  "oczekiwane": [
+   "oplaty-karta-pobytu"
+  ]
+ },
+ {
+  "id": "termin-pl",
+  "q": "Jak dlugo czeka sie na decyzje o pobycie czasowym?",
+  "oczekiwane": [
+   "pobyt-czasowy-termin-i-legalnosc"
+  ]
+ },
+ {
+  "id": "odw-wojewoda-pl",
+  "q": "Wojewoda odmowil mi zezwolenia na pobyt czasowy. Co moge zrobic?",
+  "oczekiwane": [
+   "odwolanie-od-wojewody"
+  ]
+ },
+ {
+  "id": "odw-wiza-pl",
+  "q": "Odmowiono mi wizy krajowej. Czy moge sie odwolac i w jakim terminie?",
+  "oczekiwane": [
+   "odmowa-wizy"
+  ]
+ },
+ {
+  "id": "odw-sg-pl",
+  "q": "Straz Graniczna wydala mi decyzje o zobowiazaniu do powrotu. Gdzie sie odwolac?",
+  "oczekiwane": [
+   "odwolanie-od-strazy-granicznej"
+  ]
+ },
+ {
+  "id": "nielegalny-pl",
+  "q": "przeszedlem granice polem i teraz jestem w polsce nie legalnie co mam robic?",
+  "oczekiwane": [
+   "nielegalny-pobyt"
+  ]
+ },
+ {
+  "id": "malzenstwo-pl",
+  "q": "Ile lat malzenstwa z Polka jest potrzebne do pobytu stalego?",
+  "oczekiwane": [
+   "pobyt-staly-podstawy"
+  ]
+ },
+ {
+  "id": "obyw-malz-pl",
+  "q": "Jestem zonaty z Polka od 2 lat. Czy moge juz starac sie o obywatelstwo?",
+  "oczekiwane": [
+   "uznanie-za-obywatela"
+  ]
+ },
+ {
+  "id": "obyw-oplata-pl",
+  "q": "Ile kosztuje wniosek o uznanie za obywatela polskiego?",
+  "oczekiwane": [
+   "oplaty-obywatelstwo"
+  ]
+ },
+ {
+  "id": "gdzie-pl",
+  "q": "Do jakiego urzedu skladam wniosek o karte pobytu?",
+  "oczekiwane": [
+   "wlasciwy-organ"
+  ]
+ },
+ {
+  "id": "praca-czekam-pl",
+  "q": "Czy moge pracowac czekajac na decyzje w sprawie karty pobytu?",
+  "oczekiwane": [
+   "pobyt-czasowy-termin-i-legalnosc"
+  ]
+ },
+ {
+  "id": "bezczynnosc-pl",
+  "q": "Co zrobic gdy wojewoda nie odpowiada od pol roku?",
+  "oczekiwane": [
+   "bezczynnosc"
+  ]
+ },
+ {
+  "id": "przeterm-pl",
+  "q": "Wygasla mi wiza dwa miesiace temu i dalej jestem w Polsce",
+  "oczekiwane": [
+   "przekroczony-termin"
+  ]
+ },
+ {
+  "id": "zatrzymanie-pl",
+  "q": "Zatrzymala mnie Straz Graniczna, co dalej?",
+  "oczekiwane": [
+   "zatrzymanie"
+  ]
+ },
+ {
+  "id": "sezonowa-pl",
+  "q": "Chce pracowac przy zbiorach, jakie zezwolenie na prace sezonowa?",
+  "oczekiwane": [
+   "praca-sezonowa"
+  ]
+ },
+ {
+  "id": "rodzina-pl",
+  "q": "Jak sprowadzic zone i dzieci do Polski?",
+  "oczekiwane": [
+   "pobyt-czasowy-rodzina"
+  ]
+ },
+ {
+  "id": "kontrola-pl",
+  "q": "Co musze miec przy sobie na wypadek kontroli dokumentow?",
+  "oczekiwane": [
+   "kontrola-dokumentow"
+  ]
+ },
+ {
+  "id": "mos-pl",
+  "q": "Czy wniosek moge zlozyc elektronicznie przez MOS?",
+  "oczekiwane": [
+   "mos-inpol"
+  ]
+ },
+ {
+  "id": "oplaty-ua",
+  "q": "Скільки коштує карта тимчасового побуту?",
+  "oczekiwane": [
+   "oplaty-karta-pobytu"
+  ]
+ },
+ {
+  "id": "ukr-30dni-ua",
+  "q": "Чи втрачу я статус UKR, якщо виїду з Польщі на два місяці?",
+  "oczekiwane": [
+   "ukr-ochrona-czasowa"
+  ]
+ },
+ {
+  "id": "ukr-2027-ua",
+  "q": "До якого часу діє захист для громадян України в Польщі?",
+  "oczekiwane": [
+   "ukr-termin-2027"
+  ]
+ },
+ {
+  "id": "ukr-nue-ua",
+  "q": "Що робити, якщо я не підтвердив особу паспортом до 31 серпня 2026 року?",
+  "oczekiwane": [
+   "ukr-przepisy-przejsciowe"
+  ]
+ },
+ {
+  "id": "cukr-ua",
+  "q": "Як отримати карту побуту CUKR?",
+  "oczekiwane": [
+   "cukr"
+  ]
+ },
+ {
+  "id": "rezydent-ua",
+  "q": "Які вимоги для отримання статусу резидента ЄС?",
+  "oczekiwane": [
+   "rezydent-ue-warunki"
+  ]
+ },
+ {
+  "id": "gdzie-ua",
+  "q": "До якого органу подавати заяву на карту побуту?",
+  "oczekiwane": [
+   "wlasciwy-organ"
+  ]
+ },
+ {
+  "id": "pracodawca-ua",
+  "q": "У мене карта побуту на підставі роботи. Чи можу я змінити роботодавця?",
+  "oczekiwane": [
+   "zmiana-pracodawcy"
+  ]
+ },
+ {
+  "id": "student-ua",
+  "q": "На скільки часу дають першу карту побуту студенту?",
+  "oczekiwane": [
+   "pobyt-czasowy-studia"
+  ]
+ },
+ {
+  "id": "nielegalny-ua",
+  "q": "Я живу в Польщі нелегально. Що мені робити?",
+  "oczekiwane": [
+   "nielegalny-pobyt"
+  ]
+ },
+ {
+  "id": "pesel-ua",
+  "q": "Де подати заяву на PESEL зі статусом UKR?",
+  "oczekiwane": [
+   "pesel-ukr"
+  ]
+ },
+ {
+  "id": "fees-en",
+  "q": "How much does a temporary residence card cost?",
+  "oczekiwane": [
+   "oplaty-karta-pobytu"
+  ]
+ },
+ {
+  "id": "overstay-en",
+  "q": "My Polish visa expired two months ago and I am still in Poland. What should I do?",
+  "oczekiwane": [
+   "przekroczony-termin"
+  ]
+ },
+ {
+  "id": "sg-en",
+  "q": "The Border Guard issued a return decision against me. Where can I appeal?",
+  "oczekiwane": [
+   "odwolanie-od-strazy-granicznej"
+  ]
+ },
+ {
+  "id": "citizenship-en",
+  "q": "What are the requirements for Polish citizenship through marriage?",
+  "oczekiwane": [
+   "uznanie-za-obywatela"
+  ]
+ },
+ {
+  "id": "permanent-en",
+  "q": "How many years do I need to live in Poland to apply for permanent residence?",
+  "oczekiwane": [
+   "pobyt-staly-podstawy"
+  ]
+ },
+ {
+  "id": "lost-card-en",
+  "q": "What happens if my residence card is lost or stolen?",
+  "oczekiwane": [
+   "dokumenty-i-karta"
+  ]
+ },
+ {
+  "id": "visa-en",
+  "q": "How long is a national visa valid and how long does the consulate take?",
+  "oczekiwane": [
+   "wiza-krajowa"
+  ]
+ },
+ {
+  "id": "detention-en",
+  "q": "I was detained by the Border Guard and they mention a guarded centre",
+  "oczekiwane": [
+   "zatrzymanie"
+  ]
+ },
+ {
+  "id": "pogoda-pl",
+  "q": "Jaka bedzie pogoda w Warszawie w przyszlym tygodniu?",
+  "oczekiwane": []
+ },
+ {
+  "id": "obyw-warunki-pl",
+  "q": "Jakie sa warunki uznania za obywatela polskiego?",
+  "oczekiwane": [
+   "uznanie-za-obywatela"
+  ]
+ },
+ {
+  "id": "obyw-jezyk-pl",
+  "q": "Jaki certyfikat z polskiego jest potrzebny do obywatelstwa?",
+  "oczekiwane": [
+   "jezyk-polski-obywatelstwo"
+  ]
+ },
+ {
+  "id": "obyw-prezydent-pl",
+  "q": "Chce zlozyc wniosek o nadanie obywatelstwa przez Prezydenta",
+  "oczekiwane": [
+   "nadanie-obywatelstwa"
+  ]
+ },
+ {
+  "id": "obyw-odmowa-pl",
+  "q": "Wojewoda odmowil mi uznania za obywatela, gdzie sie odwolac?",
+  "oczekiwane": [
+   "procedura-obywatelstwo"
+  ]
+ },
+ {
+  "id": "obyw-ile-trwa-ua",
+  "q": "Скільки часу розглядають заяву про громадянство?",
+  "oczekiwane": [
+   "procedura-obywatelstwo"
+  ]
+ },
+ {
+  "id": "obyw-warunki-en",
+  "q": "What are the conditions to be recognised as a Polish citizen?",
+  "oczekiwane": [
+   "uznanie-za-obywatela"
+  ]
+ }
 ]

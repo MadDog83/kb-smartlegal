@@ -51,12 +51,14 @@ każdej zmianie.
 
 ## Stan
 
-**35 plików treści**, dziesięć obszarów tematycznych. Walidacja bez błędów,
-**wyszukiwanie 38/38** na zestawie kontrolnym w trzech językach.
+**39 plików treści**, jedenaście obszarów tematycznych. Walidacja bez błędów,
+**wyszukiwanie 44/44** na zestawie kontrolnym w trzech językach.
 
-Pokryte są wszystkie rozdziały poprzedniej bazy oraz tematy, których w niej nie było,
-a które wyszły w testach na produkcji jako źródło złych odpowiedzi: nielegalny pobyt,
-przekroczony termin, właściwy organ, trzy rozdzielone ścieżki odwoławcze i bezczynność.
+Pokryte są wszystkie rozdziały poprzedniej bazy, tematy, których w niej nie było,
+a które wyszły w testach na produkcji jako źródło złych odpowiedzi (nielegalny pobyt,
+przekroczony termin, właściwy organ, trzy rozdzielone ścieżki odwoławcze, bezczynność),
+oraz obywatelstwo — którego stara baza świadomie nie obejmowała, mimo że jest jedną
+z czterech głównych usług serwisu.
 
 Do zrobienia: podłączenie aplikacji do indeksu i weryfikator cytatów korzystający
 z pól `artykuly` oraz `artykuly_zakazane`.

@@ -10,10 +10,15 @@ ryzyko: wysokie
 slowa: [odwołanie, odwołania, odwołać się, odmowa wojewody, decyzja odmowna, appeal, refusal, оскарження, відмова воєводи]
 ---
 
-Dotyczy **odmownej decyzji wojewody** w sprawie zezwolenia na pobyt czasowy, pobyt stały
-albo pobyt rezydenta długoterminowego UE. Nie dotyczy decyzji Straży Granicznej ani
-odmowy wizy — te mają własne, inne ścieżki (`odwolanie-od-strazy-granicznej`,
-`odmowa-wizy`).
+Dotyczy **odmownej decyzji wojewody w sprawie pobytu** — zezwolenia na pobyt czasowy,
+pobyt stały albo pobyt rezydenta długoterminowego UE. Nie dotyczy decyzji Straży
+Granicznej ani odmowy wizy — te mają własne, inne ścieżki
+(`odwolanie-od-strazy-granicznej`, `odmowa-wizy`).
+
+**Nie dotyczy też obywatelstwa.** Odmowę uznania za obywatela polskiego wydaje ten sam
+wojewoda, ale odwołanie idzie do **Ministra Spraw Wewnętrznych i Administracji**, a nie
+do Szefa Urzędu do Spraw Cudzoziemców — patrz `procedura-obywatelstwo`. Ten sam urząd,
+dwie różne ścieżki: to najłatwiejsza pomyłka w tym temacie.
 
 ## Kolejność kroków
 

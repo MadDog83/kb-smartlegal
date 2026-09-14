@@ -1,6 +1,6 @@
 {
  "zbudowano": "2026-09-14",
- "liczbaWpisow": 35,
+ "liczbaWpisow": 39,
  "artykulyUstaw": {
   "3": [
    "ustawa o cudzoziemcach"
@@ -230,6 +230,123 @@
  },
  "wpisy": [
   {
+   "id": "jezyk-polski-obywatelstwo",
+   "tytul": "Wymóg znajomości języka polskiego przy obywatelstwie",
+   "ustawa": "ustawa o obywatelstwie polskim",
+   "artykuly": [
+    "30"
+   ],
+   "artykuly_zakazane": [],
+   "organ": "wojewoda",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
+   "zweryfikowano": "2026-09-14",
+   "ryzyko": "normalne",
+   "slowa": [
+    "znajomość języka polskiego",
+    "certyfikat B1",
+    "egzamin z polskiego",
+    "poziom B1",
+    "język polski do obywatelstwa",
+    "Polish language certificate",
+    "B1 level",
+    "знання польської мови",
+    "сертифікат B1",
+    "іспит з польської"
+   ],
+   "sciezka": "tresc/obywatelstwo/jezyk-polski.md",
+   "bajty": 1143,
+   "tresc": "Przy **uznaniu za obywatela polskiego** wymagane jest urzędowo potwierdzone poświadczenie\nznajomości języka polskiego na poziomie **co najmniej B1**.\n\nWystarcza jedno z trzech:\n\n- **urzędowy certyfikat** znajomości języka polskiego (egzamin państwowy),\n- **świadectwo ukończenia szkoły w Polsce**,\n- **świadectwo ukończenia szkoły za granicą z wykładowym językiem polskim**.\n\nZwykłe zaświadczenie z kursu językowego nie wystarcza — poświadczenie musi być urzędowe.\n\n**Zwolnieni** są małoletni ubiegający się na podstawie art. 30 ust. 1 pkt 4–5 ustawy\no obywatelstwie polskim, czyli dzieci, których rodzic jest obywatelem Polski albo odzyskał\nobywatelstwo.\n\n## Dwa różne B1, których nie wolno mylić\n\nPoziom B1 pojawia się też przy **zezwoleniu na pobyt rezydenta długoterminowego UE** —\nto jednak inna ustawa, inne postępowanie i inny organ rozstrzygający o dokumencie.\nPatrz `rezydent-ue-warunki`. Jeśli pytanie dotyczy karty pobytu, a nie obywatelstwa,\nodpowiadaj z tamtego pliku.\n\n**Przy nadaniu obywatelstwa przez Prezydenta wymogu językowego nie ma w ogóle** —\npatrz `nadanie-obywatelstwa`."
+  },
+  {
+   "id": "nadanie-obywatelstwa",
+   "tytul": "Nadanie obywatelstwa polskiego przez Prezydenta RP",
+   "ustawa": null,
+   "artykuly": [],
+   "artykuly_zakazane": [],
+   "organ": "Prezydent RP",
+   "zrodlo": "https://www.gov.pl/web/uw-pomorski/nadanie-obywatelstwa-polskiego-przez-prezydenta-rp",
+   "zweryfikowano": "2026-09-14",
+   "ryzyko": "normalne",
+   "slowa": [
+    "nadanie obywatelstwa",
+    "Prezydent",
+    "wniosek do Prezydenta",
+    "obywatelstwo przez Prezydenta",
+    "presidential grant of citizenship",
+    "надання громадянства",
+    "Президент"
+   ],
+   "sciezka": "tresc/obywatelstwo/nadanie-prezydent.md",
+   "bajty": 1421,
+   "tresc": "Druga droga do obywatelstwa i **rządzi się zupełnie inną logiką** niż uznanie przez\nwojewodę. To nie jest postępowanie, w którym spełnienie warunków daje prawo do decyzji.\n\n- **Prezydent może nadać obywatelstwo każdemu cudzoziemcowi**, który złoży wniosek. Nie ma\n  ustawowych przesłanek, progów pobytu ani wymogu językowego.\n- **Nie stosuje się Kodeksu postępowania administracyjnego.** Prezydenta nie wiążą żadne\n  terminy — sprawa może trwać dowolnie długo.\n- **Postanowienie nie wymaga uzasadnienia.**\n- **Nie przysługuje odwołanie.** Postanowienia Prezydenta są ostateczne i nie podlegają\n  zaskarżeniu. Można natomiast złożyć wniosek ponownie w przyszłości.\n\n## Gdzie się składa\n\nOsoby mieszkające w Polsce — **za pośrednictwem wojewody** właściwego ze względu na miejsce\nzamieszkania. Osoby za granicą — za pośrednictwem **konsula**. Wniosek pisze się\nwłasnoręcznie po polsku, z uzasadnieniem prośby.\n\nObywatelstwo nadane rodzicom obejmuje ich małoletnie dzieci; przy dziecku od 16 lat\npotrzebna jest jego pisemna zgoda.\n\n## Opłata\n\n**1669 zł** opłaty skarbowej w urzędzie wojewódzkim, **450 euro** u konsula. To są dwie\nróżne kwoty za tę samą sprawę i zależą wyłącznie od miejsca złożenia wniosku.\n\nNie myl tego z opłatą **1000 zł** za uznanie za obywatela przez wojewodę — to inna droga\ni inna kwota. Patrz `oplaty-obywatelstwo`."
+  },
+  {
+   "id": "procedura-obywatelstwo",
+   "tytul": "Obywatelstwo — organ, termin i odwołanie",
+   "ustawa": "ustawa o obywatelstwie polskim",
+   "artykuly": [
+    "30"
+   ],
+   "artykuly_zakazane": [],
+   "organ": "wojewoda",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
+   "zweryfikowano": "2026-09-14",
+   "ryzyko": "wysokie",
+   "slowa": [
+    "odmowa obywatelstwa",
+    "odwołanie obywatelstwo",
+    "ile trwa obywatelstwo",
+    "gdzie złożyć wniosek o obywatelstwo",
+    "termin obywatelstwo",
+    "citizenship refused",
+    "citizenship appeal",
+    "відмова у громадянстві",
+    "оскарження громадянства",
+    "скільки триває"
+   ],
+   "sciezka": "tresc/obywatelstwo/procedura-i-odwolanie.md",
+   "bajty": 1223,
+   "tresc": "## Uznanie za obywatela (decyzja wojewody)\n\n- **Organ:** wojewoda właściwy ze względu na miejsce zamieszkania.\n- **Termin rozpatrzenia: 6 miesięcy** od złożenia wniosku. To znacznie dłużej niż przy\n  zezwoleniach pobytowych — nie przenoś tu terminu 60 dni.\n- **Opłata: 1000 zł** (zwolnienie dla małoletnich z art. 30 ust. 1 pkt 4–5).\n\n## Odwołanie od odmowy — inny organ niż przy karcie pobytu\n\n**Odwołanie w terminie 14 dni** od doręczenia decyzji, za pośrednictwem wojewody, do\n**Ministra Spraw Wewnętrznych i Administracji**.\n\n**Nie do Szefa Urzędu do Spraw Cudzoziemców.** Szef UDSC jest organem odwoławczym\nw sprawach pobytowych, a nie obywatelskich — to dwie różne ścieżki prowadzone przez ten\nsam urząd wojewódzki i najłatwiejsza pomyłka w całym tym temacie. Ścieżka pobytowa:\n`odwolanie-od-wojewody`.\n\n## Nadanie przez Prezydenta — brak odwołania\n\nTu żadne z powyższych nie obowiązuje: nie ma terminu, nie ma uzasadnienia i **nie ma\nodwołania**. Szczegóły w `nadanie-obywatelstwa`.\n\nZe względu na sześciomiesięczny termin i wysoką opłatę warto przy odmowie skierować do\nadwokata albo organizacji pomocy prawnej — powtórny wniosek oznacza ponowne 1000 zł."
+  },
+  {
+   "id": "uznanie-za-obywatela",
+   "tytul": "Uznanie za obywatela polskiego — warunki",
+   "ustawa": "ustawa o obywatelstwie polskim",
+   "artykuly": [
+    "30"
+   ],
+   "artykuly_zakazane": [],
+   "organ": "wojewoda",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
+   "zweryfikowano": "2026-09-14",
+   "ryzyko": "normalne",
+   "slowa": [
+    "obywatelstwo",
+    "uznanie za obywatela",
+    "jak dostać obywatelstwo",
+    "warunki obywatelstwa",
+    "polski paszport",
+    "naturalizacja",
+    "obywatelstwo przez małżeństwo",
+    "żonaty z Polką",
+    "żona Polaka",
+    "mąż Polki",
+    "ile lat do obywatelstwa",
+    "Karta Polaka obywatelstwo",
+    "citizenship",
+    "become Polish citizen",
+    "naturalisation",
+    "citizenship through marriage",
+    "громадянство",
+    "як отримати громадянство",
+    "умови громадянства",
+    "громадянство через шлюб"
+   ],
+   "sciezka": "tresc/obywatelstwo/uznanie-wojewoda.md",
+   "bajty": 1595,
+   "tresc": "Pierwsza z dwóch dróg do obywatelstwa: **decyzja wojewody**, wydawana po spełnieniu\nwarunków ustawowych. Druga to nadanie przez Prezydenta — patrz `nadanie-obywatelstwa`.\nRóżnica jest zasadnicza: tutaj spełnienie warunków daje prawo do decyzji, tam nie.\n\n## Podstawy (art. 30 ust. 1 ustawy o obywatelstwie polskim)\n\n1. **3 lata** nieprzerwanego pobytu na podstawie zezwolenia na **pobyt stały** (albo\n   rezydenta UE lub prawa stałego pobytu), przy stabilnym i regularnym dochodzie oraz\n   tytule prawnym do lokalu;\n2. **2 lata** na pobycie stałym **oraz co najmniej 3 lata małżeństwa** z obywatelem\n   Polski — albo bezpaństwowość;\n3. **2 lata** na pobycie stałym uzyskanym w związku ze statusem uchodźcy;\n4. **małoletni**, którego jedno z rodziców jest obywatelem Polski, za zgodą drugiego;\n5. **małoletni**, którego rodzic odzyskał obywatelstwo, za zgodą drugiego;\n6. **10 lat** nieprzerwanego legalnego pobytu, przy pobycie stałym, dochodzie i lokalu;\n7. **1 rok** na pobycie stałym uzyskanym z tytułu **polskiego pochodzenia lub Karty\n   Polaka**.\n\n**Przy ścieżce małżeńskiej zawsze podawaj oba warunki naraz.** Samo „2 lata\" jest\nodpowiedzią niepełną, po której ktoś złoży wniosek przedwcześnie i straci 1000 zł.\n\nPunkty 1, 6 i 7 też mają wspólną pułapkę: liczy się pobyt **na zezwoleniu na pobyt stały**,\na nie ogólny staż w Polsce. Osoba mieszkająca tu dziesięć lat na kolejnych kartach\nczasowych nie spełnia punktu 1.\n\nWymóg językowy: `jezyk-polski-obywatelstwo`. Opłata, termin i odwołanie:\n`procedura-obywatelstwo`."
+  },
+  {
    "id": "bezczynnosc",
    "tytul": "Urząd nie odpowiada od miesięcy — ponaglenie i skarga na bezczynność",
    "ustawa": null,
@@ -314,8 +431,8 @@
     "відмова воєводи"
    ],
    "sciezka": "tresc/odwolania/od-wojewody.md",
-   "bajty": 1564,
-   "tresc": "Dotyczy **odmownej decyzji wojewody** w sprawie zezwolenia na pobyt czasowy, pobyt stały\nalbo pobyt rezydenta długoterminowego UE. Nie dotyczy decyzji Straży Granicznej ani\nodmowy wizy — te mają własne, inne ścieżki (`odwolanie-od-strazy-granicznej`,\n`odmowa-wizy`).\n\n## Kolejność kroków\n\n1. **Odwołanie w terminie 14 dni** od doręczenia decyzji. Kieruje się je do **Szefa Urzędu\n   do Spraw Cudzoziemców**, ale **składa za pośrednictwem wojewody**, który wydał decyzję.\n   Nigdy bezpośrednio do sądu i nigdy do innego organu.\n2. **Szef UDSC ma 90 dni** na rozpatrzenie.\n3. Dopiero po tej decyzji — **skarga w terminie 30 dni** do **wojewódzkiego sądu\n   administracyjnego**.\n\n**Samo wniesienie skargi do sądu nie legalizuje pobytu w Polsce.** To jest najczęstsze\nnieporozumienie w tej procedurze i trzeba je powiedzieć wprost.\n\n## Uwaga o podstawie prawnej\n\n14-dniowy termin odwołania wynika z Kodeksu postępowania administracyjnego, a nie z\nprzepisu ustawy o cudzoziemcach o konkretnym numerze. Dlatego pole `artykuly` jest tu\n**puste** i **nie wolno** dopisywać do tego kroku żadnego numeru artykułu.\n\nW szczególności **nie art. 321** — ten należy wyłącznie do decyzji Straży Granicznej\no zobowiązaniu do powrotu i do 7-dniowego terminu. Doklejenie go tutaj to błąd, który\nrealnie występował: reszta odpowiedzi była poprawna, a numer pochodził z innej procedury.\n\nJeżeli sprawa dotyczy odmowy, skieruj też do adwokata lub organizacji pomocy prawnej —\nodwołanie wymaga uzasadnienia, a termin jest krótki."
+   "bajty": 1913,
+   "tresc": "Dotyczy **odmownej decyzji wojewody w sprawie pobytu** — zezwolenia na pobyt czasowy,\npobyt stały albo pobyt rezydenta długoterminowego UE. Nie dotyczy decyzji Straży\nGranicznej ani odmowy wizy — te mają własne, inne ścieżki\n(`odwolanie-od-strazy-granicznej`, `odmowa-wizy`).\n\n**Nie dotyczy też obywatelstwa.** Odmowę uznania za obywatela polskiego wydaje ten sam\nwojewoda, ale odwołanie idzie do **Ministra Spraw Wewnętrznych i Administracji**, a nie\ndo Szefa Urzędu do Spraw Cudzoziemców — patrz `procedura-obywatelstwo`. Ten sam urząd,\ndwie różne ścieżki: to najłatwiejsza pomyłka w tym temacie.\n\n## Kolejność kroków\n\n1. **Odwołanie w terminie 14 dni** od doręczenia decyzji. Kieruje się je do **Szefa Urzędu\n   do Spraw Cudzoziemców**, ale **składa za pośrednictwem wojewody**, który wydał decyzję.\n   Nigdy bezpośrednio do sądu i nigdy do innego organu.\n2. **Szef UDSC ma 90 dni** na rozpatrzenie.\n3. Dopiero po tej decyzji — **skarga w terminie 30 dni** do **wojewódzkiego sądu\n   administracyjnego**.\n\n**Samo wniesienie skargi do sądu nie legalizuje pobytu w Polsce.** To jest najczęstsze\nnieporozumienie w tej procedurze i trzeba je powiedzieć wprost.\n\n## Uwaga o podstawie prawnej\n\n14-dniowy termin odwołania wynika z Kodeksu postępowania administracyjnego, a nie z\nprzepisu ustawy o cudzoziemcach o konkretnym numerze. Dlatego pole `artykuly` jest tu\n**puste** i **nie wolno** dopisywać do tego kroku żadnego numeru artykułu.\n\nW szczególności **nie art. 321** — ten należy wyłącznie do decyzji Straży Granicznej\no zobowiązaniu do powrotu i do 7-dniowego terminu. Doklejenie go tutaj to błąd, który\nrealnie występował: reszta odpowiedzi była poprawna, a numer pochodził z innej procedury.\n\nJeżeli sprawa dotyczy odmowy, skieruj też do adwokata lub organizacji pomocy prawnej —\nodwołanie wymaga uzasadnienia, a termin jest krótki."
   },
   {
    "id": "odmowa-wizy",
@@ -402,8 +519,8 @@
     "вартість громадянства"
    ],
    "sciezka": "tresc/oplaty/obywatelstwo.md",
-   "bajty": 1295,
-   "tresc": "- **Uznanie za obywatela polskiego** decyzją **wojewody** — opłata skarbowa **1000 zł**.\n  Zwolnieni są małoletni ubiegający się na podstawie art. 30 ust. 1 pkt 4–5 ustawy\n  o obywatelstwie polskim.\n- **Nadanie obywatelstwa przez Prezydenta RP** — **bez opłaty skarbowej**.\n\nKwota 1000 zł jest stawką po podwyżce. Wcześniej wynosiła 219 zł — jeżeli gdzieś natrafisz\nna tę starszą liczbę, jest nieaktualna.\n\n## Warunek, o którym łatwo zapomnieć\n\nPrzy ścieżce małżeńskiej (art. 30 ust. 1 pkt 2 ustawy o obywatelstwie polskim) potrzebne\nsą **dwa** warunki naraz:\n\n- co najmniej **2 lata** nieprzerwanego pobytu na podstawie zezwolenia na pobyt stały, oraz\n- **co najmniej 3 lata trwania małżeństwa** z obywatelem Polski.\n\n**Nigdy nie podawaj samych 2 lat bez wymogu 3 lat małżeństwa** — osoba w małżeństwie od\nroku mogłaby z takiej odpowiedzi wywnioskować, że już się kwalifikuje.\n\n## Zakres tego pliku\n\nSama procedura nabycia obywatelstwa regulowana jest ustawą o obywatelstwie polskim, która\nnie należy do podstawowych źródeł tej bazy. Pozostałe warunki (progi pobytu dla innych\npodstaw, wymóg języka na poziomie B1, dochód i tytuł prawny do lokalu) wymagają sprawdzenia\nu źródła przed podaniem — nie odtwarzaj ich z pamięci."
+   "bajty": 1519,
+   "tresc": "- **Uznanie za obywatela polskiego** decyzją **wojewody** — opłata skarbowa **1000 zł**.\n  Zwolnieni są małoletni ubiegający się na podstawie art. 30 ust. 1 pkt 4–5 ustawy\n  o obywatelstwie polskim.\n- **Nadanie obywatelstwa przez Prezydenta RP** — **1669 zł** opłaty skarbowej w urzędzie\n  wojewódzkim albo **450 euro** u konsula. Kwota zależy wyłącznie od miejsca złożenia\n  wniosku. Szczegóły drogi prezydenckiej: `nadanie-obywatelstwa`.\n\nKwota 1000 zł jest stawką po podwyżce. Wcześniej wynosiła 219 zł — jeżeli gdzieś natrafisz\nna tę starszą liczbę, jest nieaktualna.\n\n## Warunek, o którym łatwo zapomnieć\n\nPrzy ścieżce małżeńskiej (art. 30 ust. 1 pkt 2 ustawy o obywatelstwie polskim) potrzebne\nsą **dwa** warunki naraz:\n\n- co najmniej **2 lata** nieprzerwanego pobytu na podstawie zezwolenia na pobyt stały, oraz\n- **co najmniej 3 lata trwania małżeństwa** z obywatelem Polski.\n\n**Nigdy nie podawaj samych 2 lat bez wymogu 3 lat małżeństwa** — osoba w małżeństwie od\nroku mogłaby z takiej odpowiedzi wywnioskować, że już się kwalifikuje.\n\nNie myl obu kwot: **1000 zł** to uznanie przez wojewodę, **1669 zł** to nadanie przez\nPrezydenta. To dwie różne drogi, nie dwa warianty tej samej.\n\n## Zakres tego pliku\n\nTen plik odpowiada wyłącznie na pytanie o koszt. Warunki, wymóg językowy, termin i ścieżka\nodwoławcza mają własne pliki: `uznanie-za-obywatela`, `jezyk-polski-obywatelstwo`,\n`procedura-obywatelstwo` oraz `nadanie-obywatelstwa`."
   },
   {
    "id": "blue-card",
@@ -1036,11 +1153,19 @@
     "rezydent długoterminowy",
     "rezydent UE",
     "długoterminowy pobyt",
+    "status rezydenta",
+    "warunki rezydenta",
+    "pięć lat pobytu",
     "B1",
     "znajomość języka",
     "EU long-term resident",
+    "long-term residency requirements",
     "резидент ЄС",
-    "довгострокове перебування"
+    "статус резидента",
+    "вимоги резидента",
+    "умови резидента",
+    "довгострокове перебування",
+    "п'ять років"
    ],
    "sciezka": "tresc/rezydent-ue/warunki.md",
    "bajty": 1563,

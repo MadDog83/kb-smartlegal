@@ -6,7 +6,7 @@ artykuly: [211, 212, 215, 217, 243]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [rezydent długoterminowy, rezydent UE, długoterminowy pobyt, B1, znajomość języka, EU long-term resident, резидент ЄС, довгострокове перебування]
+slowa: [rezydent długoterminowy, rezydent UE, długoterminowy pobyt, status rezydenta, warunki rezydenta, pięć lat pobytu, B1, znajomość języka, EU long-term resident, long-term residency requirements, резидент ЄС, статус резидента, вимоги резидента, умови резидента, довгострокове перебування, п'ять років]
 ---
 
 Udzielane **na czas nieoznaczony** (ustawa o cudzoziemcach, art. 211 ust. 1), karta pobytu

@@ -13,7 +13,9 @@ slowa: [obywatelstwo, obywatela, uznanie za obywatela, ile kosztuje obywatelstwo
 - **Uznanie za obywatela polskiego** decyzją **wojewody** — opłata skarbowa **1000 zł**.
   Zwolnieni są małoletni ubiegający się na podstawie art. 30 ust. 1 pkt 4–5 ustawy
   o obywatelstwie polskim.
-- **Nadanie obywatelstwa przez Prezydenta RP** — **bez opłaty skarbowej**.
+- **Nadanie obywatelstwa przez Prezydenta RP** — **1669 zł** opłaty skarbowej w urzędzie
+  wojewódzkim albo **450 euro** u konsula. Kwota zależy wyłącznie od miejsca złożenia
+  wniosku. Szczegóły drogi prezydenckiej: `nadanie-obywatelstwa`.
 
 Kwota 1000 zł jest stawką po podwyżce. Wcześniej wynosiła 219 zł — jeżeli gdzieś natrafisz
 na tę starszą liczbę, jest nieaktualna.
@@ -29,9 +31,11 @@ są **dwa** warunki naraz:
 **Nigdy nie podawaj samych 2 lat bez wymogu 3 lat małżeństwa** — osoba w małżeństwie od
 roku mogłaby z takiej odpowiedzi wywnioskować, że już się kwalifikuje.
 
+Nie myl obu kwot: **1000 zł** to uznanie przez wojewodę, **1669 zł** to nadanie przez
+Prezydenta. To dwie różne drogi, nie dwa warianty tej samej.
+
 ## Zakres tego pliku
 
-Sama procedura nabycia obywatelstwa regulowana jest ustawą o obywatelstwie polskim, która
-nie należy do podstawowych źródeł tej bazy. Pozostałe warunki (progi pobytu dla innych
-podstaw, wymóg języka na poziomie B1, dochód i tytuł prawny do lokalu) wymagają sprawdzenia
-u źródła przed podaniem — nie odtwarzaj ich z pamięci.
+Ten plik odpowiada wyłącznie na pytanie o koszt. Warunki, wymóg językowy, termin i ścieżka
+odwoławcza mają własne pliki: `uznanie-za-obywatela`, `jezyk-polski-obywatelstwo`,
+`procedura-obywatelstwo` oraz `nadanie-obywatelstwa`.
