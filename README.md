@@ -23,33 +23,43 @@ SCHEMA.md     format pliku treści i uzasadnienie każdego pola
 **Jeden plik = jeden temat = jeden fragment** zwracany przez wyszukiwarkę. Format pliku
 opisuje `SCHEMA.md` — przeczytaj go przed dopisaniem czegokolwiek.
 
-## Walidacja
+## Narzędzia
 
 ```bash
-node tools/validate.mjs
+node tools/validate.mjs        # dyscyplina treści
+node tools/build-index.mjs     # tresc/ -> index/kb-index.json
+node tools/test-retrieval.mjs  # czy właściwy plik trafiłby do promptu
 ```
 
-Sprawdza to, czego dotąd pilnowała tylko czyjaś uwaga:
+**`validate.mjs`** sprawdza to, czego dotąd pilnowała tylko czyjaś uwaga: artykuł użyty
+w treści musi być opisany w nagłówku (w `artykuly` albo w `artykuly_zakazane`), artykuły
+wymagają nazwy ustawy, kwota wymaga adresu źródła, temat `ryzyko: wysokie` musi kierować
+do pomocy prawnej, data weryfikacji starsza niż pół roku daje ostrzeżenie.
 
-- artykuł użyty w treści musi być opisany w nagłówku — w `artykuly` albo w
-  `artykuly_zakazane`;
-- artykuły wymagają nazwy ustawy;
-- kwota wymaga adresu źródła;
-- temat `ryzyko: wysokie` musi kierować do pomocy prawnej;
-- data weryfikacji starsza niż pół roku daje ostrzeżenie;
-- identyfikatory są unikalne, pliki nie przerastają jednego tematu.
+**`build-index.mjs`** buduje `index/kb-index.json` — produkt uboczny, nigdy nie edytowany
+ręcznie. Zawiera też mapę artykuł → ustawa zbudowaną z całej bazy; to na jej podstawie
+weryfikator cytatów będzie mógł sprawdzić nie tylko czy artykuł istnieje, ale czy pasuje
+do przywołanej ustawy.
 
-Kod wyjścia 1 przy błędzie, więc nadaje się do uruchomienia przy każdej zmianie.
+**`test-retrieval.mjs`** mierzy sam etap wyszukiwania, w oderwaniu od modelu: czy plik,
+który odpowiada na pytanie, w ogóle trafiłby do promptu. Działa lokalnie w ułamku sekundy,
+bez limitów API — w odróżnieniu od pełnego zestawu przez interfejs czatu, który trwa
+45 minut. Oddziela "nie znalazł" od "znalazł i źle napisał".
+
+Wszystkie trzy kończą się kodem 1 przy błędzie, więc nadają się do uruchomienia przy
+każdej zmianie.
 
 ## Stan
 
-**35 plików treści**, dziesięć obszarów tematycznych, walidacja bez błędów.
+**35 plików treści**, dziesięć obszarów tematycznych. Walidacja bez błędów,
+**wyszukiwanie 38/38** na zestawie kontrolnym w trzech językach.
+
 Pokryte są wszystkie rozdziały poprzedniej bazy oraz tematy, których w niej nie było,
 a które wyszły w testach na produkcji jako źródło złych odpowiedzi: nielegalny pobyt,
 przekroczony termin, właściwy organ, trzy rozdzielone ścieżki odwoławcze i bezczynność.
 
-Do zrobienia w kolejnych etapach: teksty ustaw pocięte na artykuły w `zrodla/`
-oraz indeks wektorowy budowany z treści.
+Do zrobienia: podłączenie aplikacji do indeksu i weryfikator cytatów korzystający
+z pól `artykuly` oraz `artykuly_zakazane`.
 
 ## Jak to trafi na GitHub
 

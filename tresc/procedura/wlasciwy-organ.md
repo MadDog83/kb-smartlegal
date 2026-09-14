@@ -6,7 +6,7 @@ artykuly: [104]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [gdzie złożyć, który urząd, jaki urząd, do kogo, urząd wojewódzki, UDSC, MOS, inPOL, konsulat, where to apply, which office, куди подавати, який орган, воєвода]
+slowa: [gdzie złożyć, gdzie składać, do jakiego urzędu, jakiego urzędu, składam wniosek, który urząd, jaki urząd, do kogo, urząd wojewódzki, UDSC, MOS, inPOL, konsulat, where to apply, which office, куди подавати, до якого органу, який орган, воєвода]
 ---
 
 **Wniosek o zezwolenie na pobyt składa się u wojewody**, właściwego ze względu na miejsce

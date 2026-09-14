@@ -1,0 +1,141 @@
+/*
+ * Wyszukiwanie w bazie wiedzy. Ten sam kod trafi później do aplikacji.
+ *
+ * Różnica wobec poprzedniego rozwiązania: plik sam deklaruje, po czym ma być znaleziony
+ * (pole `slowa`, hasła w trzech językach), zamiast liczyć na to, że w prozie przypadkiem
+ * znajdzie się słowo z pytania. Ręczny słownik tłumaczeń rdzeni przestaje być potrzebny.
+ */
+
+const WAGA_SLOWA = 3; // trafienie w zadeklarowane hasło pliku
+const WAGA_TYTUL = 2; // trafienie w tytuł
+const WAGA_TRESC = 1; // trafienie w treść
+const BONUS_RYZYKO = 5; // plik wysokiego ryzyka, który w ogóle pasuje, ma pierwszeństwo
+
+export const DOMYSLNY_BUDZET_BAJTOW = 7000;
+
+const bezOgonkow = (s) =>
+  s
+    .replace(/ą/g, "a").replace(/ć/g, "c").replace(/ę/g, "e").replace(/ł/g, "l")
+    .replace(/ń/g, "n").replace(/ó/g, "o").replace(/ś/g, "s")
+    .replace(/ź/g, "z").replace(/ż/g, "z");
+
+/*
+ * Rdzeń pięcioznakowy. Sześć znaków wygląda bezpieczniej, ale gubi typową parę
+ * "czekajac" (pytanie) / "czeka" (plik): rdzeń "czekaj" nie mieści się w "czeka".
+ * Szum, który przez to wchodzi, odsiewa ważenie rzadkości.
+ */
+export const rdzen = (w) => (w.length > 5 ? w.slice(0, 5) : w);
+
+/*
+ * Słowa funkcyjne trzech języków. Bez tej listy ważenie rzadkości działa na opak:
+ * ukraiński przyimek "для" występuje w tej polskojęzycznej bazie w dwóch plikach,
+ * więc wychodzi na BARDZO rzadki i dostaje najwyższą wagę. W teście wygrał w ten sposób
+ * z właściwą odpowiedzią i dodatkowo wyzwolił premię za wysokie ryzyko.
+ * Rzadkość w korpusie nie równa się nośności informacji.
+ *
+ * Uwaga: słowa pytające o ILOŚĆ celowo NIE są tu wymienione. "ile" i "скільки" są
+ * częścią haseł ("ile kosztuje", "скільки коштує") i ich usunięcie psuło wyszukiwanie.
+ */
+const SLOWA_FUNKCYJNE = new Set([
+  // polski
+  "jak", "jaki", "jaka", "jakie", "jakiego", "jakim", "czy", "gdzie", "kiedy",
+  "kto", "cos", "dla", "przy", "pod", "nad", "tak", "ale", "lub", "ten", "tego", "juz",
+  "jeszcze", "byc", "bylo", "bedzie", "trzeba", "moge", "mozna", "mam", "mnie", "chce",
+  "jest", "sie", "nie", "oraz", "przez", "bez", "jestem", "potrzebne", "potrzebuje",
+  "musze", "moj", "moja", "swoje", "teraz", "dalej", "znowu", "bardzo", "tylko",
+  // ukraiński
+  "які", "яка", "яке", "яко", "що", "чи", "де", "коли", "мені", "мене", "для",
+  "при", "про", "від", "над", "під", "так", "але", "або", "цей", "вже", "ще", "бути",
+  "буде", "було", "треба", "можу", "можна", "маю", "має", "хочу", "мій", "моя", "зараз",
+  // angielski
+  "how", "what", "when", "where", "which", "who", "why", "the", "and", "for", "with",
+  "from", "about", "can", "may", "must", "need", "does", "did", "are", "was", "were",
+  "will", "would", "should", "you", "your", "this", "that", "long", "many", "much",
+  "take", "get", "have", "has", "there", "then", "still", "now",
+]);
+
+export function tokenizuj(pytanie) {
+  const slowa = bezOgonkow(String(pytanie).toLowerCase())
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .split(/\s+/)
+    .filter((w) => w.length >= 3 && !SLOWA_FUNKCYJNE.has(w));
+  return Array.from(new Set(slowa.map(rdzen).filter((r) => !SLOWA_FUNKCYJNE.has(r))));
+}
+
+const PROG_POSPOLITOSCI = 0.5; // powyżej połowy plików rdzeń nie niesie już nic
+
+/**
+ * Waga rdzenia zależy od tego, w ilu plikach występuje. "Коштує" siedzi w jednym pliku
+ * i praktycznie wskazuje odpowiedź; "карта" w czterech i nie rozróżnia prawie niczego.
+ * Filtr binarny tego nie oddawał — oba liczyły się tak samo, więc właściwy plik remisował
+ * z trzema innymi i przegrywał alfabetycznie. Stąd waga ciągła: log(N / df).
+ */
+function wagiRdzeni(wpisy, rdzenie) {
+  const korpus = wpisy.map((w) =>
+    bezOgonkow(((w.slowa || []).join(" ") + " " + w.tytul + " " + w.tresc).toLowerCase()),
+  );
+  const N = korpus.length;
+  const wagi = new Map();
+  for (const r of rdzenie) {
+    const df = korpus.reduce((n, t) => n + (t.includes(r) ? 1 : 0), 0);
+    // df = 0 to słowo spoza bazy (np. angielskie "how"), df ponad połowa to wypełniacz.
+    wagi.set(r, df === 0 || df > N * PROG_POSPOLITOSCI ? 0 : Math.log(N / df));
+  }
+  return wagi;
+}
+
+export function ocen(wpisy, pytanie) {
+  const rdzenie = tokenizuj(pytanie);
+  const wagi = wagiRdzeni(wpisy, rdzenie);
+
+  return wpisy.map((wpis) => {
+    const hasla = bezOgonkow((wpis.slowa || []).join(" ").toLowerCase());
+    const tytul = bezOgonkow(String(wpis.tytul || "").toLowerCase());
+    const tresc = bezOgonkow(String(wpis.tresc || "").toLowerCase());
+
+    let punkty = 0;
+    let trafieniaHasel = 0;
+
+    for (const r of rdzenie) {
+      const waga = wagi.get(r) || 0;
+      if (waga === 0) continue;
+      if (hasla.includes(r)) {
+        punkty += WAGA_SLOWA * waga;
+        trafieniaHasel++;
+      }
+      if (tytul.includes(r)) punkty += WAGA_TYTUL * waga;
+      if (tresc.includes(r)) punkty += WAGA_TRESC * waga;
+    }
+
+    // Zła odpowiedź w tych tematach kosztuje użytkownika legalność pobytu, więc plik
+    // wysokiego ryzyka, który w ogóle pasuje do pytania, nie może przegrać o włos
+    // ani wypaść przez budżet rozmiaru. Decyduje o tym pole w danych, nie reguła w kodzie.
+    if (wpis.ryzyko === "wysokie" && trafieniaHasel > 0) punkty += BONUS_RYZYKO;
+
+    return { ...wpis, punkty, trafieniaHasel };
+  });
+}
+
+export function wybierz(wpisy, pytanie, budzetBajtow = DOMYSLNY_BUDZET_BAJTOW) {
+  const ocenione = ocen(wpisy, pytanie)
+    .filter((w) => w.punkty > 0)
+    // Przy zbliżonym wyniku wygrywa plik, który trafił większą liczbą zadeklarowanych
+    // haseł — czyli ten, który sam się do tego pytania przyznaje.
+    .sort(
+      (a, b) =>
+        b.punkty - a.punkty ||
+        b.trafieniaHasel - a.trafieniaHasel ||
+        a.bajty - b.bajty ||
+        a.id.localeCompare(b.id),
+    );
+
+  const wybrane = [];
+  let bajty = 0;
+  for (const wpis of ocenione) {
+    const rozmiar = Buffer.byteLength(wpis.tresc, "utf8");
+    if (bajty + rozmiar > budzetBajtow) continue;
+    wybrane.push(wpis);
+    bajty += rozmiar;
+  }
+  return { wybrane, bajty, wszystkie: ocenione };
+}

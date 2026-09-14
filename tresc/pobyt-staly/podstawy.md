@@ -6,7 +6,7 @@ artykuly: [195, 243]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [pobyt stały, stały pobyt, karta stała, permanent residence, settlement permit, постійне перебування, постійний побут]
+slowa: [pobyt stały, stały pobyt, karta stała, małżeństwo z Polką, małżeństwo z obywatelem Polski, ile lat małżeństwa, żona, mąż, ślub, Karta Polaka, permanent residence, settlement permit, marriage, spouse, постійне перебування, постійний побут, шлюб, дружина, чоловік]
 ---
 
 Udzielane **na czas nieoznaczony** (ustawa o cudzoziemcach, art. 195 ust. 1), ale sama
