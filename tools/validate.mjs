@@ -134,7 +134,13 @@ for (const sciezka of plikiMd(TRESC)) {
   if (Array.isArray(dane.slowa) && dane.slowa.length < 3)
     ostrzez(sciezka, "mniej niż 3 hasła — wyszukiwanie może nie trafić w ten plik");
 
-  if (dane.ryzyko === "wysokie" && !/(adwokat|prawni|pomoc prawn)/i.test(tresc))
+  // Polski odmienia: "pomocy prawnej" nie pasuje do wzorca "pomoc prawn", a "prawnej"
+  // nie pasuje do "prawni". Ten sam blad kosztowal nas wczesniej trafnosc wyszukiwarki
+  // bota, wiec tu od razu dopuszczamy koncowki. Wzorzec celowo wymaga frazy, a nie
+  // samego rdzenia "prawn", ktory wystepuje takze w "tytul prawny" czy "akt prawny".
+  const KIERUJE_DO_PRAWNIKA =
+    /(adwokat\w*|radc\w*\s+prawn\w*|pomoc\w*\s+prawn\w*|prawn\w*\s+pomoc\w*|organizacj\w*\s+pomocy)/i;
+  if (dane.ryzyko === "wysokie" && !KIERUJE_DO_PRAWNIKA.test(tresc))
     blad(sciezka, "ryzyko wysokie, a treść nie kieruje do pomocy prawnej");
 
   if (tresc.length > MAX_ZNAKOW)
