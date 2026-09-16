@@ -318,7 +318,7 @@
    "artykuly_zakazane": [],
    "organ": "wojewoda",
    "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
-   "zweryfikowano": "2026-09-14",
+   "zweryfikowano": "2026-09-16",
    "ryzyko": "normalne",
    "slowa": [
     "obywatelstwo",
@@ -343,8 +343,8 @@
     "громадянство через шлюб"
    ],
    "sciezka": "tresc/obywatelstwo/uznanie-wojewoda.md",
-   "bajty": 1595,
-   "tresc": "Pierwsza z dwóch dróg do obywatelstwa: **decyzja wojewody**, wydawana po spełnieniu\nwarunków ustawowych. Druga to nadanie przez Prezydenta — patrz `nadanie-obywatelstwa`.\nRóżnica jest zasadnicza: tutaj spełnienie warunków daje prawo do decyzji, tam nie.\n\n## Podstawy (art. 30 ust. 1 ustawy o obywatelstwie polskim)\n\n1. **3 lata** nieprzerwanego pobytu na podstawie zezwolenia na **pobyt stały** (albo\n   rezydenta UE lub prawa stałego pobytu), przy stabilnym i regularnym dochodzie oraz\n   tytule prawnym do lokalu;\n2. **2 lata** na pobycie stałym **oraz co najmniej 3 lata małżeństwa** z obywatelem\n   Polski — albo bezpaństwowość;\n3. **2 lata** na pobycie stałym uzyskanym w związku ze statusem uchodźcy;\n4. **małoletni**, którego jedno z rodziców jest obywatelem Polski, za zgodą drugiego;\n5. **małoletni**, którego rodzic odzyskał obywatelstwo, za zgodą drugiego;\n6. **10 lat** nieprzerwanego legalnego pobytu, przy pobycie stałym, dochodzie i lokalu;\n7. **1 rok** na pobycie stałym uzyskanym z tytułu **polskiego pochodzenia lub Karty\n   Polaka**.\n\n**Przy ścieżce małżeńskiej zawsze podawaj oba warunki naraz.** Samo „2 lata\" jest\nodpowiedzią niepełną, po której ktoś złoży wniosek przedwcześnie i straci 1000 zł.\n\nPunkty 1, 6 i 7 też mają wspólną pułapkę: liczy się pobyt **na zezwoleniu na pobyt stały**,\na nie ogólny staż w Polsce. Osoba mieszkająca tu dziesięć lat na kolejnych kartach\nczasowych nie spełnia punktu 1.\n\nWymóg językowy: `jezyk-polski-obywatelstwo`. Opłata, termin i odwołanie:\n`procedura-obywatelstwo`."
+   "bajty": 1828,
+   "tresc": "Pierwsza z dwóch dróg do obywatelstwa: **decyzja wojewody**, wydawana po spełnieniu\nwarunków ustawowych. Druga to nadanie przez Prezydenta — patrz `nadanie-obywatelstwa`.\nRóżnica jest zasadnicza: tutaj spełnienie warunków daje prawo do decyzji, tam nie.\n\n## Podstawy (art. 30 ust. 1 ustawy o obywatelstwie polskim)\n\n1. **3 lata** nieprzerwanego pobytu na podstawie zezwolenia na **pobyt stały** (albo\n   rezydenta UE lub prawa stałego pobytu), przy stabilnym i regularnym dochodzie oraz\n   tytule prawnym do lokalu;\n2. **3 lata małżeństwa** z obywatelem Polski **oraz 2 lata pobytu na zezwoleniu na pobyt\n   stały** — oba warunki naraz, nie zamiennie — albo bezpaństwowość;\n3. **2 lata** na pobycie stałym uzyskanym w związku ze statusem uchodźcy;\n4. **małoletni**, którego jedno z rodziców jest obywatelem Polski, za zgodą drugiego;\n5. **małoletni**, którego rodzic odzyskał obywatelstwo, za zgodą drugiego;\n6. **10 lat** nieprzerwanego legalnego pobytu, przy pobycie stałym, dochodzie i lokalu;\n7. **1 rok** na pobycie stałym uzyskanym z tytułu **polskiego pochodzenia lub Karty\n   Polaka**.\n\n**Przy ścieżce małżeńskiej zawsze podawaj oba warunki naraz, każdy z nazwą.**\nMałżeństwo: **3 lata**. Pobyt na zezwoleniu na pobyt stały: **2 lata**. Zdanie\n„co najmniej 2 lata małżeństwa\" jest **błędne** — liczby należą do różnych warunków\ni nie wolno ich zamieniać. Po takiej odpowiedzi ktoś złoży wniosek przedwcześnie\ni straci 1000 zł.\n\nPunkty 1, 6 i 7 też mają wspólną pułapkę: liczy się pobyt **na zezwoleniu na pobyt stały**,\na nie ogólny staż w Polsce. Osoba mieszkająca tu dziesięć lat na kolejnych kartach\nczasowych nie spełnia punktu 1.\n\nWymóg językowy: `jezyk-polski-obywatelstwo`. Opłata, termin i odwołanie:\n`procedura-obywatelstwo`."
   },
   {
    "id": "bezczynnosc",
