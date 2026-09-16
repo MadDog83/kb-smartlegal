@@ -4,7 +4,7 @@ tytul: Pobyt w Polsce bez ważnego tytułu pobytowego
 ustawa: ustawa o cudzoziemcach
 artykuly: [99, 100, 315, 318, 319, 321]
 organ: Straż Graniczna
-zweryfikowano: 2026-09-14
+zweryfikowano: 2026-09-16
 ryzyko: wysokie
 slowa: [nielegalny pobyt, nielegalnie, bez dokumentów, przeszedłem granicę, przekroczyłem granicę, illegal stay, illegally, illegal crossing, without documents, нелегально, нелегальний, незаконний перетин, без документів]
 ---
@@ -29,9 +29,12 @@ O tym trzeba uprzedzić uczciwie, zanim padnie jakakolwiek rada proceduralna.
 
 ## Co naprawdę może pomóc
 
-- **Wniosek o udzielenie ochrony międzynarodowej**, składany w **Straży Granicznej** — dla
-  osoby, która uciekła przed wojną lub prześladowaniem. Na czas tego postępowania pobyt
-  jest legalny.
+- **Ochrona międzynarodowa** — **wyłącznie** dla osoby, która rzeczywiście uciekła przed
+  wojną lub prześladowaniem. To nie jest sposób na zalegalizowanie pobytu i nie wolno go
+  tak przedstawiać: wniosek złożony bez takiej przyczyny kończy się decyzją odmowną,
+  a po niej decyzją o zobowiązaniu do powrotu wraz z zakazem wjazdu. Najpierw ustal, czy
+  przesłanka zachodzi — dopiero potem mów o procedurze (wniosek składa się w Straży
+  Granicznej; na czas postępowania pobyt jest legalny).
 - Dla obywateli Ukrainy — **ochrona czasowa / status UKR**, jeżeli osoba podlega tym
   przepisom. Nie zakładaj tego z góry: pytaj, nie domyślaj się obywatelstwa.
 - Wąskie podstawy: **zgoda na pobyt ze względów humanitarnych** oraz przesłanki dla ofiar
@@ -45,6 +48,9 @@ O tym trzeba uprzedzić uczciwie, zanim padnie jakakolwiek rada proceduralna.
 - Listy wymaganych dokumentów, w szczególności nieistniejącego „wyjaśnienia przyczyn
   nielegalnego wjazdu".
 - Że istnieje abolicja albo automatyczna legalizacja. W obowiązujących przepisach jej nie ma.
+- Że wniosek o ochronę międzynarodową to „pierwszy krok" albo sposób na zalegalizowanie
+  pobytu. Wolno o niej wspomnieć dopiero po ustaleniu, że osoba uciekła przed wojną lub
+  prześladowaniem — inaczej jest to podpowiadanie nadużycia procedury.
 
 **Zawsze skieruj do adwokata lub organizacji pomocy prawnej dla migrantów** i zaproponuj
 przycisk pomocy osobistej. To sytuacja o poważnych skutkach prawnych, nie kwestia
