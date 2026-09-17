@@ -137,9 +137,6 @@ export function ocen(wpisy, pytanie) {
       if (tresc.includes(r)) punkty += WAGA_TRESC * waga;
     }
 
-    // Zła odpowiedź w tych tematach kosztuje użytkownika legalność pobytu, więc plik
-    // wysokiego ryzyka, który w ogóle pasuje do pytania, nie może przegrać o włos
-    // ani wypaść przez budżet rozmiaru. Decyduje o tym pole w danych, nie reguła w kodzie.
     // Hasło wielowyrazowe dopasowujemy w całości, bo pojedyncze jego słowa są funkcyjne
     // i nie przetrwają tokenizacji. Autor pliku deklaruje frazę świadomie — to mocniejszy
     // sygnał intencji niż przypadkowe trafienie w pojedyncze słowo.
@@ -148,6 +145,9 @@ export function ocen(wpisy, pytanie) {
       if (fraza.includes(" ") && pytanieCiagiem.includes(fraza)) punkty += WAGA_FRAZY;
     }
 
+    // Zła odpowiedź w tych tematach kosztuje użytkownika legalność pobytu, więc plik
+    // wysokiego ryzyka, który w ogóle pasuje do pytania, nie może przegrać o włos
+    // ani wypaść przez budżet rozmiaru. Decyduje o tym pole w danych, nie reguła w kodzie.
     if (wpis.ryzyko === "wysokie" && trafieniaHasel > 0) punkty += BONUS_RYZYKO;
 
     return { ...wpis, punkty, trafieniaHasel };
