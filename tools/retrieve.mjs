@@ -11,7 +11,29 @@ const WAGA_TYTUL = 2; // trafienie w tytuł
 const WAGA_TRESC = 1; // trafienie w treść
 const BONUS_RYZYKO = 5; // plik wysokiego ryzyka, który w ogóle pasuje, ma pierwszeństwo
 
-export const DOMYSLNY_BUDZET_BAJTOW = 7000;
+/*
+ * Premia za trafienie w wielowyrazowe hasło. Takie hasła były dotąd martwe: tokenizacja
+ * rozbija "how much" na dwa słowa funkcyjne i wyrzuca oba, więc deklaracja autora nie
+ * miała żadnego wpływu. A to właśnie fraza niesie intencję pytania — "How much does
+ * a temporary residence card cost?" trafiało dotąd we wpis o opłatach jednym słowem
+ * ("cost") i przegrywało z plikami, które trafiały trzema słabymi ("card", "resid").
+ */
+const WAGA_FRAZY = 5;
+
+/*
+ * Do promptu idą tematy, które naprawdę odpowiadają na pytanie, a nie tyle, ile wejdzie
+ * w budżet. Wypełnianie budżetu szkodziło podwójnie: zjadało limit zapytania u dostawcy
+ * (odpowiedzi kończyły się błędem 413) i podsuwało modelowi cudzą treść — na pytanie
+ * o utratę statusu UKR bot opisał kartę CUKR, choć właściwy temat był pierwszy.
+ *
+ * Próg 0,35 i limit czterech tematów to środek obszaru, w którym wszystkie 44 przypadki
+ * przechodzą; sprawdzone dla progu 0,30-0,40 i limitu 3-5. Budżet bajtów jest twardą
+ * granicą: przy 4500 B dwa przypadki wypadają, bo duży poprawny plik się nie mieści.
+ */
+const PROG_ISTOTNOSCI = 0.35;
+const MAX_TEMATOW = 4;
+
+export const DOMYSLNY_BUDZET_BAJTOW = 5000;
 
 const bezOgonkow = (s) =>
   s
@@ -84,9 +106,17 @@ function wagiRdzeni(wpisy, rdzenie) {
   return wagi;
 }
 
+/** Znormalizowane pytanie w jednym kawałku — do dopasowania wielowyrazowych haseł. */
+const znormalizuj = (pytanie) =>
+  bezOgonkow(String(pytanie).toLowerCase())
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
 export function ocen(wpisy, pytanie) {
   const rdzenie = tokenizuj(pytanie);
   const wagi = wagiRdzeni(wpisy, rdzenie);
+  const pytanieCiagiem = znormalizuj(pytanie);
 
   return wpisy.map((wpis) => {
     const hasla = bezOgonkow((wpis.slowa || []).join(" ").toLowerCase());
@@ -110,6 +140,14 @@ export function ocen(wpisy, pytanie) {
     // Zła odpowiedź w tych tematach kosztuje użytkownika legalność pobytu, więc plik
     // wysokiego ryzyka, który w ogóle pasuje do pytania, nie może przegrać o włos
     // ani wypaść przez budżet rozmiaru. Decyduje o tym pole w danych, nie reguła w kodzie.
+    // Hasło wielowyrazowe dopasowujemy w całości, bo pojedyncze jego słowa są funkcyjne
+    // i nie przetrwają tokenizacji. Autor pliku deklaruje frazę świadomie — to mocniejszy
+    // sygnał intencji niż przypadkowe trafienie w pojedyncze słowo.
+    for (const haslo of wpis.slowa || []) {
+      const fraza = bezOgonkow(String(haslo).toLowerCase()).trim();
+      if (fraza.includes(" ") && pytanieCiagiem.includes(fraza)) punkty += WAGA_FRAZY;
+    }
+
     if (wpis.ryzyko === "wysokie" && trafieniaHasel > 0) punkty += BONUS_RYZYKO;
 
     return { ...wpis, punkty, trafieniaHasel };
@@ -131,7 +169,11 @@ export function wybierz(wpisy, pytanie, budzetBajtow = DOMYSLNY_BUDZET_BAJTOW) {
 
   const wybrane = [];
   let bajty = 0;
+  const najlepszy = ocenione.length ? ocenione[0].punkty : 0;
   for (const wpis of ocenione) {
+    if (wybrane.length >= MAX_TEMATOW) break;
+    // Pierwszy temat wchodzi zawsze; kolejne tylko dopóki naprawdę konkurują z najlepszym.
+    if (wybrane.length > 0 && wpis.punkty < najlepszy * PROG_ISTOTNOSCI) break;
     const rozmiar = Buffer.byteLength(wpis.tresc, "utf8");
     if (bajty + rozmiar > budzetBajtow) continue;
     wybrane.push(wpis);
