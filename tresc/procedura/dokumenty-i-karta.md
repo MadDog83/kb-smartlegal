@@ -6,7 +6,7 @@ artykuly: [226, 227, 236, 240, 241, 242, 246, 248]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [karta pobytu, wymiana karty, zgubiłem kartę, kradzież karty, odbiór karty, dokument podróży, residence card, lost card, replace card, карта побуту, обмін карти, загубив карту]
+slowa: [karta pobytu, odbiór karty, odciski palców, dokument podróży, polski dokument tożsamości, jakie dokumenty wydaje, residence card, travel document, collect the card, карта побуту, документ подорожі, отримання карти]
 ---
 
 Ustawa zawiera **zamknięty katalog** dokumentów, jakie mogą być wydane cudzoziemcowi
@@ -30,9 +30,8 @@ osobie nieuprawnionej organ unieważnia decyzją (art. 227).
 
 ## Utrata lub kradzież
 
-Podstawą jest wymiana karty z art. 241. Opracowane źródła **nie zawierają** wymaganej
-kolejności czynności ani listy załączników — nie odtwarzaj ich z pamięci. Skieruj na stronę
-właściwego urzędu wojewódzkiego.
+Podstawą jest wymiana karty z art. 241. Kolejność czynności, terminy i opłaty opisuje
+osobny temat: `utrata-karty-pobytu`.
 
 ## Opłaty i zwolnienia
 

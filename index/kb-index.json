@@ -1,6 +1,6 @@
 {
  "zbudowano": "2026-09-20",
- "liczbaWpisow": 39,
+ "liczbaWpisow": 40,
  "artykulyUstaw": {
   "3": [
    "ustawa o cudzoziemcach"
@@ -229,6 +229,41 @@
   ]
  },
  "wpisy": [
+  {
+   "id": "utrata-karty-pobytu",
+   "tytul": "Utrata, kradzież lub zniszczenie karty pobytu",
+   "ustawa": null,
+   "artykuly": [],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "wojewoda",
+   "zrodlo": "https://www.gov.pl/web/udsc/nowe-stawki-oplat-za-dokumenty-wydawane-cudzoziemcom",
+   "zweryfikowano": "2026-09-20",
+   "ryzyko": "normalne",
+   "slowa": [
+    "zgubiłem kartę pobytu",
+    "zgubiona karta",
+    "utrata karty",
+    "kradzież karty",
+    "skradziono kartę",
+    "zniszczona karta",
+    "duplikat karty",
+    "co zrobić po utracie karty",
+    "lost residence card",
+    "stolen residence card",
+    "lost my card",
+    "card was stolen",
+    "replacement card",
+    "загубив карту побуту",
+    "втрата карти",
+    "вкрадено карту",
+    "крадіжка карти",
+    "дублікат карти"
+   ],
+   "sciezka": "tresc/dokumenty/utrata-karty.md",
+   "bajty": 1594,
+   "tresc": "**Utrata karty nie odbiera prawa pobytu.** Zezwolenie trwa dalej — karta jest tylko\ndokumentem, który je potwierdza. To pierwsza rzecz do powiedzenia, bo pytający zwykle\nboi się właśnie tego.\n\n## Co zrobić, po kolei\n\n1. **Kradzież — zgłoś na policję.** Zaświadczenie o zgłoszeniu urząd zwykle wymaga przy\n   wniosku o kolejną kartę. Przy zwykłym zgubieniu policja nie jest potrzebna.\n2. **Zawiadom wojewodę w ciągu 3 dni** od utraty lub uszkodzenia — na formularzu\n   zgłoszenia utraty, dostępnym w urzędzie wojewódzkim.\n3. **Odbierz zaświadczenie.** Wydawane bezpłatnie, potwierdza zgłoszenie i jest ważne do\n   czasu wydania nowej karty, **nie dłużej niż 2 miesiące**.\n4. **Złóż wniosek o wydanie kolejnej karty** u tego samego wojewody.\n\n## Opłaty\n\n- **100 zł** — zwykłe wydanie lub wymiana karty.\n- **200 zł** — kolejna karta, gdy utrata albo zniszczenie nastąpiło **z winy cudzoziemca**.\n- **300 zł** — każda następna taka sytuacja.\n\nStawki podwyższone obowiązują od 29 lipca 2022 r. **Uwaga przy sprawdzaniu:** część stron\nurzędów wojewódzkich nadal pokazuje dawne kwoty 100 zł i 150 zł. Obowiązują kwoty podane\nwyżej, z ogłoszenia UDSC.\n\n## Czego nie pisać\n\n- Że utrata karty unieważnia zezwolenie na pobyt albo że trzeba składać wniosek o pobyt\n  od nowa. Nie trzeba.\n- Że zaświadczenie zastępuje kartę przy przekraczaniu granicy — nie zastępuje.\n- Numerów artykułów. Procedura pochodzi ze stron urzędowych, a nie z potwierdzonego\n  brzmienia ustawy — nie przypisuj jej artykułów „z rozsądku\"."
+  },
   {
    "id": "jezyk-polski-obywatelstwo",
    "tytul": "Wymóg znajomości języka polskiego przy obywatelstwie",
@@ -1027,21 +1062,21 @@
    "ryzyko": "normalne",
    "slowa": [
     "karta pobytu",
-    "wymiana karty",
-    "zgubiłem kartę",
-    "kradzież karty",
     "odbiór karty",
+    "odciski palców",
     "dokument podróży",
+    "polski dokument tożsamości",
+    "jakie dokumenty wydaje",
     "residence card",
-    "lost card",
-    "replace card",
+    "travel document",
+    "collect the card",
     "карта побуту",
-    "обмін карти",
-    "загубив карту"
+    "документ подорожі",
+    "отримання карти"
    ],
    "sciezka": "tresc/procedura/dokumenty-i-karta.md",
-   "bajty": 1721,
-   "tresc": "Ustawa zawiera **zamknięty katalog** dokumentów, jakie mogą być wydane cudzoziemcowi\n(ustawa o cudzoziemcach, art. 226): karta pobytu; polski dokument podróży dla cudzoziemca;\npolski dokument tożsamości cudzoziemca; tymczasowy polski dokument podróży; dokument\n„zgoda na pobyt tolerowany\"; europejski dokument podróży do celów powrotu. Dokument wydany\nosobie nieuprawnionej organ unieważnia decyzją (art. 227).\n\n## Karta pobytu\n\n- Wydawana osobom, którym udzielono pobytu czasowego, stałego, statusu rezydenta UE albo\n  zgody humanitarnej (art. 240).\n- **Potwierdza tożsamość** cudzoziemca i wraz z dokumentem podróży uprawnia do\n  **wielokrotnego przekraczania granicy bez wizy** (art. 242).\n- **Wymiana** następuje przy zmianie danych, zmianie wyglądu, utracie, uszkodzeniu\n  i w kilku innych przypadkach (art. 241).\n- Odciski palców pobiera się obowiązkowo przy wydaniu pierwszej i kolejnej karty oraz przy\n  wymianie (art. 246).\n- Kartę odbiera się **osobiście** (art. 248 ust. 1); za dzieci do 13 lat i osoby całkowicie\n  ubezwłasnowolnione odbiera przedstawiciel ustawowy (art. 248 ust. 2).\n\n## Utrata lub kradzież\n\nPodstawą jest wymiana karty z art. 241. Opracowane źródła **nie zawierają** wymaganej\nkolejności czynności ani listy załączników — nie odtwarzaj ich z pamięci. Skieruj na stronę\nwłaściwego urzędu wojewódzkiego.\n\n## Opłaty i zwolnienia\n\nKwoty: `oplaty-karta-pobytu`. Ustawa wskazuje jedynie **przypadki zwolnienia** — między\ninnymi pierwsza karta dla osoby ze statusem uchodźcy, ochroną uzupełniającą albo zgodą\nhumanitarną, pierwsza karta dla najbliższego członka rodziny repatrianta oraz wady\ntechniczne dokumentu (art. 236 ust. 1)."
+   "bajty": 1620,
+   "tresc": "Ustawa zawiera **zamknięty katalog** dokumentów, jakie mogą być wydane cudzoziemcowi\n(ustawa o cudzoziemcach, art. 226): karta pobytu; polski dokument podróży dla cudzoziemca;\npolski dokument tożsamości cudzoziemca; tymczasowy polski dokument podróży; dokument\n„zgoda na pobyt tolerowany\"; europejski dokument podróży do celów powrotu. Dokument wydany\nosobie nieuprawnionej organ unieważnia decyzją (art. 227).\n\n## Karta pobytu\n\n- Wydawana osobom, którym udzielono pobytu czasowego, stałego, statusu rezydenta UE albo\n  zgody humanitarnej (art. 240).\n- **Potwierdza tożsamość** cudzoziemca i wraz z dokumentem podróży uprawnia do\n  **wielokrotnego przekraczania granicy bez wizy** (art. 242).\n- **Wymiana** następuje przy zmianie danych, zmianie wyglądu, utracie, uszkodzeniu\n  i w kilku innych przypadkach (art. 241).\n- Odciski palców pobiera się obowiązkowo przy wydaniu pierwszej i kolejnej karty oraz przy\n  wymianie (art. 246).\n- Kartę odbiera się **osobiście** (art. 248 ust. 1); za dzieci do 13 lat i osoby całkowicie\n  ubezwłasnowolnione odbiera przedstawiciel ustawowy (art. 248 ust. 2).\n\n## Utrata lub kradzież\n\nPodstawą jest wymiana karty z art. 241. Kolejność czynności, terminy i opłaty opisuje\nosobny temat: `utrata-karty-pobytu`.\n\n## Opłaty i zwolnienia\n\nKwoty: `oplaty-karta-pobytu`. Ustawa wskazuje jedynie **przypadki zwolnienia** — między\ninnymi pierwsza karta dla osoby ze statusem uchodźcy, ochroną uzupełniającą albo zgodą\nhumanitarną, pierwsza karta dla najbliższego członka rodziny repatrianta oraz wady\ntechniczne dokumentu (art. 236 ust. 1)."
   },
   {
    "id": "humanitarny-i-tolerowany",

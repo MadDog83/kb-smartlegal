@@ -26,7 +26,20 @@ function parsuj(tekst) {
   const m = tekst.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
   if (!m) return null;
   const dane = {};
-  for (const linia of m[1].split(/\r?\n/)) {
+  // Lista może być złamana na kilka linii. Bez sklejenia parser brał taki zapis za zwykły
+  // napis, a nie listę — i nikt nie protestował: pole "slowa" wchodziło do indeksu puste,
+  // walidator liczył wtedy znaki napisu zamiast haseł, więc próg "mniej niż 3 hasła"
+  // przechodził. Wpis przestawał być znajdowany po własnych hasłach, po cichu.
+  const linie = [];
+  for (const surowa of m[1].split(/\r?\n/)) {
+    const poprzednia = linie[linie.length - 1];
+    if (poprzednia !== undefined && poprzednia.includes("[") && !poprzednia.includes("]")) {
+      linie[linie.length - 1] = poprzednia + " " + surowa.trim();
+    } else {
+      linie.push(surowa);
+    }
+  }
+  for (const linia of linie) {
     const i = linia.indexOf(":");
     if (i < 0) continue;
     const klucz = linia.slice(0, i).trim();

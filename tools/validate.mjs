@@ -36,7 +36,20 @@ function parsujNaglowek(tekst, sciezka) {
   const m = tekst.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
   if (!m) return null;
   const dane = {};
-  for (const linia of m[1].split(/\r?\n/)) {
+  // Lista może być złamana na kilka linii. Bez sklejenia parser brał taki zapis za zwykły
+  // napis, a nie listę — i nikt nie protestował: pole "slowa" wchodziło do indeksu puste,
+  // walidator liczył wtedy znaki napisu zamiast haseł, więc próg "mniej niż 3 hasła"
+  // przechodził. Wpis przestawał być znajdowany po własnych hasłach, po cichu.
+  const linie = [];
+  for (const surowa of m[1].split(/\r?\n/)) {
+    const poprzednia = linie[linie.length - 1];
+    if (poprzednia !== undefined && poprzednia.includes("[") && !poprzednia.includes("]")) {
+      linie[linie.length - 1] = poprzednia + " " + surowa.trim();
+    } else {
+      linie.push(surowa);
+    }
+  }
+  for (const linia of linie) {
     if (!linia.trim() || linia.trimStart().startsWith("#")) continue;
     const dwukropek = linia.indexOf(":");
     if (dwukropek < 0) continue;
@@ -147,8 +160,14 @@ for (const sciezka of plikiMd(TRESC)) {
   if (tresc.length > MAX_ZNAKOW)
     ostrzez(sciezka, `${tresc.length} znaków — rozważ podział na dwa tematy`);
 
-  if (dane.wyklucza !== undefined && !Array.isArray(dane.wyklucza))
-    blad(sciezka, '"wyklucza" musi być listą identyfikatorów');
+  // Pole listowe, które wyszło napisem, oznacza zepsuty zapis w nagłówku — najczęściej
+  // nawias otwarty i niedomknięty. Wcześniej kończyło się to pustym polem w indeksie
+  // i milczeniem walidatora.
+  for (const pole of ["artykuly", "artykuly_zakazane", "wyklucza", "slowa"]) {
+    if (dane[pole] !== undefined && !Array.isArray(dane[pole]))
+      blad(sciezka, `pole "${pole}" nie jest listą — sprawdź nawiasy kwadratowe w nagłówku`);
+  }
+
   wykluczenia.set(dane.id, Array.isArray(dane.wyklucza) ? dane.wyklucza.map(String) : []);
 }
 
