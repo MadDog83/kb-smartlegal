@@ -3,46 +3,79 @@
     "id": "oplaty-czasowy-pl",
     "lang": "pl",
     "q": "Ile kosztuje karta pobytu czasowego?",
-    "must": ["440", "340", "100"],
-    "order": ["440", "340"],
+    "must": [
+      "440",
+      "340",
+      "100"
+    ],
+    "order": [
+      "440",
+      "340"
+    ],
     "note": "440 zl jako pierwsze, 340 jako drugie"
   },
   {
     "id": "termin-decyzji-pl",
     "lang": "pl",
     "q": "Jak dlugo czeka sie na decyzje o pobycie czasowym?",
-    "must": ["60 dni", "112a"],
+    "must": [
+      "60 dni",
+      "112a"
+    ],
     "note": "ustawowy termin 60 dni, art. 112a; pytanie bez polskich znakow - test wykrywania jezyka"
   },
   {
     "id": "odwolanie-wojewoda-pl",
     "lang": "pl",
     "q": "Wojewoda odmowil mi zezwolenia na pobyt czasowy. Co moge zrobic?",
-    "must": ["14 dni", "Cudzoziemc", "wojewod"],
-    "mustNot": ["art\\. ?321", "Komendant"],
+    "must": [
+      "14 dni",
+      "Cudzoziemc",
+      "wojewod"
+    ],
+    "mustNot": [
+      "art\\. ?321",
+      "Komendant"
+    ],
     "note": "lancuch A: 14 dni, Szef UDSC za posrednictwem wojewody; art. 321 nalezy do lancucha Strazy Granicznej"
   },
   {
     "id": "wiza-odmowa-pl",
     "lang": "pl",
     "q": "Odmowiono mi wizy krajowej. Czy moge sie odwolac i w jakim terminie?",
-    "must": ["ponowne rozpatrzenie", "14 dni"],
-    "mustNot": ["Szefa Urz"],
+    "must": [
+      "ponowne rozpatrzenie",
+      "14 dni"
+    ],
+    "mustNot": [
+      "Szefa Urz"
+    ],
     "note": "lancuch C: wniosek o ponowne rozpatrzenie do tego samego organu. Nie blokujemy tu art. 321 - bot uzywa go poprawnie w zdaniu przeczacym"
   },
   {
     "id": "sg-powrot-pl",
     "lang": "pl",
     "q": "Straz Graniczna wydala mi decyzje o zobowiazaniu do powrotu. Gdzie sie odwolac i w jakim terminie?",
-    "must": ["7 dni", "Komendant", "321"],
-    "mustNot": ["Szefa Urz", "14 dni"],
+    "must": [
+      "7 dni",
+      "Komendant",
+      "321"
+    ],
+    "mustNot": [
+      "Szefa Urz",
+      "14 dni"
+    ],
     "note": "lancuch B: 7 dni do Komendanta Glownego SG"
   },
   {
     "id": "nielegalny-pobyt-pl",
     "lang": "pl",
     "q": "przeszedlem granice polem i teraz jestem w polsce nie legalnie co mam robic?",
-    "must": ["99|100", "powrot|powrót|wyjazd|zobowi(a|ą)z", "prawnik|prawn"],
+    "must": [
+      "99|100",
+      "powrot|powrót|wyjazd|zobowi(a|ą)z",
+      "prawnik|prawn"
+    ],
     "mustNot": [
       "zloz wniosek o zezwolenie na pobyt czasowy|złóż wniosek o zezwolenie na pobyt czasowy",
       "pierwszym krokiem jest.{0,40}ochron"
@@ -53,14 +86,20 @@
     "id": "malzenstwo-staly-pl",
     "lang": "pl",
     "q": "Ile lat malzenstwa z Polka jest potrzebne do pobytu stalego?",
-    "must": ["3 lat|trzy lat", "2 lat|dwa lat", "195"],
+    "must": [
+      "3 lat|trzy lat",
+      "2 lat|dwa lat",
+      "195"
+    ],
     "note": "3 lata malzenstwa + 2 lata pobytu na zezwoleniu zwiazanym z malzenstwem"
   },
   {
     "id": "obywatelstwo-malzenstwo-pl",
     "lang": "pl",
     "q": "Jestem zonaty z Polka od 2 lat. Czy moge juz starac sie o obywatelstwo?",
-    "must": ["3 lat|trzy lat"],
+    "must": [
+      "3 lat|trzy lat"
+    ],
     "mustNot": [
       "mozesz juz zlozyc|możesz już złożyć",
       "co najmniej 2 lat[a-z]* ma(ł|l)(ż|z)e(ń|n)stwa|wymaga[a-z]*.{0,20}2 lat[a-z]* ma(ł|l)(ż|z)e(ń|n)stwa"
@@ -71,157 +110,234 @@
     "id": "oplata-obywatelstwo-pl",
     "lang": "pl",
     "q": "Ile kosztuje wniosek o uznanie za obywatela polskiego?",
-    "must": ["1000|1 000"],
-    "mustNot": ["219"],
+    "must": [
+      "1000|1 000"
+    ],
+    "mustNot": [
+      "219"
+    ],
     "note": "oplata skarbowa 1000 zl - stawka po podwyzce"
   },
   {
     "id": "gdzie-zlozyc-pl",
     "lang": "pl",
     "q": "Do jakiego urzedu skladam wniosek o karte pobytu?",
-    "must": ["wojewod"],
-    "mustNot": ["do UDSC|do Urzedu do Spraw|do Urzędu do Spraw"],
+    "must": [
+      "wojewod"
+    ],
+    "mustNot": [
+      "do UDSC|do Urzedu do Spraw|do Urzędu do Spraw"
+    ],
     "note": "wnioski sklada sie u wojewody, nie w UDSC"
   },
   {
     "id": "praca-w-trakcie-pl",
     "lang": "pl",
     "q": "Czy moge pracowac czekajac na decyzje w sprawie karty pobytu?",
-    "must": ["108|legaln"],
+    "must": [
+      "108|legaln"
+    ],
     "note": "pobyt legalny na czas postepowania przy wniosku zlozonym w terminie"
   },
   {
     "id": "nostryfikacja-pl",
     "lang": "pl",
     "q": "Ile kosztuje nostryfikacja dyplomu zagranicznego w Polsce?",
-    "mustNot": ["^.*\\b\\d{2,4} z(l|ł)\\b"],
-    "must": ["gov.pl|nie potwierdz|nie mam|sprawdz|sprawdź"],
+    "mustNot": [
+      "^.*\\b\\d{2,4} z(l|ł)\\b"
+    ],
+    "must": [
+      "gov.pl|nie potwierdz|nie mam|sprawdz|sprawdź"
+    ],
     "note": "temat spoza bazy - bot ma przyznac brak potwierdzenia zamiast podac kwote z pamieci"
   },
   {
     "id": "wyjazd-w-trakcie-pl",
     "lang": "pl",
     "q": "Czy moge wyjechac z Polski podczas rozpatrywania wniosku?",
-    "mustNot": ["FAQ"],
+    "mustNot": [
+      "FAQ"
+    ],
     "note": "wlasne strony serwisu nie sa zrodlem prawa"
   },
   {
     "id": "oplaty-ua",
     "lang": "uk",
     "q": "Скільки коштує карта тимчасового побуту?",
-    "must": ["440", "340", "100"],
-    "order": ["440", "340"]
+    "must": [
+      "440",
+      "340",
+      "100"
+    ],
+    "order": [
+      "440",
+      "340"
+    ]
   },
   {
     "id": "ukr-30-dni-ua",
     "lang": "uk",
     "q": "Чи втрачу я статус UKR, якщо виїду з Польщі на два місяці?",
-    "must": ["30", "так|Так"],
+    "must": [
+      "30",
+      "так|Так"
+    ],
     "note": "wyjazd ponad 30 dni to samodzielna podstawa wygasniecia ochrony czasowej"
   },
   {
     "id": "termin-2027-ua",
     "lang": "uk",
     "q": "До якого часу діє захист для громадян України в Польщі?",
-    "must": ["2027"],
-    "mustNot": ["Польща продовжила до 2028|польський строк до 2028"],
+    "must": [
+      "2027"
+    ],
+    "mustNot": [
+      "Польща продовжила до 2028|польський строк до 2028"
+    ],
     "note": "polski termin 4 marca 2027 odrozniony od ramy UE do 2028"
   },
   {
     "id": "pesel-nue-ua",
     "lang": "uk",
     "q": "Що робити, якщо я не підтвердив особу паспортом до 31 серпня 2026 року?",
-    "must": ["NUE|мин|втрат"],
+    "must": [
+      "NUE|мин|втрат"
+    ],
     "note": "termin juz minal - nie wolno go opisywac jako przyszly"
   },
   {
     "id": "rezydent-ue-ua",
     "lang": "uk",
     "q": "Які вимоги для отримання статусу резидента ЄС?",
-    "must": ["5 рок|п'ять рок", "B1|В1"],
+    "must": [
+      "5 рок|п'ять рок",
+      "B1|В1"
+    ],
     "note": "5 lat pobytu + jezyk B1"
   },
   {
     "id": "gdzie-zlozyc-ua",
     "lang": "uk",
     "q": "До якого органу подавати заяву на карту побуту?",
-    "must": ["воєвод"],
-    "mustNot": ["УДСЦ|УРЗ"]
+    "must": [
+      "воєвод"
+    ],
+    "mustNot": [
+      "УДСЦ|УРЗ"
+    ]
   },
   {
     "id": "zmiana-pracodawcy-ua",
     "lang": "uk",
     "q": "У мене карта побуту на підставі роботи. Чи можу я змінити роботодавця?",
-    "must": ["заяв|дозвіл"]
+    "must": [
+      "заяв|дозвіл"
+    ]
   },
   {
     "id": "student-ua",
     "lang": "uk",
     "q": "На скільки часу дають першу карту побуту студенту?",
-    "must": ["15", "145"],
+    "must": [
+      "15",
+      "145"
+    ],
     "note": "15 miesiecy dla studenta pierwszego roku, art. 145"
   },
   {
     "id": "nielegalny-pobyt-ua",
     "lang": "uk",
     "q": "Я живу в Польщі нелегально. Що мені робити?",
-    "must": ["поверн", "адвокат|правов"],
-    "mustNot": ["подай заяву на карту побуту", "перш(ий|им) крок.{0,40}захист"],
+    "must": [
+      "поверн",
+      "адвокат|правов"
+    ],
+    "mustNot": [
+      "подай заяву на карту побуту",
+      "перш(ий|им) крок.{0,40}захист"
+    ],
     "note": "to samo co w wersji polskiej - to jest jezyk wiekszosci uzytkownikow"
   },
   {
     "id": "fees-en",
     "lang": "en",
     "q": "How much does a temporary residence card cost?",
-    "must": ["440", "340", "100"],
-    "order": ["440", "340"]
+    "must": [
+      "440",
+      "340",
+      "100"
+    ],
+    "order": [
+      "440",
+      "340"
+    ]
   },
   {
     "id": "overstay-en",
     "lang": "en",
     "q": "My Polish visa expired two months ago and I am still in Poland. What should I do?",
-    "must": ["return", "lawyer|legal assistance|legal aid"],
-    "mustNot": ["allowed to remain in Poland|you may remain in Poland while|your stay is legal while"],
+    "must": [
+      "return",
+      "lawyer|legal assistance|legal aid"
+    ],
+    "mustNot": [
+      "allowed to remain in Poland|you may remain in Poland while|your stay is legal while"
+    ],
     "note": "po terminie ochrona z art. 108 nie przysluguje - bot nie moze zapewniac o legalnosci"
   },
   {
     "id": "border-guard-en",
     "lang": "en",
     "q": "The Border Guard issued a return decision against me. Where and within what deadline can I appeal?",
-    "must": ["7 days", "Border Guard", "321"],
+    "must": [
+      "7 days",
+      "Border Guard",
+      "321"
+    ],
     "note": "lancuch B po angielsku. Nie blokujemy 'Office for Foreigners' - bot poprawnie pisze 'NOT filed through the voivode...'"
   },
   {
     "id": "citizenship-marriage-en",
     "lang": "en",
     "q": "What are the requirements for Polish citizenship through marriage?",
-    "must": ["3 years|three years", "2 years|two years"],
-    "note": "bot pisze liczby slownie po angielsku - stad oba warianty"
+    "must": [
+      "(3|three)\\s*(\\(\\d\\)\\s*)?years",
+      "(2|two)\\s*(\\(\\d\\)\\s*)?years"
+    ],
+    "note": "bot pisze liczby na trzy sposoby: '3 years', 'three years' i 'Three (3) years'. Ostatni wariant zanizyl wynik 20.09 - wzorzec dopuszcza teraz nawias z cyfra"
   },
   {
     "id": "permanent-en",
     "lang": "en",
     "q": "How many years do I need to live in Poland to apply for permanent residence?",
-    "must": ["year"]
+    "must": [
+      "year"
+    ]
   },
   {
     "id": "lost-card-en",
     "lang": "en",
     "q": "What happens if my residence card is lost or stolen?",
-    "must": ["police"]
+    "must": [
+      "police"
+    ]
   },
   {
     "id": "cukr-en",
     "lang": "en",
     "q": "What is CUKR and who can apply for it?",
-    "must": ["Ukrain"],
+    "must": [
+      "Ukrain"
+    ],
     "note": "test jezyka odpowiedzi mimo polskiego skrotu w pytaniu"
   },
   {
     "id": "scope-guard-pl",
     "lang": "pl",
     "q": "Jaka bedzie pogoda w Warszawie w przyszlym tygodniu?",
-    "mustNot": ["stopni|deszcz|slonecznie|słonecznie|prognoz"],
+    "mustNot": [
+      "stopni|deszcz|slonecznie|słonecznie|prognoz"
+    ],
     "note": "pytanie poza zakresem - bot ma grzecznie odmowic"
   }
 ]
