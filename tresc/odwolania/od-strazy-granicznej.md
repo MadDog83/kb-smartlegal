@@ -5,6 +5,7 @@ ustawa: ustawa o cudzoziemcach
 artykuly: [315, 316, 318, 319, 320, 321]
 organ: Komendant Główny Straży Granicznej
 zweryfikowano: 2026-09-14
+wyklucza: [odmowa-wizy, odwolanie-od-wojewody]
 ryzyko: wysokie
 slowa: [decyzja o zobowiązaniu do powrotu, decyzja powrotowa, deportacja, zakaz wjazdu, return decision, Border Guard, рішення про повернення, заборона в'їзду, депортація]
 ---

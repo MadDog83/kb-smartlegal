@@ -55,6 +55,7 @@ for (const sciezka of plikiMd(TRESC)) {
     ustawa: dane.ustawa || null,
     artykuly: Array.isArray(dane.artykuly) ? dane.artykuly.map(String) : [],
     artykuly_zakazane: Array.isArray(dane.artykuly_zakazane) ? dane.artykuly_zakazane.map(String) : [],
+    wyklucza: Array.isArray(dane.wyklucza) ? dane.wyklucza.map(String) : [],
     organ: dane.organ || null,
     zrodlo: dane.zrodlo || null,
     zweryfikowano: dane.zweryfikowano || null,

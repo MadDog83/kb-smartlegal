@@ -6,8 +6,9 @@ artykuly: []
 artykuly_zakazane: [321]
 organ: Szef Urzędu do Spraw Cudzoziemców
 zweryfikowano: 2026-09-14
+wyklucza: [odmowa-wizy, odwolanie-od-strazy-granicznej]
 ryzyko: wysokie
-slowa: [odwołanie, odwołania, odwołać się, odmowa wojewody, decyzja odmowna, appeal, refusal, оскарження, відмова воєводи]
+slowa: [odwołanie, odwołania, odwołać się, odmowa wojewody, wojewoda odmówił, odmówiono mi zezwolenia, decyzja odmowna, appeal, refusal, voivode refused, оскарження, відмова воєводи, воєвода відмовив]
 ---
 
 Dotyczy **odmownej decyzji wojewody w sprawie pobytu** — zezwolenia na pobyt czasowy,

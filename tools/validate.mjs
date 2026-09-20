@@ -19,6 +19,7 @@ const WYMAGANE = ["id", "tytul", "artykuly", "zweryfikowano", "ryzyko", "slowa"]
 let bledy = 0;
 let ostrzezenia = 0;
 const widzianeId = new Map();
+const wykluczenia = new Map();
 
 function plikiMd(dir) {
   const out = [];
@@ -145,6 +146,27 @@ for (const sciezka of plikiMd(TRESC)) {
 
   if (tresc.length > MAX_ZNAKOW)
     ostrzez(sciezka, `${tresc.length} znaków — rozważ podział na dwa tematy`);
+
+  if (dane.wyklucza !== undefined && !Array.isArray(dane.wyklucza))
+    blad(sciezka, '"wyklucza" musi być listą identyfikatorów');
+  wykluczenia.set(dane.id, Array.isArray(dane.wyklucza) ? dane.wyklucza.map(String) : []);
+}
+
+// Wykluczenia muszą być wzajemne. Jednostronne dawałoby wynik zależny od tego, który
+// temat wypadł wyżej w rankingu — czyli niepowtarzalny i niemożliwy do przetestowania.
+for (const [id, lista] of wykluczenia) {
+  for (const inny of lista) {
+    if (!wykluczenia.has(inny)) {
+      blad(widzianeId.get(id), `"wyklucza" wskazuje na nieistniejący temat "${inny}"`);
+      continue;
+    }
+    if (!wykluczenia.get(inny).includes(id)) {
+      blad(
+        widzianeId.get(id),
+        `wykluczenie nie jest wzajemne: "${id}" wyklucza "${inny}", ale nie odwrotnie`,
+      );
+    }
+  }
 }
 
 const plikow = widzianeId.size;

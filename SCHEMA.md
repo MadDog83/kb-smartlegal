@@ -26,6 +26,7 @@ slowa: [opłata, koszt, ile kosztuje, fee, cost, оплата, скільки к
 | `ustawa` | gdy `artykuly` niepuste | pełna nazwa aktu, do którego należą artykuły |
 | `artykuly` | tak (może być puste) | **każdy numer artykułu użyty w treści musi tu być** |
 | `artykuly_zakazane` | nie | artykuły, których przy tym temacie **nie wolno** cytować |
+| `wyklucza` | nie | tematy, których **nie wolno** podać razem z tym — patrz niżej |
 | `organ` | nie | organ właściwy, jeśli temat go dotyczy |
 | `zrodlo` | gdy treść zawiera kwotę | adres strony urzędowej, z której pochodzi liczba |
 | `zweryfikowano` | tak | data ostatniego sprawdzenia u źródła, `RRRR-MM-DD` |
@@ -67,3 +68,21 @@ z pierwszeństwem przed budżetem rozmiaru.
 - Kwota bez `zrodlo` i `zweryfikowano` to błąd, nie niedopatrzenie.
 - Jeśli czegoś nie wiemy — zapisz to wprost w treści. „Nie ma w opracowanych źródłach"
   jest lepszą treścią niż cisza, bo powstrzymuje model przed zgadywaniem.
+
+
+## Pole `wyklucza`
+
+Trzy ścieżki odwoławcze — od odmowy wizy, od decyzji wojewody i od decyzji Straży
+Granicznej — są sobie bliskie znaczeniowo, więc wyszukiwanie chętnie podaje je razem.
+Model wtedy miesza: przy odmowie wizy krajowej odpowiedział terminem i organem należącymi
+do ścieżki wojewódzkiej, choć właściwy temat wygrał ranking z dużą przewagą. Zakaz
+napisany w treści pliku („nie nazywać tego odwołaniem do organu wyższego stopnia")
+został zignorowany — jak każdy zakaz napisany prozą.
+
+`wyklucza` wyraża to jako dane: kiedy temat wchodzi do promptu, tematy z jego listy są
+z tego promptu usuwane. Wykluczenia muszą być **wzajemne** — jeżeli A wyklucza B, to B
+musi wykluczać A. Walidator tego pilnuje, bo jednostronne wykluczenie dawałoby wynik
+zależny od kolejności rankingu.
+
+Używaj go oszczędnie i tylko dla tematów, które opisują **alternatywne procedury dla
+różnych sytuacji**. Tematy, które się uzupełniają, mają iść razem.

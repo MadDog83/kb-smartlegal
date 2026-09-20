@@ -33,6 +33,14 @@ const WAGA_FRAZY = 5;
 const PROG_ISTOTNOSCI = 0.35;
 const MAX_TEMATOW = 4;
 
+/*
+ * Wykluczenie działa dopiero przy wyraźnej przewadze. Bez tego progu remis rozstrzygał
+ * tie-breaker — przy pytaniu „wojewoda odmówił mi zezwolenia" oba tematy miały po 13,8
+ * punktu, wygrywał mniejszy plik i uciszał właściwy. Przy remisie lepiej podać oba
+ * i zostawić wybór modelowi, niż wyciąć poprawną odpowiedź na podstawie rozmiaru pliku.
+ */
+const PRZEWAGA_WYKLUCZENIA = 1.25;
+
 export const DOMYSLNY_BUDZET_BAJTOW = 5000;
 
 const bezOgonkow = (s) =>
@@ -168,15 +176,25 @@ export function wybierz(wpisy, pytanie, budzetBajtow = DOMYSLNY_BUDZET_BAJTOW) {
     );
 
   const wybrane = [];
+  const wykluczone = new Map(); // id wykluczonego -> punkty tematu, który go wyklucza
   let bajty = 0;
   const najlepszy = ocenione.length ? ocenione[0].punkty : 0;
   for (const wpis of ocenione) {
     if (wybrane.length >= MAX_TEMATOW) break;
+    // Temat wykluczony przez któryś z już wybranych opisuje ALTERNATYWNĄ procedurę dla
+    // innej sytuacji. Podany obok właściwego, jest dla modelu materiałem do pomylenia —
+    // przy odmowie wizy krajowej bot odpowiedział terminem i organem ze ścieżki
+    // wojewódzkiej, choć właściwy temat wygrał ranking niemal dwukrotnie. Zakaz zapisany
+    // w treści pliku tego nie powstrzymał; usunięcie tematu z promptu powstrzymuje.
+    const wykluczajacy = wykluczone.get(wpis.id);
+    if (wykluczajacy && wykluczajacy >= wpis.punkty * PRZEWAGA_WYKLUCZENIA) continue;
     // Pierwszy temat wchodzi zawsze; kolejne tylko dopóki naprawdę konkurują z najlepszym.
     if (wybrane.length > 0 && wpis.punkty < najlepszy * PROG_ISTOTNOSCI) break;
     const rozmiar = Buffer.byteLength(wpis.tresc, "utf8");
     if (bajty + rozmiar > budzetBajtow) continue;
     wybrane.push(wpis);
+    for (const id of wpis.wyklucza || [])
+      wykluczone.set(id, Math.max(wykluczone.get(id) || 0, wpis.punkty));
     bajty += rozmiar;
   }
   return { wybrane, bajty, wszystkie: ocenione };

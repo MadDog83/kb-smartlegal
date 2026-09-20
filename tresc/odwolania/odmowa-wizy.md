@@ -6,6 +6,7 @@ artykuly: [65, 74a, 75, 76]
 artykuly_zakazane: [299, 321]
 organ: organ, który wydał odmowę
 zweryfikowano: 2026-09-14
+wyklucza: [odwolanie-od-wojewody, odwolanie-od-strazy-granicznej]
 ryzyko: wysokie
 slowa: [odmowa wizy, odmówiono wizy, wiza krajowa, ponowne rozpatrzenie, visa refusal, visa refused, відмова у візі, повторний розгляд]
 ---

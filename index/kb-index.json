@@ -1,5 +1,5 @@
 {
- "zbudowano": "2026-09-16",
+ "zbudowano": "2026-09-20",
  "liczbaWpisow": 39,
  "artykulyUstaw": {
   "3": [
@@ -237,6 +237,7 @@
     "30"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
    "zweryfikowano": "2026-09-14",
@@ -263,6 +264,7 @@
    "ustawa": null,
    "artykuly": [],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Prezydent RP",
    "zrodlo": "https://www.gov.pl/web/uw-pomorski/nadanie-obywatelstwa-polskiego-przez-prezydenta-rp",
    "zweryfikowano": "2026-09-14",
@@ -288,6 +290,7 @@
     "30"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
    "zweryfikowano": "2026-09-14",
@@ -316,6 +319,7 @@
     "30"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
    "zweryfikowano": "2026-09-16",
@@ -352,6 +356,7 @@
    "ustawa": null,
    "artykuly": [],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://www.gov.pl/web/udsc/zawieszenie-biegu-terminow-zalatwiania-spraw-cudzoziemskich",
    "zweryfikowano": "2026-09-14",
@@ -388,6 +393,10 @@
     "321"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [
+    "odmowa-wizy",
+    "odwolanie-od-wojewody"
+   ],
    "organ": "Komendant Główny Straży Granicznej",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -415,6 +424,10 @@
    "artykuly_zakazane": [
     "321"
    ],
+   "wyklucza": [
+    "odmowa-wizy",
+    "odwolanie-od-strazy-granicznej"
+   ],
    "organ": "Szef Urzędu do Spraw Cudzoziemców",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -424,11 +437,15 @@
     "odwołania",
     "odwołać się",
     "odmowa wojewody",
+    "wojewoda odmówił",
+    "odmówiono mi zezwolenia",
     "decyzja odmowna",
     "appeal",
     "refusal",
+    "voivode refused",
     "оскарження",
-    "відмова воєводи"
+    "відмова воєводи",
+    "воєвода відмовив"
    ],
    "sciezka": "tresc/odwolania/od-wojewody.md",
    "bajty": 1913,
@@ -447,6 +464,10 @@
    "artykuly_zakazane": [
     "299",
     "321"
+   ],
+   "wyklucza": [
+    "odwolanie-od-wojewody",
+    "odwolanie-od-strazy-granicznej"
    ],
    "organ": "organ, który wydał odmowę",
    "zrodlo": null,
@@ -472,6 +493,7 @@
    "ustawa": "rozporządzenie o opłacie skarbowej",
    "artykuly": [],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty",
    "zweryfikowano": "2026-09-14",
@@ -505,6 +527,7 @@
     "30"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego",
    "zweryfikowano": "2026-09-14",
@@ -530,6 +553,7 @@
     "127"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -555,6 +579,7 @@
     "114"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -588,6 +613,7 @@
     "243"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -615,6 +641,7 @@
     "157g"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -645,6 +672,7 @@
     "185a"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -672,6 +700,7 @@
     "166b"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -702,6 +731,7 @@
     "145"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -733,6 +763,7 @@
     "299"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -760,6 +791,7 @@
     "114"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -786,6 +818,7 @@
     "200"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -812,6 +845,7 @@
     "243"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -854,6 +888,7 @@
     "321"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Straż Graniczna",
    "zrodlo": null,
    "zweryfikowano": "2026-09-16",
@@ -888,6 +923,7 @@
     "195"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Straż Graniczna",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -918,6 +954,7 @@
     "315"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Straż Graniczna",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -948,6 +985,7 @@
     "394"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Straż Graniczna",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -982,6 +1020,7 @@
     "248"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1015,6 +1054,7 @@
     "243"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Straż Graniczna",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1046,6 +1086,7 @@
     "296"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Straż Graniczna",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1074,6 +1115,7 @@
     "225b"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "Szef Urzędu do Spraw Cudzoziemców",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1104,6 +1146,7 @@
     "104"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1145,6 +1188,7 @@
     "243"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1177,6 +1221,7 @@
    "ustawa": null,
    "artykuly": [],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://www.gov.pl/web/udsc/CUKR-procedura",
    "zweryfikowano": "2026-09-14",
@@ -1204,6 +1249,7 @@
     "109b"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "organ gminy",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1232,6 +1278,7 @@
     "110b"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "organ gminy",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1262,6 +1309,7 @@
     "26"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "organ gminy",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1287,6 +1335,7 @@
    "ustawa": null,
    "artykuly": [],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": null,
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1318,6 +1367,7 @@
     "74a"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "konsul",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1348,6 +1398,7 @@
     "108"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
@@ -1377,6 +1428,7 @@
     "19"
    ],
    "artykuly_zakazane": [],
+   "wyklucza": [],
    "organ": null,
    "zrodlo": null,
    "zweryfikowano": "2026-09-14",
