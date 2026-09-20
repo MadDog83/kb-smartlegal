@@ -1,6 +1,6 @@
 {
  "zbudowano": "2026-09-20",
- "liczbaWpisow": 40,
+ "liczbaWpisow": 41,
  "artykulyUstaw": {
   "3": [
    "ustawa o cudzoziemcach"
@@ -1009,6 +1009,38 @@
    "sciezka": "tresc/problemy/przekroczony-termin.md",
    "bajty": 1906,
    "tresc": "**Złożenie wniosku nie legalizuje pobytu komuś, kto już przekroczył termin.** To zdanie\njest w tym pliku najważniejsze, bo błąd w drugą stronę brzmi uspokajająco i dlatego jest\nszczególnie szkodliwy.\n\nPobyt uznaje się za legalny na czas postępowania **tylko wtedy**, gdy wniosek złożono\n**najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach, art. 105 ust. 1\noraz art. 108 ust. 1 pkt 2). Kto jest już po terminie, tej ochrony **nie ma** — i nie\nuzyska jej przez samo złożenie wniosku.\n\n**Nigdy nie pisz osobie po terminie, że „w trakcie rozpatrywania wniosku może legalnie\npozostać w Polsce\".**\n\n## Sytuacja, która wygląda podobnie, a jest inna\n\nOsobną rzeczą jest **30-dniowy termin na wyjazd** po tym, jak decyzja odmowna stała się\nostateczna (art. 299 ust. 6 pkt 1). Ten okres jest legalny (art. 299 ust. 7), ale dotyczy\nkogoś, kto wniosek złożył w terminie i dostał odmowę — nie kogoś, kto po prostu został\ndłużej.\n\n## Co powiedzieć\n\n- Że przekroczenie terminu oznacza pobyt nielegalny ze wszystkimi skutkami opisanymi\n  w `nielegalny-pobyt`: możliwa decyzja o zobowiązaniu do powrotu, termin dobrowolnego\n  wyjazdu 8–30 dni (art. 315 ust. 1) i zakaz ponownego wjazdu.\n- Że im dłużej trwa taki stan, tym gorzej — ale że samodzielne pójście do urzędu bez\n  rozpoznania sytuacji może przyspieszyć decyzję powrotową.\n- Że realne ścieżki (ochrona międzynarodowa, status UKR, przesłanki humanitarne) trzeba\n  ocenić indywidualnie.\n\n**Zawsze skieruj do adwokata lub organizacji pomocy prawnej dla migrantów** i zaproponuj\nprzycisk pomocy osobistej.\n\n## Czego nie wiemy\n\nPrzepisy nie przewidują procedury „naprawienia\" przekroczonego terminu przez złożenie\nzaległego wniosku. Jeżeli użytkownik pyta o taką możliwość — powiedz wprost, że w\nobowiązujących przepisach jej nie ma, zamiast szukać obejścia."
+  },
+  {
+   "id": "strach-przed-deportacja",
+   "tytul": "Obawa przed deportacją, gdy żadna decyzja jeszcze nie zapadła",
+   "ustawa": null,
+   "artykuly": [],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "Straż Graniczna",
+   "zrodlo": null,
+   "zweryfikowano": "2026-09-20",
+   "ryzyko": "wysokie",
+   "slowa": [
+    "boję się deportacji",
+    "czy mnie deportują",
+    "deportacja",
+    "wydalenie z Polski",
+    "boję się że mnie wyrzucą",
+    "grozi mi deportacja",
+    "am I going to be deported",
+    "afraid of deportation",
+    "deportation risk",
+    "will they deport me",
+    "боюся депортації",
+    "чи депортують мене",
+    "депортація",
+    "вишлють з Польщі",
+    "боюся що вишлють"
+   ],
+   "sciezka": "tresc/problemy/strach-przed-deportacja.md",
+   "bajty": 2188,
+   "tresc": "**Strach to nie decyzja.** Nikogo nie wydala się z Polski dlatego, że się tego obawia —\npotrzebna jest **decyzja o zobowiązaniu do powrotu**, wydana przez Straż Graniczną\ni doręczona na piśmie, wraz z pouczeniem o odwołaniu. Dopóki takiej decyzji nie ma,\nnie ma czego zaskarżać ani przed czym uciekać.\n\n## Najpierw ustal, co się właściwie wydarzyło\n\nNie doradzaj, zanim nie wiesz, w której z trzech sytuacji jest pytający. **Zapytaj.**\n\n1. **Decyzja już doręczona** — wtedy liczy się termin: patrz `odwolanie-od-strazy-granicznej`.\n   Termin jest krótki, więc to pytanie zadaj jako pierwsze.\n2. **Pobyt bez ważnego tytułu, bez decyzji** — patrz `nielegalny-pobyt`. Tam jest opisane,\n   co realnie grozi i czego nie robić.\n3. **Tytuł pobytowy ważny albo wniosek złożony w terminie** — najczęstszy przypadek.\n   Obawa jest wtedy zwykle nieuzasadniona i trzeba to powiedzieć wprost, zamiast straszyć.\n\n## Co powiedzieć osobie, która się boi\n\n- Wyjaśnij, **od czego zależy jej sytuacja** — od tytułu pobytowego i od tego, czy wniosek\n  został złożony w terminie — a nie od tego, jak długo tu mieszka ani co usłyszała od\n  znajomych.\n- Jeżeli wniosek złożono w terminie i bez braków, **pobyt w czasie postępowania jest\n  legalny**; patrz `pobyt-czasowy-termin-i-legalnosc`.\n- **Skieruj do adwokata albo do organizacji bezpłatnej pomocy prawnej dla migrantów.**\n  Przy realnym ryzyku to jedyna sensowna droga, a konsultacja nic nie kosztuje.\n- Zaproponuj przycisk pomocy osobistej w tym czacie.\n\n## Czego nie pisać\n\n- Że decyzja została wydana, jeżeli pytający tego nie napisał. To najczęstszy błąd przy\n  tym pytaniu: odpowiedź o terminie odwołania **zakłada fakt, którego nie ma**.\n- Że „nic się nie stanie\" ani że deportacja jest niemożliwa. Nie znasz jej sytuacji.\n- Terminów, organów i podstaw prawnych „na wszelki wypadek\". Dopóki nie wiadomo, czy\n  i jaka decyzja zapadła, każdy termin jest odpowiedzią na niezadane pytanie.\n- Rad, żeby się ukrywać, zmienić adres albo nie odbierać korespondencji. Nieodebrana\n  przesyłka bywa uznana za doręczoną, a termin na odwołanie biegnie mimo to."
   },
   {
    "id": "zatrzymanie",

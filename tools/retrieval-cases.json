@@ -318,5 +318,26 @@
     "oczekiwane": [
       "utrata-karty-pobytu"
     ]
+  },
+  {
+    "id": "strach-deportacja-ua",
+    "q": "Боюся, що мене депортують. Що мені робити?",
+    "oczekiwane": [
+      "strach-przed-deportacja"
+    ]
+  },
+  {
+    "id": "strach-deportacja-pl",
+    "q": "Boje sie ze mnie deportuja z Polski",
+    "oczekiwane": [
+      "strach-przed-deportacja"
+    ]
+  },
+  {
+    "id": "strach-deportacja-en",
+    "q": "I am afraid they will deport me. What should I do?",
+    "oczekiwane": [
+      "strach-przed-deportacja"
+    ]
   }
 ]
