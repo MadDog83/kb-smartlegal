@@ -41,6 +41,19 @@ const MAX_TEMATOW = 4;
  */
 const PRZEWAGA_WYKLUCZENIA = 1.25;
 
+/*
+ * Podłoga. Bez niej jeden pospolity rdzeń wystarczał, żeby temat „wygrał" ranking, a bot
+ * odpowiadał z pełnym przekonaniem: pytanie „co mam zrobić?" zostawia rdzeń „zrobi",
+ * trafiało w hasło wpisu o utracie karty i użytkownik dostawał instrukcję zgłoszenia
+ * kradzieży, o którą nie pytał.
+ *
+ * Wartość z pomiaru, nie z głowy: 46 prawdziwych pytań testowych daje najniższy wynik
+ * 14,1 przy medianie 24,4, a pytania ogólnikowe i spoza zakresu mieszczą się w 1–10,4.
+ * Dwanaście leży w tej przerwie. Poniżej progu nie podajemy żadnego tematu — lepiej, żeby
+ * bot poprosił o doprecyzowanie, niż żeby pewnie odpowiedział na niezadane pytanie.
+ */
+export const PROG_MINIMALNY = 12;
+
 export const DOMYSLNY_BUDZET_BAJTOW = 5000;
 
 const bezOgonkow = (s) =>
@@ -174,6 +187,10 @@ export function wybierz(wpisy, pytanie, budzetBajtow = DOMYSLNY_BUDZET_BAJTOW) {
         a.bajty - b.bajty ||
         a.id.localeCompare(b.id),
     );
+
+  // Nic nie pasuje dostatecznie mocno — oddajemy pustkę zamiast przypadkowego tematu.
+  if (!ocenione.length || ocenione[0].punkty < PROG_MINIMALNY)
+    return { wybrane: [], bajty: 0, wszystkie: ocenione, ponizejProgu: true };
 
   const wybrane = [];
   const wykluczone = new Map(); // id wykluczonego -> punkty tematu, który go wyklucza
