@@ -1,0 +1,35 @@
+# Testy bazy wiedzy, uruchamiane przy każdym pushu.
+#
+# Po co: 20 września wprowadziliśmy do bazy hasło "co zrobić po utracie karty" i jeden
+# pospolity czasownik zamienił wpis w magnes na każde ogólnikowe pytanie. Wykryliśmy to
+# tylko dlatego, że akurat testowaliśmy pytania nietypowe. Te testy łapią taką klasę
+# błędów sami, zanim zmiana trafi na produkcję.
+#
+# Kolejność ma znaczenie: walidacja daje najczytelniejsze błędy, więc idzie pierwsza;
+# zgodność indeksu musi poprzedzać test wyszukiwania, bo ten czyta indeks — przy
+# nieaktualnym indeksie testowałby nie tę treść, którą właśnie zmieniono.
+
+name: Testy bazy wiedzy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Walidacja plików tematów
+        run: node tools/validate.mjs
+
+      - name: Indeks zgodny z treścią
+        run: node tools/check-index.mjs
+
+      - name: Wyszukiwanie — przypadki testowe
+        run: node tools/test-retrieval.mjs

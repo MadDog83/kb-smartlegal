@@ -339,5 +339,30 @@
     "oczekiwane": [
       "strach-przed-deportacja"
     ]
+  },
+  {
+    "id": "ogolnikowe-pl",
+    "q": "co mam zrobic?",
+    "oczekiwane": []
+  },
+  {
+    "id": "ogolnikowe-pomocy-pl",
+    "q": "pomocy",
+    "oczekiwane": []
+  },
+  {
+    "id": "ogolnikowe-ua",
+    "q": "Що мені робити?",
+    "oczekiwane": []
+  },
+  {
+    "id": "ogolnikowe-en",
+    "q": "What should I do?",
+    "oczekiwane": []
+  },
+  {
+    "id": "podatki-pl",
+    "q": "Jaki podatek zaplace pracujac w Polsce?",
+    "oczekiwane": []
   }
 ]

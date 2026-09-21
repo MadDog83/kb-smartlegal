@@ -25,9 +25,17 @@ for (const p of przypadki) {
   const idy = wybrane.map((w) => w.id);
 
   if (!p.oczekiwane || p.oczekiwane.length === 0) {
-    const ok = wybrane.length === 0 || !p.zakazane || !idy.includes(p.zakazane);
+    // Poprzednia wersja przepuszczała każdy wynik, jeśli przypadek nie miał pola
+    // "zakazane" — test, który nie może się nie udać, niczego nie mierzy. Przywrócenie
+    // hasła-magnesu z 20 września przechodziło przez niego niezauważone.
+    // Teraz: bez "zakazane" wymagamy prawdziwej pustki; z "zakazane" — tylko nieobecności
+    // tego jednego tematu.
+    const ok = p.zakazane ? !idy.includes(p.zakazane) : wybrane.length === 0;
     if (ok) zaliczone++;
-    else problemy.push(`${p.id}: spodziewano się pustki, a wskoczyło ${idy[0]}`);
+    else
+      problemy.push(
+        `${p.id}: BRAK pustki — pytanie ogólnikowe lub spoza zakresu dostało temat ${idy[0]}`,
+      );
     continue;
   }
 
