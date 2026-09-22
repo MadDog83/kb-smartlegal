@@ -7,8 +7,8 @@ export const PYTANIA = [
   ["praca", "Co to jest oswiadczenie o powierzeniu pracy cudzoziemcowi?", null],
   ["praca", "Czy moge pracowac w Polsce na wizie turystycznej?", null],
   ["praca", "Чи можу я працювати в Польщі на візі?", null],
-  ["praca", "Stracilem prace, a mam karte pobytu na prace. Ile mam czasu na nowa?", "zmiana-pracodawcy"],
-  ["praca", "Втратив роботу, а в мене карта побуту через роботу. Що робити?", "zmiana-pracodawcy"],
+  ["praca", "Stracilem prace, a mam karte pobytu na prace. Ile mam czasu na nowa?", "utrata-pracy"],
+  ["praca", "Втратив роботу, а в мене карта побуту через роботу. Що робити?", "utrata-pracy"],
   ["praca", "Czy moge pracowac zdalnie dla firmy z zagranicy mieszkajac w Polsce?", null],
   ["praca", "Czy pracodawca musi zglosic ze zatrudnia Ukrainca?", null],
   // --- rodzina

@@ -1,6 +1,6 @@
 {
  "zbudowano": "2026-09-22",
- "liczbaWpisow": 41,
+ "liczbaWpisow": 42,
  "artykulyUstaw": {
   "3": [
    "ustawa o cudzoziemcach"
@@ -75,6 +75,12 @@
    "ustawa o cudzoziemcach"
   ],
   "114": [
+   "ustawa o cudzoziemcach"
+  ],
+  "121": [
+   "ustawa o cudzoziemcach"
+  ],
+  "123": [
    "ustawa o cudzoziemcach"
   ],
   "127": [
@@ -235,7 +241,9 @@
    "ustawa": null,
    "artykuly": [],
    "artykuly_zakazane": [],
-   "wyklucza": [],
+   "wyklucza": [
+    "utrata-pracy"
+   ],
    "organ": "wojewoda",
    "zrodlo": "https://www.gov.pl/web/udsc/nowe-stawki-oplat-za-dokumenty-wydawane-cudzoziemcom",
    "zweryfikowano": "2026-09-20",
@@ -257,7 +265,8 @@
     "втрата карти",
     "вкрадено карту",
     "крадіжка карти",
-    "дублікат карти"
+    "дублікат карти",
+    "straciłem kartę pobytu"
    ],
    "sciezka": "tresc/dokumenty/utrata-karty.md",
    "bajty": 1594,
@@ -832,6 +841,48 @@
    "tresc": "## Termin złożenia wniosku\n\nOsobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,\nart. 105 ust. 1). To jest data, od której zależy wszystko poniżej.\n\nDotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia\nsię nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.\nWniosek złożony dzień po terminie nie daje ochrony z art. 108.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nW praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
   },
   {
+   "id": "utrata-pracy",
+   "tytul": "Utrata pracy przy zezwoleniu na pobyt czasowy i pracę",
+   "ustawa": "ustawa o cudzoziemcach",
+   "artykuly": [
+    "101",
+    "121",
+    "123"
+   ],
+   "artykuly_zakazane": [],
+   "wyklucza": [
+    "utrata-karty-pobytu"
+   ],
+   "organ": "wojewoda",
+   "zrodlo": "https://www.biznes.gov.pl/pl/portal/00210",
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "wysokie",
+   "slowa": [
+    "utrata pracy",
+    "straciłem pracę",
+    "stracić pracę",
+    "zwolnili mnie",
+    "zwolnienie z pracy",
+    "bez pracy",
+    "koniec umowy",
+    "rozwiązanie umowy",
+    "pracodawca mnie zwolnił",
+    "lost my job",
+    "lost job",
+    "fired",
+    "laid off",
+    "unemployed",
+    "втратив роботу",
+    "втрата роботи",
+    "звільнили",
+    "без роботи",
+    "закінчився договір"
+   ],
+   "sciezka": "tresc/pobyt-czasowy/utrata-pracy.md",
+   "bajty": 1859,
+   "tresc": "Dotyczy **zezwolenia na pobyt czasowy i pracę** (tzw. jednolitego). Od dnia utraty pracy\nbiegną dwa terminy:\n\n- **15 dni roboczych** na **pisemne** zawiadomienie wojewody, który udzielił zezwolenia\n  (ustawa o cudzoziemcach, art. 121 ust. 1). Gdy zezwolenie wydał w drugiej instancji Szef\n  Urzędu do Spraw Cudzoziemców — do wojewody, który orzekał w pierwszej instancji (art. 121\n  ust. 2). Obowiązek jest spełniony także wtedy, gdy w tym terminie złożysz wniosek o zmianę\n  zezwolenia (art. 121 ust. 3).\n- **30 dni** ochrony: przez 30 dni od utraty pracy zezwolenia nie cofa się z tego powodu\n  (nie stosuje się art. 101 pkt 1 i 2) — **pod warunkiem**, że zawiadomienie zostało\n  złożone albo nie dotarło z przyczyn niezależnych od cudzoziemca (art. 123 ust. 1).\n  W tym czasie można szukać nowego pracodawcy.\n\nTa ochrona przysługuje **tylko raz** w okresie ważności zezwolenia (art. 123 ust. 2).\n\nPracodawca ma własny obowiązek zawiadomienia wojewody (art. 121 ust. 4). **Nie zwalnia on\ncudzoziemca** z jego zawiadomienia.\n\nCo dalej:\n\n- nowa praca → wniosek o zmianę zezwolenia albo nowe zezwolenie, patrz `zmiana-pracodawcy`;\n- brak zawiadomienia w terminie albo 30 dni bez nowej pracy i bez wniosku → zezwolenie może\n  zostać cofnięte (art. 101), a wtedy kończy się legalny pobyt na tej podstawie. W takiej\n  sytuacji skieruj do pomocy prawnej i do przycisku pomocy osobistej.\n\nNie dotyczy Niebieskiej Karty UE ani innych podstaw pobytu — mają osobne zasady; nie\nprzenoś na nie tych terminów.\n\nW internecie można trafić na informację o **3 miesiącach** bez pracy. To wymóg unijnej\ndyrektywy 2024/1233, której Polska według stanu z września 2026 nie wpisała do ustawy.\nW urzędzie obowiązuje reguła 30 dni. Nie obiecuj dłuższego okresu — powołanie się na\ndyrektywę to sprawa dla prawnika."
+  },
+  {
    "id": "zmiana-pracodawcy",
    "tytul": "Zmiana pracodawcy przy karcie pobytu wydanej na podstawie pracy",
    "ustawa": "ustawa o cudzoziemcach",
@@ -852,11 +903,16 @@
     "change employer",
     "new job",
     "зміна роботодавця",
-    "змінити роботу"
+    "змінити роботу",
+    "zmienić pracodawcę",
+    "zmieniam pracodawcę",
+    "inny pracodawca",
+    "switch employer",
+    "змінити роботодавця"
    ],
    "sciezka": "tresc/pobyt-czasowy/zmiana-pracodawcy.md",
-   "bajty": 1127,
-   "tresc": "Zezwolenie na pobyt czasowy i pracę jest wydane **dla konkretnego pracodawcy i konkretnych\nwarunków** wskazanych we wniosku (ustawa o cudzoziemcach, art. 114). Zmiana pracodawcy nie\njest więc zdarzeniem neutralnym — dotychczasowe zezwolenie było wydane na warunki, które\nprzestały obowiązywać.\n\nCo powiedzieć użytkownikowi:\n\n- Że sama zmiana pracodawcy **nie unieważnia karty automatycznie**, ale powoduje, że\n  przestaje być spełniony warunek, na którym oparto zezwolenie — a to jest przesłanka\n  cofnięcia (patrz `pobyt-czasowy-podstawy`, art. 101).\n- Że trzeba wystąpić do wojewody — nowym wnioskiem albo o zmianę zezwolenia, zależnie od\n  sytuacji.\n- Że **do czasu rozstrzygnięcia nie należy zakładać, że praca u nowego pracodawcy jest\n  legalna**. To najczęstszy błąd w tym temacie.\n\nCzego nie wiemy z opracowanych źródeł: dokładnej procedury zmiany zezwolenia, terminu na\nzgłoszenie zmiany ani listy załączników. Nie odtwarzaj ich z pamięci — skieruj na stronę\nwłaściwego urzędu wojewódzkiego i zaproponuj pomoc osobistą, bo od tego zależy legalność\nzatrudnienia."
+   "bajty": 1251,
+   "tresc": "Zezwolenie na pobyt czasowy i pracę jest wydane **dla konkretnego pracodawcy i konkretnych\nwarunków** wskazanych we wniosku (ustawa o cudzoziemcach, art. 114). Zmiana pracodawcy nie\njest więc zdarzeniem neutralnym — dotychczasowe zezwolenie było wydane na warunki, które\nprzestały obowiązywać.\n\nCo powiedzieć użytkownikowi:\n\n- Że sama zmiana pracodawcy **nie unieważnia karty automatycznie**, ale powoduje, że\n  przestaje być spełniony warunek, na którym oparto zezwolenie — a to jest przesłanka\n  cofnięcia (patrz `pobyt-czasowy-podstawy`, art. 101).\n- Że trzeba wystąpić do wojewody — nowym wnioskiem albo o zmianę zezwolenia, zależnie od\n  sytuacji.\n- Że **do czasu rozstrzygnięcia nie należy zakładać, że praca u nowego pracodawcy jest\n  legalna**. To najczęstszy błąd w tym temacie.\n\nCzego nie wiemy z opracowanych źródeł: dokładnej procedury zmiany zezwolenia, terminu na\nzgłoszenie zmiany ani listy załączników. Nie odtwarzaj ich z pamięci — skieruj na stronę\nwłaściwego urzędu wojewódzkiego i zaproponuj pomoc osobistą, bo od tego zależy legalność\nzatrudnienia.\n\nGdy pracy nie zmieniasz, tylko ją **tracisz** — terminy zawiadomienia wojewody i okres\nochronny opisuje `utrata-pracy`."
   },
   {
    "id": "pobyt-staly-cofniecie",

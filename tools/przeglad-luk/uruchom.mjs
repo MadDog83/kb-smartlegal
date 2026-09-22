@@ -24,6 +24,5 @@ for (const w of wiersze) {
   console.log(werdykt.padEnd(10) + String(w.szczyt.toFixed(1)).padStart(5) + "  " +
     (w.pierwszy || "-").padEnd(32) + "  " + w.q.slice(0, 64));
 }
-fs.writeFileSync("wynik.json", JSON.stringify(wiersze, null, 1));
 const liczba = (x) => wiersze.filter(w => w.werdykt === x).length;
 console.log(`\nok: ${liczba("ok")+liczba("ok(dalej)")}  pusto: ${liczba("PUSTO")}  zly temat: ${liczba("ZLY TEMAT")}  do oceny recznej: ${liczba("?")}`);

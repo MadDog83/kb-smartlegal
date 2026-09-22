@@ -6,7 +6,7 @@ artykuly: [101, 114]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [zmiana pracodawcy, zmieniam pracę, nowy pracodawca, change employer, new job, зміна роботодавця, змінити роботу]
+slowa: [zmiana pracodawcy, zmieniam pracę, nowy pracodawca, change employer, new job, зміна роботодавця, змінити роботу, zmienić pracodawcę, zmieniam pracodawcę, inny pracodawca, switch employer, змінити роботодавця]
 ---
 
 Zezwolenie na pobyt czasowy i pracę jest wydane **dla konkretnego pracodawcy i konkretnych
@@ -28,3 +28,6 @@ Czego nie wiemy z opracowanych źródeł: dokładnej procedury zmiany zezwolenia
 zgłoszenie zmiany ani listy załączników. Nie odtwarzaj ich z pamięci — skieruj na stronę
 właściwego urzędu wojewódzkiego i zaproponuj pomoc osobistą, bo od tego zależy legalność
 zatrudnienia.
+
+Gdy pracy nie zmieniasz, tylko ją **tracisz** — terminy zawiadomienia wojewody i okres
+ochronny opisuje `utrata-pracy`.

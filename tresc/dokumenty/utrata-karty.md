@@ -7,7 +7,8 @@ organ: wojewoda
 zrodlo: https://www.gov.pl/web/udsc/nowe-stawki-oplat-za-dokumenty-wydawane-cudzoziemcom
 zweryfikowano: 2026-09-20
 ryzyko: normalne
-slowa: [zgubiłem kartę pobytu, zgubiona karta, utrata karty, kradzież karty, skradziono kartę, zniszczona karta, duplikat karty, lost residence card, stolen residence card, lost my card, card was stolen, replacement card, загубив карту побуту, втрата карти, вкрадено карту, крадіжка карти, дублікат карти]
+wyklucza: [utrata-pracy]
+slowa: [zgubiłem kartę pobytu, zgubiona karta, utrata karty, kradzież karty, skradziono kartę, zniszczona karta, duplikat karty, lost residence card, stolen residence card, lost my card, card was stolen, replacement card, загубив карту побуту, втрата карти, вкрадено карту, крадіжка карти, дублікат карти, straciłem kartę pobytu]
 ---
 
 **Utrata karty nie odbiera prawa pobytu.** Zezwolenie trwa dalej — karta jest tylko

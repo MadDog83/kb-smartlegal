@@ -406,5 +406,54 @@
     "oczekiwane": [
       "mos-inpol"
     ]
+  },
+  {
+    "id": "utrata-pracy-pl",
+    "q": "Straciłem pracę, a mam kartę pobytu na pracę. Ile mam czasu na nową?",
+    "oczekiwane": [
+      "utrata-pracy"
+    ]
+  },
+  {
+    "id": "utrata-pracy-ua",
+    "q": "Втратив роботу, а в мене карта побуту через роботу. Що робити?",
+    "oczekiwane": [
+      "utrata-pracy"
+    ]
+  },
+  {
+    "id": "lost-job-en",
+    "q": "I lost my job, what happens to my residence permit?",
+    "oczekiwane": [
+      "utrata-pracy"
+    ]
+  },
+  {
+    "id": "zwolnienie-pl",
+    "q": "Zwolnili mnie z pracy, co z moją kartą pobytu?",
+    "oczekiwane": [
+      "utrata-pracy"
+    ]
+  },
+  {
+    "id": "zmiana-pracodawcy-pl2",
+    "q": "Chcę zmienić pracodawcę",
+    "oczekiwane": [
+      "zmiana-pracodawcy"
+    ]
+  },
+  {
+    "id": "zmiana-pracodawcy-ua2",
+    "q": "Хочу змінити роботодавця",
+    "oczekiwane": [
+      "zmiana-pracodawcy"
+    ]
+  },
+  {
+    "id": "stracona-karta-pl",
+    "q": "Straciłem kartę pobytu",
+    "oczekiwane": [
+      "utrata-karty-pobytu"
+    ]
   }
 ]
