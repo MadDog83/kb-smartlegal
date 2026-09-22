@@ -7,7 +7,7 @@ organ: wojewoda
 zrodlo: https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [opłata, opłaty, koszt, kosztuje, cena, ile kosztuje, fee, fees, cost, price, how much, оплата, мито, вартість, скільки коштує]
+slowa: [opłata, opłaty, koszt, kosztuje, cena, ile kosztuje, opłata za kartę pobytu, opłaty za kartę pobytu, fee, fees, cost, price, how much, residence card fee, оплата, мито, вартість, скільки коштує, оплата за карту побуту]
 ---
 
 ## Zezwolenie na pobyt czasowy

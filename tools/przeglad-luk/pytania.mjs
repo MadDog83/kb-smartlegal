@@ -17,14 +17,14 @@ export const PYTANIA = [
   ["rodzina", "Wzielismy rozwod. Czy trace karte pobytu z malzenstwa?", null],
   ["rodzina", "Моя дитина народилася в Польщі. Який дозвіл на перебування їй потрібен?", null],
   // --- studia
-  ["studia", "Czy student moze pracowac w Polsce?", "pobyt-czasowy-studia"],
-  ["studia", "Skonczylem studia w Polsce. Czy moge zostac i szukac pracy?", null],
-  ["studia", "Чи може студент працювати в Польщі без дозволу?", "pobyt-czasowy-studia"],
+  ["studia", "Czy student moze pracowac w Polsce?", "praca-studenta"],
+  ["studia", "Skonczylem studia w Polsce. Czy moge zostac i szukac pracy?", "praca-studenta"],
+  ["studia", "Чи може студент працювати в Польщі без дозволу?", "praca-studenta"],
   // --- biznes
   ["biznes", "Jak dostac karte pobytu na prowadzenie dzialalnosci gospodarczej?", "pozostale-kategorie"],
   ["biznes", "Czy moge zalozyc firme w Polsce jako obywatel Ukrainy?", null],
   // --- dokumenty i formalnosci
-  ["dokumenty", "Czy musze miec ubezpieczenie zdrowotne zeby dostac karte pobytu?", null],
+  ["dokumenty", "Czy musze miec ubezpieczenie zdrowotne zeby dostac karte pobytu?", "ubezpieczenie-zdrowotne"],
   ["dokumenty", "Jak sie zameldowac w Polsce?", null],
   ["dokumenty", "Як отримати PESEL, якщо я не українець?", null],
   ["dokumenty", "Czy dokumenty do wniosku musza byc przetlumaczone przez tlumacza przysieglego?", null],
@@ -32,7 +32,7 @@ export const PYTANIA = [
   ["dokumenty", "Jakie zdjecie do karty pobytu?", null],
   // --- procedura
   ["procedura", "Jak sprawdzic status mojej sprawy o karte pobytu?", "mos-inpol"],
-  ["procedura", "Dostalem wezwanie do uzupelnienia brakow. Co to znaczy?", null],
+  ["procedura", "Dostalem wezwanie do uzupelnienia brakow. Co to znaczy?", "wezwanie-do-uzupelnienia"],
   ["procedura", "Zmienilem adres. Czy musze zawiadomic urzad?", null],
   ["procedura", "Czy moge przedluzyc wize bez wyjazdu z Polski?", null],
   ["procedura", "Ile dni moge byc w Polsce bez wizy?", null],

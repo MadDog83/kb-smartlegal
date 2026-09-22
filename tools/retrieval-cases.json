@@ -518,5 +518,82 @@
     "oczekiwane": [
       "praca-powiadomienie"
     ]
+  },
+  {
+    "id": "ubezpieczenie-pl",
+    "q": "Czy muszę mieć ubezpieczenie zdrowotne, żeby dostać kartę pobytu?",
+    "oczekiwane": [
+      "ubezpieczenie-zdrowotne"
+    ]
+  },
+  {
+    "id": "ubezpieczenie-ua",
+    "q": "Чи потрібне медичне страхування для карти побуту?",
+    "oczekiwane": [
+      "ubezpieczenie-zdrowotne"
+    ]
+  },
+  {
+    "id": "insurance-en",
+    "q": "Do I need health insurance for a residence card?",
+    "oczekiwane": [
+      "ubezpieczenie-zdrowotne"
+    ]
+  },
+  {
+    "id": "wezwanie-pl",
+    "q": "Dostałem wezwanie do uzupełnienia braków. Co to znaczy?",
+    "oczekiwane": [
+      "wezwanie-do-uzupelnienia"
+    ]
+  },
+  {
+    "id": "wezwanie-ua",
+    "q": "Отримав лист з ужонду, треба доповнити документи",
+    "oczekiwane": [
+      "wezwanie-do-uzupelnienia"
+    ]
+  },
+  {
+    "id": "missing-docs-en",
+    "q": "I got a letter asking for missing documents",
+    "oczekiwane": [
+      "wezwanie-do-uzupelnienia"
+    ]
+  },
+  {
+    "id": "student-praca-pl",
+    "q": "Czy student może pracować w Polsce?",
+    "oczekiwane": [
+      "praca-studenta"
+    ]
+  },
+  {
+    "id": "student-praca-ua",
+    "q": "Чи може студент працювати в Польщі без дозволу?",
+    "oczekiwane": [
+      "praca-studenta"
+    ]
+  },
+  {
+    "id": "student-work-en",
+    "q": "Can a student work in Poland?",
+    "oczekiwane": [
+      "praca-studenta"
+    ]
+  },
+  {
+    "id": "absolwent-pl",
+    "q": "Skończyłem studia w Polsce. Czy mogę zostać i szukać pracy?",
+    "oczekiwane": [
+      "praca-studenta"
+    ]
+  },
+  {
+    "id": "oplaty-karta-pl2",
+    "q": "Jakie są opłaty za kartę pobytu?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 {
  "zbudowano": "2026-09-22",
- "liczbaWpisow": 45,
+ "liczbaWpisow": 48,
  "artykulyUstaw": {
   "3": [
    "ustawa o cudzoziemcach"
@@ -102,6 +102,9 @@
    "ustawa o cudzoziemcach"
   ],
   "172": [
+   "ustawa o cudzoziemcach"
+  ],
+  "186": [
    "ustawa o cudzoziemcach"
   ],
   "195": [
@@ -551,15 +554,19 @@
     "kosztuje",
     "cena",
     "ile kosztuje",
+    "opłata za kartę pobytu",
+    "opłaty za kartę pobytu",
     "fee",
     "fees",
     "cost",
     "price",
     "how much",
+    "residence card fee",
     "оплата",
     "мито",
     "вартість",
-    "скільки коштує"
+    "скільки коштує",
+    "оплата за карту побуту"
    ],
    "sciezka": "tresc/oplaty/karta-pobytu.md",
    "bajty": 1541,
@@ -738,6 +745,42 @@
    "tresc": "Zezwolenia udziela się osobie, która wjechała na podstawie wizy wydanej w celu pracy\nsezonowej albo w ruchu bezwizowym, pod warunkiem posiadania **zezwolenia na pracę sezonową**\nważnego dłużej niż okres pobytu na podstawie wizy, stabilnego dochodu oraz ubezpieczenia\nzdrowotnego (ustawa o cudzoziemcach, art. 185a ust. 1).\n\nZwróć uwagę na konstrukcję: zezwolenie na **pracę** sezonową jest warunkiem wstępnym, a nie\nskutkiem tego zezwolenia na **pobyt**. To dwie różne decyzje i mylenie ich prowadzi do\nbłędnych odpowiedzi o kolejności czynności.\n\nOpracowane źródła nie zawierają szczegółów procedury wydawania samego zezwolenia na pracę\nsezonową — reguluje ją odrębne ustawodawstwo o powierzaniu pracy cudzoziemcom. Jeżeli\npytanie dotyczy tamtej procedury, powiedz to wprost."
   },
   {
+   "id": "praca-studenta",
+   "tytul": "Praca studenta-cudzoziemca i pozostanie w Polsce po studiach",
+   "ustawa": "ustawa o cudzoziemcach",
+   "artykuly": [
+    "186"
+   ],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "wojewoda",
+   "zrodlo": null,
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "normalne",
+   "slowa": [
+    "czy student może pracować",
+    "praca studenta",
+    "student praca bez zezwolenia",
+    "studia stacjonarne",
+    "praca w trakcie studiów",
+    "po studiach",
+    "absolwent",
+    "szukanie pracy po studiach",
+    "9 miesięcy",
+    "can a student work",
+    "student work",
+    "after graduation",
+    "graduate job search",
+    "чи може студент працювати",
+    "робота студента",
+    "після навчання",
+    "випускник"
+   ],
+   "sciezka": "tresc/pobyt-czasowy/praca-studenta.md",
+   "bajty": 1694,
+   "tresc": "## Praca w trakcie studiów\n\nStudent **studiów stacjonarnych** w Polsce, który przebywa tu legalnie, może pracować\n**bez zezwolenia na pracę i bez oświadczenia** — ale tylko wtedy, gdy uczelnia jest\n**zatwierdzona przez MSWiA** do przyjmowania cudzoziemców albo z tego wymogu zwolniona\n(m.in. publiczne uczelnie akademickie z prawem nadawania doktoratu, uczelnie wojskowe,\ninstytuty PAN i Sieci Łukasiewicz). Podstawa: rozporządzenie z 20 listopada 2025 r.,\nw mocy od 1 grudnia 2025 r.\n\n- studia **niestacjonarne** (zaoczne, wieczorowe, zdalne) — to zwolnienie **nie obejmuje**;\n- uczelnia niepubliczna bez zatwierdzenia MSWiA — studenci potrzebują zezwolenia na pracę\n  (okres przejściowy dla części uczelni skończył się 30 czerwca 2026 r.);\n- praktyki wchodzące w program studiów — także bez zezwolenia.\n\nJeśli użytkownik nie wie, czy jego uczelnia jest zatwierdzona, nie zgaduj — niech sprawdzi\nw uczelni albo w urzędzie pracy.\n\n## Po studiach: zezwolenie dla absolwenta\n\nAbsolwent polskiej uczelni może dostać zezwolenie na pobyt czasowy **na 9 miesięcy** w celu\nszukania pracy — **tylko raz**, bezpośrednio po studiach (ustawa o cudzoziemcach, art. 186).\nWniosek trzeba złożyć **najpóźniej w ostatnim dniu legalnego pobytu** — w praktyce przed\nkońcem obecnej karty studenckiej. Warunki: ubezpieczenie zdrowotne, środki na utrzymanie\ni powrót, zapewnione miejsce zamieszkania.\n\nCzy absolwent może pracować bez zezwolenia na pracę, rozstrzygają przepisy o powierzaniu\npracy, zmienione 1 grudnia 2025 r. Tego nie potwierdzono w opracowanych źródłach — nie\nodpowiadaj „tak\" z pamięci, skieruj do urzędu pracy (Zielona Linia 19524)."
+  },
+  {
    "id": "pobyt-czasowy-rodzina",
    "tytul": "Pobyt czasowy w celu połączenia się z rodziną",
    "ustawa": "ustawa o cudzoziemcach",
@@ -792,7 +835,12 @@
     "student permit",
     "навчання",
     "студент",
-    "аспірант"
+    "аспірант",
+    "na ile dostaje kartę student",
+    "pierwsza karta studenta",
+    "how long is the student permit",
+    "на скільки дають карту студенту",
+    "перша карта студента"
    ],
    "sciezka": "tresc/pobyt-czasowy/studia.md",
    "bajty": 991,
@@ -1380,6 +1428,74 @@
    "sciezka": "tresc/procedura/mos-inpol.md",
    "bajty": 1215,
    "tresc": "**MOS (Moduł Obsługi Spraw)** to system teleinformatyczny prowadzony przez Szefa Urzędu do\nSpraw Cudzoziemców, pozwalający złożyć wniosek o pobyt czasowy, stały i status rezydenta UE\n**w formie elektronicznej** wraz z załącznikami (ustawa o cudzoziemcach, art. 225a ust. 1).\n\nKonto w MOS może założyć sam cudzoziemiec, rodzic małoletniego, opiekun albo kurator\nmałoletniego bez opieki (art. 225b ust. 1); logowanie wymaga uwierzytelnienia na zasadach\nogólnych e-administracji.\n\n**MOS jest kanałem złożenia wniosku do wojewody, a nie osobnym organem.** Nie pisz, że\nwniosek „składa się do MOS\" w sensie właściwości — patrz `wlasciwy-organ`.\n\n## inPOL\n\nSłuży do śledzenia statusu sprawy. **Nie występuje w żadnym z opracowanych tekstów ustaw**,\nwięc nie przypisuj mu skutków prawnych ani terminów wynikających z przepisów.\n\n## Zaświadczenie zamiast stempla\n\nReforma zastępująca stempel w paszporcie **elektronicznym zaświadczeniem** o złożeniu\nwniosku (nowa redakcja art. 108) **nie weszła jeszcze w życie w pełnym zakresie** —\nszczegóły i powód w `wejscie-w-zycie-nowelizacji`. Nie twierdź, że nowy system już działa,\nbez sprawdzenia aktualnego komunikatu."
+  },
+  {
+   "id": "ubezpieczenie-zdrowotne",
+   "tytul": "Ubezpieczenie zdrowotne we wniosku o kartę pobytu",
+   "ustawa": "ustawa o cudzoziemcach",
+   "artykuly": [
+    "114"
+   ],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "wojewoda",
+   "zrodlo": null,
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "normalne",
+   "slowa": [
+    "ubezpieczenie zdrowotne",
+    "ubezpieczenie",
+    "polisa",
+    "NFZ",
+    "ZUS",
+    "prywatne ubezpieczenie",
+    "czy muszę mieć ubezpieczenie",
+    "NNW",
+    "health insurance",
+    "insurance for residence card",
+    "медичне страхування",
+    "страховка",
+    "страхування",
+    "поліс"
+   ],
+   "sciezka": "tresc/procedura/ubezpieczenie.md",
+   "bajty": 1285,
+   "tresc": "Ubezpieczenie zdrowotne jest **warunkiem** większości zezwoleń na pobyt czasowy — przy\npracy, studiach, łączeniu z rodziną, Niebieskiej Karcie UE — a także statusu rezydenta\ndługoterminowego UE. Szczegóły każdej podstawy: `pobyt-czasowy-i-praca`,\n`pobyt-czasowy-studia`, `pobyt-czasowy-rodzina`, `blue-card`, `rezydent-ue-warunki`.\n\n**Praca na umowie o pracę albo umowie zlecenia:** przy zezwoleniu na pobyt czasowy i pracę\n**nie trzeba dołączać dowodu** ubezpieczenia — wymóg uznaje się za spełniony, bo taka umowa\nsama daje ubezpieczenie w NFZ (ustawa o cudzoziemcach, art. 114 ust. 4a). Warunek nadal\nobowiązuje; odpada tylko dokument.\n\nW pozostałych sytuacjach (np. umowa o dzieło, studia, rodzina) dowód jest potrzebny.\nUrzędy przyjmują m.in.:\n\n- zgłoszenie do ubezpieczenia w ZUS z dowodem opłacania składek;\n- umowa o dobrowolne ubezpieczenie w NFZ z dowodem opłacania składek;\n- **polisa prywatna**, która obejmuje **koszty leczenia na terytorium Polski** —\n  ubezpieczenie **tylko od następstw nieszczęśliwych wypadków (NNW) nie wystarcza**;\n- dokumenty zagranicznej instytucji ubezpieczeniowej, jeżeli dotyczy (z tłumaczeniem\n  przysięgłym).\n\nMinimalnej sumy ubezpieczenia ani cen polis tu nie ma — nie podawaj ich z pamięci."
+  },
+  {
+   "id": "wezwanie-do-uzupelnienia",
+   "tytul": "Wezwanie do uzupełnienia braków lub dokumentów w sprawie o kartę pobytu",
+   "ustawa": "ustawa o cudzoziemcach",
+   "artykuly": [
+    "108"
+   ],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "wojewoda",
+   "zrodlo": null,
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "wysokie",
+   "slowa": [
+    "wezwanie",
+    "wezwanie do uzupełnienia",
+    "uzupełnienie braków",
+    "braki formalne",
+    "brakujące dokumenty",
+    "pismo z urzędu",
+    "pismo od wojewody",
+    "termin na uzupełnienie",
+    "letter from the office",
+    "missing documents",
+    "request for documents",
+    "виклик",
+    "лист з ужонду",
+    "лист від воєводи",
+    "доповнити документи",
+    "недоліки заяви"
+   ],
+   "sciezka": "tresc/procedura/wezwanie-braki.md",
+   "bajty": 1541,
+   "tresc": "Pismo z urzędu wojewódzkiego z prośbą o dokumenty to **wezwanie**. Termin podany w piśmie\njest **nieprzekraczalny** — liczy się od doręczenia. Najpierw ustal, czego dotyczy:\n\n**Braki formalne** — dokumenty, bez których sprawa w ogóle nie może się zacząć (np. kopia\npaszportu, niewypełniona część wniosku).\n\n- Nieuzupełnienie w terminie → wniosek **pozostaje bez rozpoznania**, czyli sprawy nie ma.\n- Od tego zależy legalność pobytu w trakcie postępowania: chroni ona tylko wniosek złożony\n  w terminie i bez braków formalnych albo z brakami **uzupełnionymi w terminie** (ustawa\n  o cudzoziemcach, art. 108 ust. 1 pkt 2) — patrz `pobyt-czasowy-termin-i-legalnosc`.\n- Stempel w paszporcie urząd wbija dopiero wtedy, gdy wniosek nie ma braków formalnych\n  albo zostały one uzupełnione w terminie.\n\n**Braki merytoryczne** — dokumenty potwierdzające to, co napisano we wniosku (umowa,\nzaświadczenia, dowód dochodu). Brak ich w terminie może skończyć się **odmową**, od której\nprzysługuje odwołanie — patrz `odwolanie-od-wojewody`.\n\nJak złożyć: osobiście, pocztą albo w sposób wskazany w piśmie — w oryginale lub kopii\npoświadczonej; **skan wgrany do systemu nie zastępuje dokumentu**, jeśli urząd go żąda\nw oryginale. Zachowaj dowód nadania.\n\nNie zdążysz albo nie masz dokumentu → jeszcze przed upływem terminu skontaktuj się\nz urzędem i skorzystaj z pomocy prawnej lub przycisku pomocy osobistej. Nie zakładaj, że\ntermin zostanie przedłużony, i nie czekaj po cichu."
   },
   {
    "id": "wlasciwy-organ",

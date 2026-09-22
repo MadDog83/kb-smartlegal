@@ -6,7 +6,7 @@ artykuly: [144, 145]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [studia, student, uczelnia, doktorant, studiuję, studies, student permit, навчання, студент, аспірант]
+slowa: [studia, student, uczelnia, doktorant, studiuję, studies, student permit, навчання, студент, аспірант, na ile dostaje kartę student, pierwsza karta studenta, how long is the student permit, на скільки дають карту студенту, перша карта студента]
 ---
 
 Zezwolenia udziela się przy przyjęciu na studia lub ich kontynuacji w uczelni zatwierdzonej
