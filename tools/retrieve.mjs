@@ -85,7 +85,7 @@ const SLOWA_FUNKCYJNE = new Set([
   "kto", "cos", "dla", "przy", "pod", "nad", "tak", "ale", "lub", "ten", "tego", "juz",
   "jeszcze", "byc", "bylo", "bedzie", "trzeba", "moge", "mozna", "mam", "mnie", "chce",
   "jest", "sie", "nie", "oraz", "przez", "bez", "jestem", "potrzebne", "potrzebuje",
-  "musze", "moj", "moja", "swoje", "teraz", "dalej", "znowu", "bardzo", "tylko",
+  "musze", "musza", "musi", "musimy", "moze", "moga", "powinien", "powinienem", "moj", "moja", "swoje", "teraz", "dalej", "znowu", "bardzo", "tylko",
   // ukraiński
   "які", "яка", "яке", "яко", "що", "чи", "де", "коли", "мені", "мене", "для",
   "при", "про", "від", "над", "під", "так", "але", "або", "цей", "вже", "ще", "бути",

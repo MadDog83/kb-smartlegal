@@ -6,7 +6,7 @@ artykuly: [108, 225a, 225b]
 organ: Szef Urzędu do Spraw Cudzoziemców
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [MOS, inPOL, wniosek elektroniczny, portal, status wniosku, złożenie online, online application, application status, МОС, інПОЛ, електронна заява, статус заяви]
+slowa: [MOS, inPOL, wniosek elektroniczny, portal, status wniosku, złożenie online, online application, application status, МОС, інПОЛ, електронна заява, статус заяви, status sprawy, status mojej sprawy, sprawdzić status, etap sprawy, gdzie jest moja sprawa, check my case, case status, статус справи, перевірити статус]
 ---
 
 **MOS (Moduł Obsługi Spraw)** to system teleinformatyczny prowadzony przez Szefa Urzędu do

@@ -1,5 +1,5 @@
 {
- "zbudowano": "2026-09-20",
+ "zbudowano": "2026-09-22",
  "liczbaWpisow": 41,
  "artykulyUstaw": {
   "3": [
@@ -800,7 +800,7 @@
    "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zweryfikowano": "2026-09-22",
    "ryzyko": "normalne",
    "slowa": [
     "ile czeka się na decyzję",
@@ -810,11 +810,26 @@
     "processing time",
     "how long",
     "скільки чекати",
-    "термін розгляду"
+    "термін розгляду",
+    "kolejna karta pobytu",
+    "następna karta",
+    "przedłużenie karty",
+    "przedłużyć kartę",
+    "kiedy złożyć wniosek",
+    "przed upływem ważności",
+    "zachować legalność",
+    "karta mi się kończy",
+    "renew residence card",
+    "when to apply",
+    "next residence card",
+    "продовження карти",
+    "наступна карта",
+    "коли подавати заяву",
+    "закінчується карта"
    ],
    "sciezka": "tresc/pobyt-czasowy/termin-i-legalnosc.md",
-   "bajty": 1287,
-   "tresc": "## Termin złożenia wniosku\n\nOsobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,\nart. 105 ust. 1). To jest data, od której zależy wszystko poniżej.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nW praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
+   "bajty": 1549,
+   "tresc": "## Termin złożenia wniosku\n\nOsobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,\nart. 105 ust. 1). To jest data, od której zależy wszystko poniżej.\n\nDotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia\nsię nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.\nWniosek złożony dzień po terminie nie daje ochrony z art. 108.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nW praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
   },
   {
    "id": "zmiana-pracodawcy",
@@ -1198,7 +1213,16 @@
     "МОС",
     "інПОЛ",
     "електронна заява",
-    "статус заяви"
+    "статус заяви",
+    "status sprawy",
+    "status mojej sprawy",
+    "sprawdzić status",
+    "etap sprawy",
+    "gdzie jest moja sprawa",
+    "check my case",
+    "case status",
+    "статус справи",
+    "перевірити статус"
    ],
    "sciezka": "tresc/procedura/mos-inpol.md",
    "bajty": 1215,

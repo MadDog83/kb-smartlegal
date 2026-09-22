@@ -1,0 +1,449 @@
+[
+ {
+  "grupa": "praca",
+  "q": "Jak dostac zezwolenie na prace typu A?",
+  "oczek": null,
+  "szczyt": 14.609062987381265,
+  "pierwszy": "pobyt-czasowy-i-praca",
+  "wybrane": [
+   "pobyt-czasowy-i-praca",
+   "uznanie-za-obywatela",
+   "zmiana-pracodawcy"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "praca",
+  "q": "Co to jest oswiadczenie o powierzeniu pracy cudzoziemcowi?",
+  "oczek": null,
+  "szczyt": 12.070647670595978,
+  "pierwszy": "ofiary-handlu-ludzmi",
+  "wybrane": [
+   "ofiary-handlu-ludzmi",
+   "praca-sezonowa",
+   "wiza-krajowa"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "praca",
+  "q": "Czy moge pracowac w Polsce na wizie turystycznej?",
+  "oczek": null,
+  "szczyt": 7.371992501497845,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "praca",
+  "q": "Чи можу я працювати в Польщі на візі?",
+  "oczek": null,
+  "szczyt": 16.140716200112923,
+  "pierwszy": "odmowa-wizy",
+  "wybrane": [
+   "odmowa-wizy",
+   "strach-przed-deportacja",
+   "pobyt-staly-cofniecie"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "praca",
+  "q": "Stracilem prace, a mam karte pobytu na prace. Ile mam czasu na nowa?",
+  "oczek": "zmiana-pracodawcy",
+  "szczyt": 15.552698894787433,
+  "pierwszy": "utrata-karty-pobytu",
+  "wybrane": [
+   "utrata-karty-pobytu",
+   "ukr-przepisy-przejsciowe",
+   "pobyt-czasowy-termin-i-legalnosc"
+  ],
+  "werdykt": "ZLY TEMAT"
+ },
+ {
+  "grupa": "praca",
+  "q": "Втратив роботу, а в мене карта побуту через роботу. Що робити?",
+  "oczek": "zmiana-pracodawcy",
+  "szczyt": 17.07784025523938,
+  "pierwszy": "dokumenty-i-karta",
+  "wybrane": [
+   "dokumenty-i-karta",
+   "pobyt-czasowy-podstawy",
+   "utrata-karty-pobytu"
+  ],
+  "werdykt": "ZLY TEMAT"
+ },
+ {
+  "grupa": "praca",
+  "q": "Czy moge pracowac zdalnie dla firmy z zagranicy mieszkajac w Polsce?",
+  "oczek": null,
+  "szczyt": 7.371992501497845,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "praca",
+  "q": "Czy pracodawca musi zglosic ze zatrudnia Ukrainca?",
+  "oczek": null,
+  "szczyt": 18.963666233506505,
+  "pierwszy": "ukr-ochrona-czasowa",
+  "wybrane": [
+   "ukr-ochrona-czasowa",
+   "cukr",
+   "zmiana-pracodawcy"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "rodzina",
+  "q": "Jak sprowadzic zone i dzieci do Polski?",
+  "oczek": "pobyt-czasowy-rodzina",
+  "szczyt": 21.071276609284666,
+  "pierwszy": "pobyt-czasowy-rodzina",
+  "wybrane": [
+   "pobyt-czasowy-rodzina",
+   "strach-przed-deportacja"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "rodzina",
+  "q": "Moje dziecko urodzilo sie w Polsce. Jaki dokument pobytowy musi dostac?",
+  "oczek": null,
+  "szczyt": 14.355001824809056,
+  "pierwszy": "nielegalny-pobyt",
+  "wybrane": [
+   "nielegalny-pobyt",
+   "mos-inpol"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "rodzina",
+  "q": "Wzielismy rozwod. Czy trace karte pobytu z malzenstwa?",
+  "oczek": null,
+  "szczyt": 16.95842242108744,
+  "pierwszy": "pobyt-staly-cofniecie",
+  "wybrane": [
+   "pobyt-staly-cofniecie",
+   "pobyt-staly-podstawy",
+   "uznanie-za-obywatela"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "rodzina",
+  "q": "Моя дитина народилася в Польщі. Який дозвіл на перебування їй потрібен?",
+  "oczek": null,
+  "szczyt": 15.37367712124371,
+  "pierwszy": "pobyt-staly-cofniecie",
+  "wybrane": [
+   "pobyt-staly-cofniecie",
+   "strach-przed-deportacja",
+   "pobyt-czasowy-i-praca"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "studia",
+  "q": "Czy student moze pracowac w Polsce?",
+  "oczek": "pobyt-czasowy-studia",
+  "szczyt": 9.309110822337669,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "studia",
+  "q": "Skonczylem studia w Polsce. Czy moge zostac i szukac pracy?",
+  "oczek": null,
+  "szczyt": 18.94574962567432,
+  "pierwszy": "pobyt-czasowy-studia",
+  "wybrane": [
+   "pobyt-czasowy-studia",
+   "przekroczony-termin",
+   "ofiary-handlu-ludzmi"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "studia",
+  "q": "Чи може студент працювати в Польщі без дозволу?",
+  "oczek": "pobyt-czasowy-studia",
+  "szczyt": 14.061274658433089,
+  "pierwszy": "bezczynnosc",
+  "wybrane": [
+   "bezczynnosc",
+   "strach-przed-deportacja"
+  ],
+  "werdykt": "ZLY TEMAT"
+ },
+ {
+  "grupa": "biznes",
+  "q": "Jak dostac karte pobytu na prowadzenie dzialalnosci gospodarczej?",
+  "oczek": "pozostale-kategorie",
+  "szczyt": 10.459839112144792,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "biznes",
+  "q": "Czy moge zalozyc firme w Polsce jako obywatel Ukrainy?",
+  "oczek": null,
+  "szczyt": 21.60474240145078,
+  "pierwszy": "ukr-ochrona-czasowa",
+  "wybrane": [
+   "ukr-ochrona-czasowa",
+   "cukr",
+   "procedura-obywatelstwo"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "dokumenty",
+  "q": "Czy musze miec ubezpieczenie zdrowotne zeby dostac karte pobytu?",
+  "oczek": null,
+  "szczyt": 9.061274658433089,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "dokumenty",
+  "q": "Jak sie zameldowac w Polsce?",
+  "oczek": null,
+  "szczyt": 3.6859962507489223,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "dokumenty",
+  "q": "Як отримати PESEL, якщо я не українець?",
+  "oczek": null,
+  "szczyt": 18.963666233506505,
+  "pierwszy": "ukr-przepisy-przejsciowe",
+  "wybrane": [
+   "ukr-przepisy-przejsciowe",
+   "pesel-ukr",
+   "cukr"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "dokumenty",
+  "q": "Czy dokumenty do wniosku musza byc przetlumaczone przez tlumacza przysieglego?",
+  "oczek": null,
+  "szczyt": 17.774846725137394,
+  "pierwszy": "przekroczony-termin",
+  "wybrane": [
+   "przekroczony-termin",
+   "nielegalny-pobyt"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "dokumenty",
+  "q": "Paszport mi wygasa, a karta pobytu jest wazna. Co robic?",
+  "oczek": null,
+  "szczyt": 17.865053944838394,
+  "pierwszy": "ukr-przepisy-przejsciowe",
+  "wybrane": [
+   "ukr-przepisy-przejsciowe",
+   "pobyt-czasowy-podstawy",
+   "ukr-ochrona-czasowa"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "dokumenty",
+  "q": "Jakie zdjecie do karty pobytu?",
+  "oczek": null,
+  "szczyt": 8.465921842261572,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Jak sprawdzic status mojej sprawy o karte pobytu?",
+  "oczek": "mos-inpol",
+  "szczyt": 25.162803662521313,
+  "pierwszy": "mos-inpol",
+  "wybrane": [
+   "mos-inpol",
+   "ukr-ochrona-czasowa",
+   "ukr-przepisy-przejsciowe"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Dostalem wezwanie do uzupelnienia brakow. Co to znaczy?",
+  "oczek": null,
+  "szczyt": 9.061274658433089,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Zmienilem adres. Czy musze zawiadomic urzad?",
+  "oczek": null,
+  "szczyt": 18.74037025478555,
+  "pierwszy": "bezczynnosc",
+  "wybrane": [
+   "bezczynnosc",
+   "wlasciwy-organ",
+   "nowe-dane-we-wnioskach"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Czy moge przedluzyc wize bez wyjazdu z Polski?",
+  "oczek": null,
+  "szczyt": 14.210526311438029,
+  "pierwszy": "wiza-krajowa",
+  "wybrane": [
+   "wiza-krajowa",
+   "pobyt-staly-cofniecie",
+   "strach-przed-deportacja"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Ile dni moge byc w Polsce bez wizy?",
+  "oczek": null,
+  "szczyt": 16.53087558485752,
+  "pierwszy": "odmowa-wizy",
+  "wybrane": [
+   "odmowa-wizy",
+   "procedura-obywatelstwo",
+   "ukr-przepisy-przejsciowe"
+  ],
+  "werdykt": "?"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Czy z karta pobytu moge podrozowac do innych krajow Unii?",
+  "oczek": "dokumenty-i-karta",
+  "szczyt": 25.07238036390238,
+  "pierwszy": "odmowa-wizy",
+  "wybrane": [
+   "odmowa-wizy",
+   "dokumenty-i-karta",
+   "wiza-krajowa"
+  ],
+  "werdykt": "ok(dalej)"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Чи можу я з картою побуту їздити в інші країни ЄС?",
+  "oczek": "dokumenty-i-karta",
+  "szczyt": 16.906153992541682,
+  "pierwszy": "cukr",
+  "wybrane": [
+   "cukr"
+  ],
+  "werdykt": "ZLY TEMAT"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Czy moge zlozyc wniosek przez pelnomocnika?",
+  "oczek": null,
+  "szczyt": 9.232960921130786,
+  "pierwszy": null,
+  "wybrane": [],
+  "werdykt": "PUSTO"
+ },
+ {
+  "grupa": "procedura",
+  "q": "Kiedy trzeba zlozyc wniosek o kolejna karte, zeby nie stracic legalnosci?",
+  "oczek": "pobyt-czasowy-termin-i-legalnosc",
+  "szczyt": 21.50749538224042,
+  "pierwszy": "pobyt-czasowy-termin-i-legalnosc",
+  "wybrane": [
+   "pobyt-czasowy-termin-i-legalnosc",
+   "nielegalny-pobyt"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "staly",
+  "q": "Czy z Karta Polaka dostane pobyt staly?",
+  "oczek": "pobyt-staly-podstawy",
+  "szczyt": 30.336482285004422,
+  "pierwszy": "pobyt-staly-podstawy",
+  "wybrane": [
+   "pobyt-staly-podstawy",
+   "uznanie-za-obywatela"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "staly",
+  "q": "Ile moge byc za granica majac status rezydenta UE?",
+  "oczek": "rezydent-ue-warunki",
+  "szczyt": 13.96128931525725,
+  "pierwszy": "rezydent-ue-warunki",
+  "wybrane": [
+   "rezydent-ue-warunki",
+   "ukr-przepisy-przejsciowe",
+   "procedura-obywatelstwo"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "obywatelstwo",
+  "q": "Jaki certyfikat jezyka polskiego potrzebuje do obywatelstwa?",
+  "oczek": "jezyk-polski-obywatelstwo",
+  "szczyt": 37.06828428722893,
+  "pierwszy": "jezyk-polski-obywatelstwo",
+  "wybrane": [
+   "jezyk-polski-obywatelstwo"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "obywatelstwo",
+  "q": "Яке підтвердження знання польської мови потрібне для громадянства?",
+  "oczek": "jezyk-polski-obywatelstwo",
+  "szczyt": 34.2632655169791,
+  "pierwszy": "jezyk-polski-obywatelstwo",
+  "wybrane": [
+   "jezyk-polski-obywatelstwo",
+   "ukr-przepisy-przejsciowe",
+   "uznanie-za-obywatela"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "ukr",
+  "q": "Czy Ukrainiec z ochrona czasowa moze wyjechac na Ukraine i wrocic?",
+  "oczek": "ukr-ochrona-czasowa",
+  "szczyt": 33.47036226699933,
+  "pierwszy": "ukr-ochrona-czasowa",
+  "wybrane": [
+   "ukr-ochrona-czasowa",
+   "cukr"
+  ],
+  "werdykt": "ok"
+ },
+ {
+  "grupa": "ukr",
+  "q": "Моїй дитині потрібен PESEL UKR. Як оформити?",
+  "oczek": "pesel-ukr",
+  "szczyt": 28.061751169715034,
+  "pierwszy": "pesel-ukr",
+  "wybrane": [
+   "pesel-ukr",
+   "ukr-przepisy-przejsciowe",
+   "ukr-ochrona-czasowa"
+  ],
+  "werdykt": "ok"
+ }
+]

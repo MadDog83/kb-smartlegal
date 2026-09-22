@@ -4,15 +4,19 @@ tytul: Ile trwa rozpatrzenie wniosku i czy pobyt jest wtedy legalny
 ustawa: ustawa o cudzoziemcach
 artykuly: [105, 108, 112a, 299]
 organ: wojewoda
-zweryfikowano: 2026-09-14
+zweryfikowano: 2026-09-22
 ryzyko: normalne
-slowa: [ile czeka się na decyzję, termin rozpatrzenia, jak długo, czy mogę zostać, processing time, how long, скільки чекати, термін розгляду]
+slowa: [ile czeka się na decyzję, termin rozpatrzenia, jak długo, czy mogę zostać, processing time, how long, скільки чекати, термін розгляду, kolejna karta pobytu, następna karta, przedłużenie karty, przedłużyć kartę, kiedy złożyć wniosek, przed upływem ważności, zachować legalność, karta mi się kończy, renew residence card, when to apply, next residence card, продовження карти, наступна карта, коли подавати заяву, закінчується карта]
 ---
 
 ## Termin złożenia wniosku
 
 Osobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,
 art. 105 ust. 1). To jest data, od której zależy wszystko poniżej.
+
+Dotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia
+się nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.
+Wniosek złożony dzień po terminie nie daje ochrony z art. 108.
 
 ## Termin rozpatrzenia
 

@@ -364,5 +364,47 @@
     "id": "podatki-pl",
     "q": "Jaki podatek zaplace pracujac w Polsce?",
     "oczekiwane": []
+  },
+  {
+    "id": "kolejna-karta-pl",
+    "q": "Kiedy trzeba złożyć wniosek o kolejną kartę, żeby nie stracić legalności?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "kolejna-karta-ua",
+    "q": "Коли подавати заяву, якщо закінчується карта побуту?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "next-card-en",
+    "q": "When should I apply for my next residence card?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "status-sprawy-pl",
+    "q": "Jak sprawdzić status mojej sprawy o kartę pobytu?",
+    "oczekiwane": [
+      "mos-inpol"
+    ]
+  },
+  {
+    "id": "status-sprawy-ua",
+    "q": "Як перевірити статус справи про карту побуту?",
+    "oczekiwane": [
+      "mos-inpol"
+    ]
+  },
+  {
+    "id": "case-status-en",
+    "q": "How can I check my case status?",
+    "oczekiwane": [
+      "mos-inpol"
+    ]
   }
 ]
