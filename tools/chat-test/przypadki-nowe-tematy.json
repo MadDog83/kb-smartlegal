@@ -1,0 +1,13 @@
+[
+ {"id": "utrata-pracy-pl", "lang": "pl", "q": "Straciłem pracę, a mam kartę pobytu na pracę. Ile mam czasu?", "must": ["15 dni roboczych", "30 dni"], "mustNot": ["zgłoś.{0,40}kradzie", "3 miesiące na znalezienie"], "note": "art. 121 i 123; nie myli z zgubiona karta, nie obiecuje 3 miesiecy z dyrektywy"},
+ {"id": "lost-job-en", "lang": "en", "q": "I lost my job, what happens to my residence permit?", "must": ["15 working days", "30 days"], "note": "utrata-pracy po angielsku"},
+ {"id": "utrata-pracy-ua", "lang": "uk", "q": "Втратив роботу, а в мене карта побуту через роботу. Що робити?", "must": ["15", "30"], "note": "utrata-pracy po ukrainsku"},
+ {"id": "wiza-praca-pl", "lang": "pl", "q": "Czy mogę pracować w Polsce na wizie turystycznej?", "must": ["\\bnie\\b"], "mustNot": ["\\btak, możesz\\b"], "note": "wiza 01 nie uprawnia do pracy"},
+ {"id": "oswiadczenie-gruzja-pl", "lang": "pl", "q": "Jestem z Gruzji, czy mogę pracować na oświadczeniu?", "must": ["1 grudnia 2025"], "note": "Gruzja usunieta z listy 1.12.2025"},
+ {"id": "declaration-en", "lang": "en", "q": "How long can I work on a work declaration?", "must": ["24 months"], "note": "oswiadczenie: 24 miesiace"},
+ {"id": "powiadomienie-ua", "lang": "uk", "q": "Роботодавець має повідомити про мою роботу?", "must": ["7 дн"], "note": "powiadomienie w 7 dni, art. 5a"},
+ {"id": "ubezpieczenie-pl", "lang": "pl", "q": "Czy muszę mieć ubezpieczenie zdrowotne, żeby dostać kartę pobytu?", "must": ["(umow\\w* o pracę|zleceni)"], "note": "art. 114 ust. 4a: przy umowie o prace/zleceniu bez dowodu"},
+ {"id": "wezwanie-pl", "lang": "pl", "q": "Dostałem wezwanie do uzupełnienia braków. Co to znaczy?", "must": ["bez rozpoznania"], "note": "braki formalne -> pozostawienie bez rozpoznania"},
+ {"id": "student-praca-pl", "lang": "pl", "q": "Czy student może pracować w Polsce?", "must": ["stacjonarn"], "note": "tylko studia stacjonarne, uczelnia zatwierdzona"},
+ {"id": "absolwent-en", "lang": "en", "q": "I finished my studies in Poland. Can I stay and look for a job?", "must": ["9 months"], "note": "zezwolenie dla absolwenta, art. 186"}
+]
