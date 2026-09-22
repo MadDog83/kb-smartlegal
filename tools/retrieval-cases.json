@@ -455,5 +455,68 @@
     "oczekiwane": [
       "utrata-karty-pobytu"
     ]
+  },
+  {
+    "id": "wiza-praca-pl",
+    "q": "Czy mogę pracować w Polsce na wizie turystycznej?",
+    "oczekiwane": [
+      "praca-zezwolenie"
+    ]
+  },
+  {
+    "id": "wiza-praca-ua",
+    "q": "Чи можу я працювати в Польщі на візі?",
+    "oczekiwane": [
+      "praca-zezwolenie"
+    ]
+  },
+  {
+    "id": "visa-work-en",
+    "q": "Can I work in Poland on a tourist visa?",
+    "oczekiwane": [
+      "praca-zezwolenie"
+    ]
+  },
+  {
+    "id": "zezwolenie-prace-pl",
+    "q": "Jak dostać zezwolenie na pracę typu A?",
+    "oczekiwane": [
+      "praca-zezwolenie"
+    ]
+  },
+  {
+    "id": "oswiadczenie-pl",
+    "q": "Co to jest oświadczenie o powierzeniu pracy cudzoziemcowi?",
+    "oczekiwane": [
+      "praca-oswiadczenie"
+    ]
+  },
+  {
+    "id": "oswiadczenie-gruzja-pl",
+    "q": "Jestem z Gruzji, czy mogę pracować na oświadczeniu?",
+    "oczekiwane": [
+      "praca-oswiadczenie"
+    ]
+  },
+  {
+    "id": "declaration-en",
+    "q": "How long can I work on a work declaration?",
+    "oczekiwane": [
+      "praca-oswiadczenie"
+    ]
+  },
+  {
+    "id": "powiadomienie-pl",
+    "q": "Czy pracodawca musi zgłosić, że zatrudnia Ukraińca?",
+    "oczekiwane": [
+      "praca-powiadomienie"
+    ]
+  },
+  {
+    "id": "powiadomienie-ua",
+    "q": "Роботодавець має повідомити про мою роботу?",
+    "oczekiwane": [
+      "praca-powiadomienie"
+    ]
   }
 ]

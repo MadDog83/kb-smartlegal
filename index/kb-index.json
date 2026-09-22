@@ -1,6 +1,6 @@
 {
  "zbudowano": "2026-09-22",
- "liczbaWpisow": 42,
+ "liczbaWpisow": 45,
  "artykulyUstaw": {
   "3": [
    "ustawa o cudzoziemcach"
@@ -217,6 +217,9 @@
   ],
   "112a": [
    "ustawa o cudzoziemcach"
+  ],
+  "5a": [
+   "ustawa o warunkach dopuszczalności powierzania pracy cudzoziemcom"
   ],
   "225a": [
    "ustawa o cudzoziemcach"
@@ -979,6 +982,100 @@
    "sciezka": "tresc/pobyt-staly/podstawy.md",
    "bajty": 1619,
    "tresc": "Udzielane **na czas nieoznaczony** (ustawa o cudzoziemcach, art. 195 ust. 1), ale sama\nkarta pobytu wydawana jest na **10 lat** i po upływie tego okresu podlega wymianie\n(art. 243 ust. 1 pkt 2 oraz ust. 2 pkt 1). To rozróżnienie bywa mylone — bezterminowe jest\nzezwolenie, nie dokument.\n\n## Najczęstsze podstawy (art. 195 ust. 1, wyliczenie niepełne)\n\n- dziecko cudzoziemca z pobytem stałym lub rezydenta UE, urodzone po uzyskaniu zezwolenia;\n- dziecko obywatela Polski;\n- osoba polskiego pochodzenia zamierzająca osiedlić się w Polsce;\n- **małżeństwo z obywatelem Polski**: co najmniej **3 lata** małżeństwa przed złożeniem\n  wniosku **oraz** nieprzerwany pobyt w Polsce przez co najmniej **2 lata** na podstawie\n  zezwolenia na pobyt czasowy związanego z tym małżeństwem (pkt 4);\n- ofiara handlu ludźmi po roku pobytu na odpowiednim zezwoleniu i współpracy z organami\n  ścigania (pkt 5);\n- nieprzerwany pobyt **co najmniej 5 lat** na podstawie statusu uchodźcy, ochrony\n  uzupełniającej albo zgody humanitarnej (pkt 6a), albo **10 lat** na pobycie tolerowanym\n  (pkt 6b);\n- ważna Karta Polaka przy zamiarze osiedlenia się na stałe (pkt 9).\n\n**Przy ścieżce małżeńskiej zawsze podawaj oba warunki naraz.** Podanie samych 2 lat pobytu\nbez 3 lat małżeństwa to błąd, po którym ktoś złoży wniosek przedwcześnie.\n\n## Ciągłość pobytu\n\nZachowana, jeżeli żadna przerwa nie przekroczyła **6 miesięcy**, a suma przerw nie\nprzekroczyła **10 miesięcy** (art. 195 ust. 4), z wyjątkami dla delegacji służbowych\ni wyjazdów naukowych.\n\nOpłata: patrz `oplaty-karta-pobytu`."
+  },
+  {
+   "id": "praca-oswiadczenie",
+   "tytul": "Oświadczenie o powierzeniu pracy cudzoziemcowi",
+   "ustawa": null,
+   "artykuly": [],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "starosta (powiatowy urząd pracy)",
+   "zrodlo": "https://warszawa.praca.gov.pl/oswiadczenie-o-powierzeniu-wykonywania-pracy-cudzoziemcowi1",
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "normalne",
+   "slowa": [
+    "oświadczenie o powierzeniu pracy",
+    "oświadczenie o powierzeniu wykonywania pracy",
+    "oświadczenie",
+    "24 miesiące",
+    "Białoruś",
+    "Mołdawia",
+    "Armenia",
+    "Gruzja",
+    "declaration of entrusting work",
+    "work declaration",
+    "освядчення",
+    "заява про доручення роботи",
+    "Білорусь",
+    "Молдова",
+    "Вірменія",
+    "Грузія"
+   ],
+   "sciezka": "tresc/praca/oswiadczenie.md",
+   "bajty": 1057,
+   "tresc": "Uproszczona droga do pracy — **bez zezwolenia na pracę** — tylko dla obywateli:\n**Armenii, Białorusi, Mołdawii i Ukrainy** (stan od 1 grudnia 2025 r.).\n\n**Gruzja została z listy usunięta** 1 grudnia 2025 r. Obywatel Gruzji, który zaczął pracę\nna oświadczeniu przed tą datą, może ją kontynuować do końca ważności tego oświadczenia —\nnowego już nie dostanie.\n\nZasady:\n\n- praca **najdłużej 24 miesiące** i **nie sezonowa**;\n- oświadczenie składa **pracodawca**, elektronicznie przez **praca.gov.pl**; opłata\n  **400 zł** (od 1 grudnia 2025 r., wcześniej 100 zł);\n- cudzoziemiec może zacząć pracę **dopiero po wpisaniu oświadczenia do ewidencji** przez\n  starostę — złożenie wniosku to za mało;\n- pracodawca zawiadamia urząd pracy o **podjęciu pracy w 7 dni** od jej rozpoczęcia,\n  o niepodjęciu — w 14 dni od planowanej daty, a także o wcześniejszym zakończeniu.\n\nObywatel Ukrainy z ochroną czasową zwykle nie potrzebuje oświadczenia — wystarcza\nbezpłatne powiadomienie, patrz `praca-powiadomienie`."
+  },
+  {
+   "id": "praca-powiadomienie",
+   "tytul": "Powiadomienie o powierzeniu pracy — obywatele Ukrainy i osoby z ochroną czasową",
+   "ustawa": "ustawa o warunkach dopuszczalności powierzania pracy cudzoziemcom",
+   "artykuly": [
+    "5a"
+   ],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "powiatowy urząd pracy",
+   "zrodlo": null,
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "normalne",
+   "slowa": [
+    "powiadomienie",
+    "powiadomienie o powierzeniu pracy",
+    "praca Ukraińca",
+    "zatrudnienie obywatela Ukrainy",
+    "pracodawca musi zgłosić",
+    "zgłoszenie pracy",
+    "7 dni",
+    "employ Ukrainian",
+    "notification of work",
+    "повідомлення про доручення роботи",
+    "працевлаштування українця",
+    "роботодавець повідомляє"
+   ],
+   "sciezka": "tresc/praca/powiadomienie.md",
+   "bajty": 1264,
+   "tresc": "Obywatel Ukrainy z ochroną czasową może pracować **bez zezwolenia i bez oświadczenia**.\nWystarczy, że **pracodawca powiadomi powiatowy urząd pracy w ciągu 7 dni od dnia\nrozpoczęcia pracy** — przez **praca.gov.pl**. Powiadomienie jest **bezpłatne**.\n\nOd **5 marca 2026 r.** podstawą jest art. 5a ustawy o warunkach dopuszczalności\npowierzania pracy cudzoziemcom (wcześniej: ustawa o pomocy obywatelom Ukrainy). Zmiany:\n\n- powiadomienie obejmuje **wszystkich cudzoziemców z ochroną czasową**, nie tylko\n  obywateli Ukrainy;\n- przepis przejściowy obejmuje też **obywateli Ukrainy legalnie przebywających w Polsce**\n  — przez 3 lata od 5 marca 2026 r.\n\nUwaga dla osób, które miały PESEL ze statusem UKR nadany na podstawie oświadczenia: kto\nnie potwierdził tożsamości w gminie do 31 sierpnia 2026 r., ma od 1 września status NUE\ni traci ochronę czasową — patrz `ukr-przepisy-przejsciowe`. Powiadomienie jest wtedy\nmożliwe tylko, jeśli ta osoba przebywa w Polsce legalnie na innej podstawie. Tego nie\nprzesądzaj — skieruj do urzędu pracy albo do pomocy osobistej.\n\nObowiązek powiadomienia ciąży na **pracodawcy**. Pracownik powinien jednak upewnić się,\nże zostało złożone — to od niego zależy legalność jego pracy."
+  },
+  {
+   "id": "praca-zezwolenie",
+   "tytul": "Praca bez zezwolenia jednolitego — zezwolenie na pracę i wizy, które nie uprawniają do pracy",
+   "ustawa": null,
+   "artykuly": [],
+   "artykuly_zakazane": [],
+   "wyklucza": [],
+   "organ": "wojewoda",
+   "zrodlo": null,
+   "zweryfikowano": "2026-09-22",
+   "ryzyko": "normalne",
+   "slowa": [
+    "zezwolenie na pracę",
+    "zezwolenie na prace typ A",
+    "praca na wizie",
+    "wiza turystyczna praca",
+    "czy mogę pracować na wizie",
+    "test rynku pracy",
+    "praca.gov.pl",
+    "work permit",
+    "work on a visa",
+    "can I work on a tourist visa",
+    "дозвіл на роботу",
+    "робота на візі",
+    "чи можу працювати на візі"
+   ],
+   "sciezka": "tresc/praca/zezwolenie-na-prace.md",
+   "bajty": 1516,
+   "tresc": "Od **1 czerwca 2025 r.** zasady powierzania pracy cudzoziemcom określa **ustawa z 20 marca\n2025 r. o warunkach dopuszczalności powierzania pracy cudzoziemcom na terytorium RP**.\nStarsze opisy w internecie (w tym literowe „typy\" zezwoleń) mogą być nieaktualne.\n\nFormy legalnej pracy poza zezwoleniem jednolitym (`pobyt-czasowy-i-praca`):\n\n- **zezwolenie na pracę** — wydaje **wojewoda**, najdłużej na 3 lata;\n- **zezwolenie na pracę sezonową** — wydaje **starosta** (powiatowy urząd pracy);\n- **oświadczenie o powierzeniu pracy** — tylko dla obywateli czterech państw, patrz\n  `praca-oswiadczenie`;\n- **powiadomienie** — dla osób z ochroną czasową, patrz `praca-powiadomienie`.\n\nWe wszystkich tych sprawach **wniosek składa pracodawca**, wyłącznie **elektronicznie przez\npraca.gov.pl**. Test rynku pracy został zniesiony.\n\n**Wizy, które nie uprawniają do pracy** na podstawie zezwolenia ani oświadczenia: wizy\no celu **01** (turystyka), **02** (odwiedziny), **11**, **14** (leczenie), **20** (ochrona\nczasowa), **23** (inny cel — wyjątek: posiadacz Karty Polaka), wizy tranzytowe i **wizy\nSchengen wydane przez inne państwo**. Kto pyta „czy mogę pracować na wizie turystycznej\",\nsłyszy: **nie**.\n\nPracodawca musi przed rozpoczęciem pracy zawrzeć **umowę na piśmie**, w wersji zrozumiałej\ndla cudzoziemca, i żądać ważnego dokumentu pobytowego.\n\nOpłaty zmieniły się 1 grudnia 2025 r. Kwot za zezwolenie na pracę nie podawaj z pamięci —\nsprawdź na praca.gov.pl."
   },
   {
    "id": "nielegalny-pobyt",

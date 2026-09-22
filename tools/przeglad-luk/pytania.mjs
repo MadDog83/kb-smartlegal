@@ -3,14 +3,14 @@
 // podejrzewam, że takiego tematu nie ma. Wynik pokaże, czy mam rację.
 export const PYTANIA = [
   // --- praca
-  ["praca", "Jak dostac zezwolenie na prace typu A?", null],
-  ["praca", "Co to jest oswiadczenie o powierzeniu pracy cudzoziemcowi?", null],
-  ["praca", "Czy moge pracowac w Polsce na wizie turystycznej?", null],
-  ["praca", "Чи можу я працювати в Польщі на візі?", null],
+  ["praca", "Jak dostac zezwolenie na prace typu A?", "praca-zezwolenie"],
+  ["praca", "Co to jest oswiadczenie o powierzeniu pracy cudzoziemcowi?", "praca-oswiadczenie"],
+  ["praca", "Czy moge pracowac w Polsce na wizie turystycznej?", "praca-zezwolenie"],
+  ["praca", "Чи можу я працювати в Польщі на візі?", "praca-zezwolenie"],
   ["praca", "Stracilem prace, a mam karte pobytu na prace. Ile mam czasu na nowa?", "utrata-pracy"],
   ["praca", "Втратив роботу, а в мене карта побуту через роботу. Що робити?", "utrata-pracy"],
   ["praca", "Czy moge pracowac zdalnie dla firmy z zagranicy mieszkajac w Polsce?", null],
-  ["praca", "Czy pracodawca musi zglosic ze zatrudnia Ukrainca?", null],
+  ["praca", "Czy pracodawca musi zglosic ze zatrudnia Ukrainca?", "praca-powiadomienie"],
   // --- rodzina
   ["rodzina", "Jak sprowadzic zone i dzieci do Polski?", "pobyt-czasowy-rodzina"],
   ["rodzina", "Moje dziecko urodzilo sie w Polsce. Jaki dokument pobytowy musi dostac?", null],
