@@ -20,7 +20,9 @@
   // Odstęp jest duży celowo. Model z wyszukiwarką ma dobowy limit i 60-sekundowy
   // cooldown po odmowie — puszczone seriami pytania wpadają w komunikat awaryjny
   // po ułamku sekundy i cały pomiar mierzy wtedy limit, a nie jakość odpowiedzi.
-  const GAP_MS = 25000;
+  // 70 s: przy 25 s model z wyszukiwarką regularnie wpadał w limit minutowy (429/413)
+  // i pomiar mierzył ścieżkę awaryjną zamiast właściwego systemu.
+  const GAP_MS = 70000;
   const RETRY_WAIT_MS = 60000; // jedno ponowienie po awarii, gdy cooldown zdąży wygasnąć
 
   const dlg = () => document.querySelector('[role="dialog"]');
@@ -47,7 +49,39 @@
     el.dispatchEvent(new Event("input", { bubbles: true }));
   };
 
-  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  // Zegar w Web Workerze. Chrome dławi setTimeout w karcie w tle do jednego tyknięcia na
+  // minutę, więc zwykły sleep rozciągał 70 s odstępu do kilku minut. Timery Workera nie są
+  // dławione w ten sposób.
+  const zegar = new Worker(
+    URL.createObjectURL(
+      new Blob(["onmessage=e=>setTimeout(()=>postMessage(e.data.id),e.data.ms)"], {
+        type: "text/javascript",
+      }),
+    ),
+  );
+  const czekajace = new Map();
+  let nrZegara = 0;
+  zegar.onmessage = (e) => {
+    const r = czekajace.get(e.data);
+    czekajace.delete(e.data);
+    if (r) r();
+  };
+  const sleep = (ms) =>
+    new Promise((r) => {
+      const id = ++nrZegara;
+      czekajace.set(id, r);
+      zegar.postMessage({ id, ms });
+    });
+
+  // Ślad kaskady: panel loguje "[assistant] model: <trace> | baza: <n tematów>".
+  // Przechwytujemy ostatni wpis, żeby przy każdej odpowiedzi było wiadomo, który model
+  // odpowiedział i ile tematów dostał — zamiast zgadywać to z czasu odpowiedzi.
+  let ostatniSlad = "";
+  const infoOryginalne = console.info.bind(console);
+  console.info = (...a) => {
+    if (String(a[0]).indexOf("[assistant] model:") === 0) ostatniSlad = a.slice(1).join(" ");
+    infoOryginalne(...a);
+  };
 
   async function ensureChatOpen() {
     if (dlg() && dlg().querySelector("input")) return true;
@@ -154,8 +188,12 @@
   // we wzorzec zakazujący UDSC. Ta pułapka zaniżyła wynik już dwa razy, więc sprawdzacz
   // patrzy teraz na kilkadziesiąt znaków przed trafieniem i odpuszcza, gdy stoi tam
   // przeczenie.
-  const PRZECZENIE = /\b(nie|nigdy|zamiast|не|ніколи|замість|not|never|instead)\b[^.]{0,40}$/i;
-  const zanegowane = (answer, index) => PRZECZENIE.test(answer.slice(Math.max(0, index - 60), index));
+  // Okno 80 znaków: 23.09 „nie przysługuje Ci odwołanie do organu wyższego stopnia (np. Szefa
+  // Urzędu…)” — poprawne zdanie przeczące — nie mieściło się w 40 i zostało uznane za błąd.
+  const PRZECZENIE = /\b(nie|nigdy|zamiast|не|ніколи|замість|not|never|instead)\b[^.]{0,80}$/i;
+  // Kropka skrótu („np.”, „art.”) nie kończy zdania.
+  const zanegowane = (answer, index) =>
+    PRZECZENIE.test(answer.slice(Math.max(0, index - 100), index).replace(/\b(np|tj|m\.in|ust|art|pkt|e\.g|i\.e)\./gi, "$1"));
 
   function check(c, rawAnswer) {
     const answer = norm(rawAnswer);
@@ -213,6 +251,7 @@
         ok: x.pass ? "TAK" : "nie",
         ponowione: x.retried ? "tak" : "",
         awaria: x.fallback ? "tak" : "",
+        slad: x.slad,
         problemy: x.fails.join(" | "),
       })),
     );
@@ -227,6 +266,7 @@
 
       let res;
       let retried = false;
+      ostatniSlad = "";
       try {
         res = await ask(c.q);
       } catch (e) {
@@ -265,6 +305,7 @@
         fails,
         pass: fails.length === 0,
         ms: res.ms,
+        slad: ostatniSlad,
       });
 
       try { await resetChat(); } catch (e) {}
