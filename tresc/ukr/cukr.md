@@ -7,7 +7,7 @@ organ: wojewoda
 zrodlo: https://www.gov.pl/web/udsc/CUKR-procedura
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [CUKR, karta CUKR, karta pobytu dla Ukraińców, poprzednio posiadacz ochrony czasowej, UKR karta, CUKR card, карта CUKR, карта побуту для українців]
+slowa: [CUKR, karta CUKR, karta pobytu dla Ukraińców, poprzednio posiadacz ochrony czasowej, UKR karta, CUKR card, карта CUKR, карта побуту для українців, карта побиту для українців, виїзд з Польщі з CUKR, leaving Poland with CUKR, wyjazd z Polski z kartą CUKR]
 ---
 
 Pełna nazwa to karta pobytu z adnotacją **„Poprzednio posiadacz ochrony czasowej"**.
@@ -30,6 +30,11 @@ ze statusem CUKR.
 Warunek 365 dni **aktywnego** statusu UKR oznacza, że osoba, której ochrona wygasła po
 drodze — na przykład przez wyjazd ponad 30 dni albo utratę statusu na rzecz NUE — może nie
 spełniać wymogu. Patrz `ukr-ochrona-czasowa` i `ukr-przepisy-przejsciowe`.
+
+Co dzieje się z zezwoleniem potwierdzonym kartą CUKR, gdy jej posiadacz wyjedzie z Polski
+na dłużej — opracowane źródła tego nie mówią. Reguła 30 dni z `ukr-ochrona-czasowa`
+dotyczy statusu UKR, nie karty CUKR: nie przenoś jej na CUKR i nie twierdź, że karta traci
+ważność. Powiedz, że tego nie potwierdzasz, i wskaż gov.pl/UDSC.
 
 Ten plik nie zawiera numerów artykułów, bo procedura opiera się na przepisach szczególnych
 i na informacji urzędowej, nie na jednym przepisie ustawy o cudzoziemcach. Nie przypisuj

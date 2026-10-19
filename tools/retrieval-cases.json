@@ -595,5 +595,103 @@
     "oczekiwane": [
       "oplaty-karta-pobytu"
     ]
+  },
+  {
+    "id": "odmowa-karty-ua",
+    "q": "Мені відмовили в карті побиту, що робити?",
+    "oczekiwane": [
+      "odwolanie-od-wojewody"
+    ]
+  },
+  {
+    "id": "odmowa-karty-pl",
+    "q": "Odmówiono mi karty pobytu, co robić?",
+    "oczekiwane": [
+      "odwolanie-od-wojewody"
+    ]
+  },
+  {
+    "id": "odmowa-karty-en",
+    "q": "My residence card was refused, what should I do?",
+    "oczekiwane": [
+      "odwolanie-od-wojewody"
+    ]
+  },
+  {
+    "id": "czekanie-miasto-ua",
+    "q": "Скільки зараз чекають на рішення по карті побиту у Варшаві?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "czekanie-miasto-pl",
+    "q": "Ile się teraz czeka na kartę pobytu w Warszawie?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "czekanie-miasto-en",
+    "q": "How long do I have to wait for a residence card decision in Warsaw?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "praca-w-trakcie-ua",
+    "q": "Чи можу я працювати, поки чекаю на рішення по карті побиту?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "praca-w-trakcie-pl",
+    "q": "Czy mogę pracować, czekając na decyzję w sprawie karty pobytu?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "praca-w-trakcie-en",
+    "q": "Can I work while waiting for a decision on my residence card?",
+    "oczekiwane": [
+      "pobyt-czasowy-termin-i-legalnosc"
+    ]
+  },
+  {
+    "id": "oplaty-pobytu-ua",
+    "q": "Скільки коштує карта побиту?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
+  },
+  {
+    "id": "utrata-pobytu-ua",
+    "q": "Загубив карту побиту, що робити?",
+    "oczekiwane": [
+      "utrata-karty-pobytu"
+    ]
+  },
+  {
+    "id": "cukr-wyjazd-ua",
+    "q": "Що буде з картою CUKR, якщо я виїду з Польщі на три місяці?",
+    "oczekiwane": [
+      "cukr"
+    ]
+  },
+  {
+    "id": "cukr-wyjazd-pl",
+    "q": "Co się stanie z kartą CUKR, jeśli wyjadę z Polski na trzy miesiące?",
+    "oczekiwane": [
+      "cukr"
+    ]
+  },
+  {
+    "id": "cukr-wyjazd-en",
+    "q": "What happens to my CUKR card if I leave Poland for three months?",
+    "oczekiwane": [
+      "cukr"
+    ]
   }
 ]

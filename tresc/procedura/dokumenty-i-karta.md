@@ -6,7 +6,7 @@ artykuly: [226, 227, 236, 240, 241, 242, 246, 248]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [karta pobytu, odbiór karty, odciski palców, dokument podróży, polski dokument tożsamości, jakie dokumenty wydaje, residence card, travel document, collect the card, карта побуту, документ подорожі, отримання карти]
+slowa: [karta pobytu, odbiór karty, odciski palców, dokument podróży, polski dokument tożsamości, jakie dokumenty wydaje, residence card, travel document, collect the card, карта побуту, документ подорожі, отримання карти, карта побиту]
 ---
 
 Ustawa zawiera **zamknięty katalog** dokumentów, jakie mogą być wydane cudzoziemcowi

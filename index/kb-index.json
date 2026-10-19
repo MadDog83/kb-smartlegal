@@ -1,5 +1,5 @@
 {
- "zbudowano": "2026-09-22",
+ "zbudowano": "2026-10-19",
  "liczbaWpisow": 48,
  "artykulyUstaw": {
   "3": [
@@ -272,7 +272,8 @@
     "вкрадено карту",
     "крадіжка карти",
     "дублікат карти",
-    "straciłem kartę pobytu"
+    "straciłem kartę pobytu",
+    "загубив карту побиту"
    ],
    "sciezka": "tresc/dokumenty/utrata-karty.md",
    "bajty": 1594,
@@ -494,7 +495,13 @@
     "voivode refused",
     "оскарження",
     "відмова воєводи",
-    "воєвода відмовив"
+    "воєвода відмовив",
+    "odmówiono mi karty pobytu",
+    "odmowa karty pobytu",
+    "residence card refused",
+    "refused a residence card",
+    "відмовили в карті",
+    "відмова в карті"
    ],
    "sciezka": "tresc/odwolania/od-wojewody.md",
    "bajty": 1913,
@@ -566,7 +573,8 @@
     "мито",
     "вартість",
     "скільки коштує",
-    "оплата за карту побуту"
+    "оплата за карту побуту",
+    "оплата за карту побиту"
    ],
    "sciezka": "tresc/oplaty/karta-pobytu.md",
    "bajty": 1541,
@@ -646,7 +654,8 @@
     "residence and work",
     "робота",
     "дозвіл на роботу",
-    "побут і праця"
+    "побут і праця",
+    "карта побиту на роботу"
    ],
    "sciezka": "tresc/pobyt-czasowy/pobyt-i-praca.md",
    "bajty": 1352,
@@ -678,7 +687,8 @@
     "temporary residence",
     "residence permit",
     "тимчасове перебування",
-    "карта побуту"
+    "карта побуту",
+    "карта побиту"
    ],
    "sciezka": "tresc/pobyt-czasowy/podstawy.md",
    "bajty": 1655,
@@ -885,11 +895,21 @@
     "продовження карти",
     "наступна карта",
     "коли подавати заяву",
-    "закінчується карта"
+    "закінчується карта",
+    "ile się czeka na kartę pobytu",
+    "czy mogę pracować w trakcie postępowania",
+    "pracować czekając na decyzję",
+    "how long to wait for a residence card",
+    "work while waiting for a decision",
+    "скільки чекають",
+    "чекати на рішення",
+    "скільки чекати на карту побиту",
+    "працювати поки чекаю",
+    "чи можу працювати поки чекаю"
    ],
    "sciezka": "tresc/pobyt-czasowy/termin-i-legalnosc.md",
-   "bajty": 1549,
-   "tresc": "## Termin złożenia wniosku\n\nOsobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,\nart. 105 ust. 1). To jest data, od której zależy wszystko poniżej.\n\nDotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia\nsię nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.\nWniosek złożony dzień po terminie nie daje ochrony z art. 108.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nW praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
+   "bajty": 1783,
+   "tresc": "## Termin złożenia wniosku\n\nOsobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,\nart. 105 ust. 1). To jest data, od której zależy wszystko poniżej.\n\nDotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia\nsię nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.\nWniosek złożony dzień po terminie nie daje ochrony z art. 108.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nW praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\nArt. 108 dotyczy legalności **pobytu**, nie prawa do **pracy**. Czy i u kogo wolno pracować\nw trakcie postępowania, opracowane źródła nie mówią. Nie odpowiadaj z pamięci — sprawdź\ngov.pl albo skieruj do pomocy osobistej.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
   },
   {
    "id": "utrata-pracy",
@@ -1319,7 +1339,8 @@
     "collect the card",
     "карта побуту",
     "документ подорожі",
-    "отримання карти"
+    "отримання карти",
+    "карта побиту"
    ],
    "sciezka": "tresc/procedura/dokumenty-i-karta.md",
    "bajty": 1620,
@@ -1593,11 +1614,15 @@
     "UKR karta",
     "CUKR card",
     "карта CUKR",
-    "карта побуту для українців"
+    "карта побуту для українців",
+    "карта побиту для українців",
+    "виїзд з Польщі з CUKR",
+    "leaving Poland with CUKR",
+    "wyjazd z Polski z kartą CUKR"
    ],
    "sciezka": "tresc/ukr/cukr.md",
-   "bajty": 1492,
-   "tresc": "Pełna nazwa to karta pobytu z adnotacją **„Poprzednio posiadacz ochrony czasowej\"**.\nPotwierdza zezwolenie na pobyt czasowy udzielone na szczególnych warunkach, **na 3 lata**.\n\n- **Wnioski od 4 maja 2026 r.**\n- **Termin składania: do 4 marca 2027 r.**\n- **Wyłącznie elektronicznie przez portal MOS.** Nie ma ścieżki papierowej.\n- **Warunek stażowy:** nieprzerwany aktywny status UKR przez **co najmniej 365 dni**, przy\n  czym status musi być posiadany zarówno w dniu złożenia wniosku, jak i w dniu wydania karty.\n- **Opłaty: 340 zł** za zezwolenie oraz **100 zł** za samą kartę — dwie odrębne płatności\n  (patrz `oplaty-karta-pobytu`).\n\nUprawnieni to obywatele Ukrainy i określeni członkowie rodzin, którzy przybyli po\n23 lutego 2022 r. w związku z wojną, oraz dzieci urodzone w Polsce po tej dacie matkom\nze statusem CUKR.\n\n## Na co uważać\n\nWarunek 365 dni **aktywnego** statusu UKR oznacza, że osoba, której ochrona wygasła po\ndrodze — na przykład przez wyjazd ponad 30 dni albo utratę statusu na rzecz NUE — może nie\nspełniać wymogu. Patrz `ukr-ochrona-czasowa` i `ukr-przepisy-przejsciowe`.\n\nTen plik nie zawiera numerów artykułów, bo procedura opiera się na przepisach szczególnych\ni na informacji urzędowej, nie na jednym przepisie ustawy o cudzoziemcach. Nie przypisuj\ntych danych do żadnego artykułu.\n\nTermin 4 marca 2027 r. jest datą zmienną — przed udzieleniem odpowiedzi bliżej tej daty\nsprawdź gov.pl/UDSC albo portal MOS."
+   "bajty": 1843,
+   "tresc": "Pełna nazwa to karta pobytu z adnotacją **„Poprzednio posiadacz ochrony czasowej\"**.\nPotwierdza zezwolenie na pobyt czasowy udzielone na szczególnych warunkach, **na 3 lata**.\n\n- **Wnioski od 4 maja 2026 r.**\n- **Termin składania: do 4 marca 2027 r.**\n- **Wyłącznie elektronicznie przez portal MOS.** Nie ma ścieżki papierowej.\n- **Warunek stażowy:** nieprzerwany aktywny status UKR przez **co najmniej 365 dni**, przy\n  czym status musi być posiadany zarówno w dniu złożenia wniosku, jak i w dniu wydania karty.\n- **Opłaty: 340 zł** za zezwolenie oraz **100 zł** za samą kartę — dwie odrębne płatności\n  (patrz `oplaty-karta-pobytu`).\n\nUprawnieni to obywatele Ukrainy i określeni członkowie rodzin, którzy przybyli po\n23 lutego 2022 r. w związku z wojną, oraz dzieci urodzone w Polsce po tej dacie matkom\nze statusem CUKR.\n\n## Na co uważać\n\nWarunek 365 dni **aktywnego** statusu UKR oznacza, że osoba, której ochrona wygasła po\ndrodze — na przykład przez wyjazd ponad 30 dni albo utratę statusu na rzecz NUE — może nie\nspełniać wymogu. Patrz `ukr-ochrona-czasowa` i `ukr-przepisy-przejsciowe`.\n\nCo dzieje się z zezwoleniem potwierdzonym kartą CUKR, gdy jej posiadacz wyjedzie z Polski\nna dłużej — opracowane źródła tego nie mówią. Reguła 30 dni z `ukr-ochrona-czasowa`\ndotyczy statusu UKR, nie karty CUKR: nie przenoś jej na CUKR i nie twierdź, że karta traci\nważność. Powiedz, że tego nie potwierdzasz, i wskaż gov.pl/UDSC.\n\nTen plik nie zawiera numerów artykułów, bo procedura opiera się na przepisach szczególnych\ni na informacji urzędowej, nie na jednym przepisie ustawy o cudzoziemcach. Nie przypisuj\ntych danych do żadnego artykułu.\n\nTermin 4 marca 2027 r. jest datą zmienną — przed udzieleniem odpowiedzi bliżej tej daty\nsprawdź gov.pl/UDSC albo portal MOS."
   },
   {
    "id": "ukr-ochrona-czasowa",
