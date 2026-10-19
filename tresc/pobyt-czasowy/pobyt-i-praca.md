@@ -6,7 +6,7 @@ artykuly: [114]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [pobyt i praca, praca, zezwolenie na pracę, pracodawca, work permit, residence and work, робота, дозвіл на роботу, побут і праця]
+slowa: [pobyt i praca, praca, zezwolenie na pracę, pracodawca, work permit, residence and work, робота, дозвіл на роботу, побут і праця, карта побиту на роботу]
 ---
 
 Najczęstsza podstawa pobytu czasowego. Udziela się jej, gdy celem pobytu jest wykonywanie

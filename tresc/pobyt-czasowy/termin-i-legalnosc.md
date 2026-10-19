@@ -6,7 +6,7 @@ artykuly: [105, 108, 112a, 299]
 organ: wojewoda
 zweryfikowano: 2026-09-22
 ryzyko: normalne
-slowa: [ile czeka się na decyzję, termin rozpatrzenia, jak długo, czy mogę zostać, processing time, how long, скільки чекати, термін розгляду, kolejna karta pobytu, następna karta, przedłużenie karty, przedłużyć kartę, kiedy złożyć wniosek, przed upływem ważności, zachować legalność, karta mi się kończy, renew residence card, when to apply, next residence card, продовження карти, наступна карта, коли подавати заяву, закінчується карта]
+slowa: [ile czeka się na decyzję, termin rozpatrzenia, jak długo, czy mogę zostać, processing time, how long, скільки чекати, термін розгляду, kolejna karta pobytu, następna karta, przedłużenie karty, przedłużyć kartę, kiedy złożyć wniosek, przed upływem ważności, zachować legalność, karta mi się kończy, renew residence card, when to apply, next residence card, продовження карти, наступна карта, коли подавати заяву, закінчується карта, ile się czeka na kartę pobytu, czy mogę pracować w trakcie postępowania, pracować czekając na decyzję, how long to wait for a residence card, work while waiting for a decision, скільки чекають, чекати на рішення, скільки чекати на карту побиту, працювати поки чекаю, чи можу працювати поки чекаю]
 ---
 
 ## Termin złożenia wniosku
@@ -35,6 +35,10 @@ ostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków 
 
 **Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej
 ochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.
+
+Art. 108 dotyczy legalności **pobytu**, nie prawa do **pracy**. Czy i u kogo wolno pracować
+w trakcie postępowania, opracowane źródła nie mówią. Nie odpowiadaj z pamięci — sprawdź
+gov.pl albo skieruj do pomocy osobistej.
 
 ## Po decyzji odmownej
 

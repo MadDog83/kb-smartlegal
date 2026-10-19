@@ -6,7 +6,7 @@ artykuly: [98, 99, 100, 101, 102, 104, 243]
 organ: wojewoda
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [pobyt czasowy, karta pobytu, zezwolenie na pobyt, temporary residence, residence permit, тимчасове перебування, карта побуту]
+slowa: [pobyt czasowy, karta pobytu, zezwolenie na pobyt, temporary residence, residence permit, тимчасове перебування, карта побуту, карта побиту]
 ---
 
 Zezwolenia udziela się na okres niezbędny do celu pobytu, ale **nie dłużej niż 3 lata**
