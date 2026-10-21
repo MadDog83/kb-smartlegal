@@ -4,9 +4,10 @@ tytul: Zezwolenie na pobyt stały — podstawy udzielenia
 ustawa: ustawa o cudzoziemcach
 artykuly: [195, 243]
 organ: wojewoda
-zweryfikowano: 2026-09-14
+zrodlo: https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty
+zweryfikowano: 2026-10-21
 ryzyko: normalne
-slowa: [pobyt stały, stały pobyt, karta stała, małżeństwo z Polką, małżeństwo z obywatelem Polski, ile lat małżeństwa, żona, mąż, ślub, Karta Polaka, permanent residence, settlement permit, marriage, spouse, постійне перебування, постійний побут, шлюб, дружина, чоловік]
+slowa: [pobyt stały, stały pobyt, karta stała, małżeństwo z Polką, małżeństwo z obywatelem Polski, ile lat małżeństwa, żona, mąż, ślub, Karta Polaka, permanent residence, settlement permit, marriage, spouse, постійне перебування, постійний побут, шлюб, дружина, чоловік, odmowa pobytu stałego, карта сталого побиту, сталий побит, сталого побиту, після шлюбу]
 ---
 
 Udzielane **na czas nieoznaczony** (ustawa o cudzoziemcach, art. 195 ust. 1), ale sama
@@ -38,4 +39,11 @@ Zachowana, jeżeli żadna przerwa nie przekroczyła **6 miesięcy**, a suma prze
 przekroczyła **10 miesięcy** (art. 195 ust. 4), z wyjątkami dla delegacji służbowych
 i wyjazdów naukowych.
 
-Opłata: patrz `oplaty-karta-pobytu`.
+## Opłata i odwołanie
+
+**640 zł** za zezwolenie + **100 zł** za kartę, razem **740 zł** — nigdy 340 ani 440 zł
+(te kwoty dotyczą pobytu czasowego). Szczegóły: `oplaty-karta-pobytu`.
+
+Odmowę zaskarża się jak każdą decyzję pobytową wojewody: odwołanie w **14 dni** do **Szefa
+Urzędu do Spraw Cudzoziemców**, za pośrednictwem wojewody (`odwolanie-od-wojewody`).
+Nie do Ministra Spraw Wewnętrznych i Administracji — to ścieżka obywatelska.

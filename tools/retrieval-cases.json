@@ -693,5 +693,135 @@
     "oczekiwane": [
       "cukr"
     ]
+  },
+  {
+    "id": "staly-oplata-ua",
+    "q": "Скільки коштує карта сталого побиту?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
+  },
+  {
+    "id": "staly-oplata-pl",
+    "q": "Ile kosztuje zezwolenie na pobyt stały?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
+  },
+  {
+    "id": "staly-oplata-en",
+    "q": "How much is a permanent residence permit in Poland?",
+    "oczekiwane": [
+      "pobyt-staly-podstawy"
+    ]
+  },
+  {
+    "id": "staly-slub-ua",
+    "q": "Чи можу я отримати сталий побит після шлюбу з громадянкою Польщі?",
+    "oczekiwane": [
+      "pobyt-staly-podstawy"
+    ]
+  },
+  {
+    "id": "staly-slub-pl",
+    "q": "Czy mogę złożyć wniosek o pobyt stały po ślubie z Polką?",
+    "oczekiwane": [
+      "pobyt-staly-podstawy"
+    ]
+  },
+  {
+    "id": "staly-slub-en",
+    "q": "Can I get permanent residence after marrying a Polish citizen?",
+    "oczekiwane": [
+      "pobyt-staly-podstawy"
+    ]
+  },
+  {
+    "id": "bluecard-oplata-ua",
+    "q": "Скільки коштує Blue Card?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
+  },
+  {
+    "id": "bluecard-oplata-pl",
+    "q": "Ile kosztuje Niebieska Karta UE?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
+  },
+  {
+    "id": "bluecard-oplata-en",
+    "q": "How much does a Blue Card cost?",
+    "oczekiwane": [
+      "oplaty-karta-pobytu"
+    ]
+  },
+  {
+    "id": "obyw-czas-ua",
+    "q": "Скільки чекати на рішення про громадянство?",
+    "oczekiwane": [
+      "procedura-obywatelstwo"
+    ]
+  },
+  {
+    "id": "obyw-czas-pl",
+    "q": "Jak długo czeka się na decyzję w sprawie obywatelstwa?",
+    "oczekiwane": [
+      "procedura-obywatelstwo"
+    ]
+  },
+  {
+    "id": "obyw-czas-en",
+    "q": "How long does citizenship take in Poland?",
+    "oczekiwane": [
+      "procedura-obywatelstwo"
+    ]
+  },
+  {
+    "id": "sg-powrot-ua",
+    "q": "Мене зупинила прикордонна служба і видала рішення про повернення. Що робити?",
+    "oczekiwane": [
+      "odwolanie-od-strazy-granicznej"
+    ]
+  },
+  {
+    "id": "adres-karty-ua",
+    "q": "Як змінити адресу проживання в карті побиту?",
+    "oczekiwane": [],
+    "zakazane": "odwolanie-od-wojewody"
+  },
+  {
+    "id": "adres-karty-pl",
+    "q": "Jak zmienić adres w karcie pobytu?",
+    "oczekiwane": [],
+    "zakazane": "odwolanie-od-wojewody"
+  },
+  {
+    "id": "adres-karty-en",
+    "q": "How do I change the address on my residence card?",
+    "oczekiwane": [],
+    "zakazane": "odwolanie-od-wojewody"
+  },
+  {
+    "id": "obyw-koszt-ua",
+    "q": "Скільки коштує подання заяви на громадянство?",
+    "oczekiwane": [
+      "oplaty-obywatelstwo"
+    ]
+  },
+  {
+    "id": "obyw-koszt-pl",
+    "q": "Ile kosztuje obywatelstwo polskie?",
+    "oczekiwane": [
+      "oplaty-obywatelstwo"
+    ]
+  },
+  {
+    "id": "obyw-koszt-en",
+    "q": "How much does Polish citizenship cost?",
+    "oczekiwane": [
+      "oplaty-obywatelstwo"
+    ]
   }
 ]

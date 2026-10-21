@@ -1,5 +1,5 @@
 {
- "zbudowano": "2026-10-19",
+ "zbudowano": "2026-10-21",
  "liczbaWpisow": 48,
  "artykulyUstaw": {
   "3": [
@@ -355,7 +355,15 @@
     "citizenship appeal",
     "відмова у громадянстві",
     "оскарження громадянства",
-    "скільки триває"
+    "скільки триває",
+    "ile trwa uznanie za obywatela",
+    "how long does citizenship take",
+    "citizenship decision",
+    "скільки розглядають громадянство",
+    "w sprawie obywatelstwa",
+    "на громадянство",
+    "ile czeka się na obywatelstwo",
+    "рішення про громадянство"
    ],
    "sciezka": "tresc/obywatelstwo/procedura-i-odwolanie.md",
    "bajty": 1223,
@@ -463,8 +471,8 @@
     "депортація"
    ],
    "sciezka": "tresc/odwolania/od-strazy-granicznej.md",
-   "bajty": 1662,
-   "tresc": "Dotyczy **decyzji o zobowiązaniu do powrotu wydanej przez Straż Graniczną**. Ma własny,\nkrótszy termin niż większość spraw cudzoziemskich — i to jest tu najważniejsze.\n\n## Termin i organ\n\n**Odwołanie w terminie 7 dni** od doręczenia decyzji, do **Komendanta Głównego Straży\nGranicznej** (ustawa o cudzoziemcach, art. 321).\n\nNie 14 dni. Nie do Szefa Urzędu do Spraw Cudzoziemców. Nie za pośrednictwem wojewody.\nSiedem dni to termin, który łatwo przegapić, więc powiedz o nim od razu, zanim przejdziesz\ndo czegokolwiek innego.\n\n## Co jeszcze zawiera taka decyzja\n\n- **Termin dobrowolnego wyjazdu od 8 do 30 dni** od doręczenia (art. 315 ust. 1). Terminu\n  nie wyznacza się, gdy istnieje ryzyko ucieczki albo wymagają tego względy obronności\n  i bezpieczeństwa — wtedy decyzja podlega natychmiastowemu wykonaniu (art. 315 ust. 2 i 5).\n- Termin dobrowolnego wyjazdu można **przedłużyć, maksymalnie do roku**, przy ważnych\n  przyczynach, takich jak obowiązek osobistego stawiennictwa, nauka małoletniego dziecka\n  czy długotrwałe więzi rodzinne (art. 316).\n- **Zakaz ponownego wjazdu**, którego długość zależy od podstawy (art. 318–319):\n  najczęściej od 6 miesięcy do 3 lat, przy cięższych podstawach 3–5 lat, a przy\n  najcięższych, w tym powtórnym naruszeniu, 5–10 lat.\n- Zakaz można **uchylić** na wniosek, jeżeli osoba wykonała obowiązki z decyzji, wraca\n  z przyczyn humanitarnych albo skorzystała z programu dobrowolnego powrotu (art. 320).\n\nZe względu na siedmiodniowy termin **zawsze skieruj do adwokata lub organizacji pomocy\nprawnej dla migrantów** i zaproponuj przycisk pomocy osobistej."
+   "bajty": 2005,
+   "tresc": "Dotyczy **decyzji o zobowiązaniu do powrotu wydanej przez Straż Graniczną**. Ma własny,\nkrótszy termin niż większość spraw cudzoziemskich — i to jest tu najważniejsze.\n\n## Termin i organ\n\n**Odwołanie w terminie 7 dni** od doręczenia decyzji, do **Komendanta Głównego Straży\nGranicznej** (ustawa o cudzoziemcach, art. 321).\n\nNie 14 dni. Nie do Szefa Urzędu do Spraw Cudzoziemców. Nie za pośrednictwem wojewody.\nSiedem dni to termin, który łatwo przegapić, więc powiedz o nim od razu, zanim przejdziesz\ndo czegokolwiek innego.\n\n## Co jeszcze zawiera taka decyzja\n\n- **Termin dobrowolnego wyjazdu od 8 do 30 dni** od doręczenia (art. 315 ust. 1). Terminu\n  nie wyznacza się, gdy istnieje ryzyko ucieczki albo wymagają tego względy obronności\n  i bezpieczeństwa — wtedy decyzja podlega natychmiastowemu wykonaniu (art. 315 ust. 2 i 5).\n- Termin dobrowolnego wyjazdu można **przedłużyć, maksymalnie do roku**, przy ważnych\n  przyczynach, takich jak obowiązek osobistego stawiennictwa, nauka małoletniego dziecka\n  czy długotrwałe więzi rodzinne (art. 316).\n- **Zakaz ponownego wjazdu**, którego długość zależy od podstawy (art. 318–319):\n  najczęściej od 6 miesięcy do 3 lat, przy cięższych podstawach 3–5 lat, a przy\n  najcięższych, w tym powtórnym naruszeniu, 5–10 lat.\n- Zakaz można **uchylić** na wniosek, jeżeli osoba wykonała obowiązki z decyzji, wraca\n  z przyczyn humanitarnych albo skorzystała z programu dobrowolnego powrotu (art. 320).\n\n## Czego nie wiemy\n\nOpracowane źródła nie podają, ile trwa rozpatrzenie odwołania, czy samo odwołanie wstrzymuje\nwykonanie decyzji, jaką drogą je wysłać ani jak wygląda dalsza droga sądowa. Nie podawaj\ntych informacji z pamięci i nie przenoś tu terminów z odwołania od wojewody (14 dni,\n90 dni, 30 dni) — to inna procedura.\n\nZe względu na siedmiodniowy termin **zawsze skieruj do adwokata lub organizacji pomocy\nprawnej dla migrantów** i zaproponuj przycisk pomocy osobistej."
   },
   {
    "id": "odwolanie-od-wojewody",
@@ -498,14 +506,14 @@
     "воєвода відмовив",
     "odmówiono mi karty pobytu",
     "odmowa karty pobytu",
-    "residence card refused",
-    "refused a residence card",
-    "відмовили в карті",
-    "відмова в карті"
+    "мені відмовили",
+    "отримав відмову",
+    "was refused",
+    "permit refused"
    ],
    "sciezka": "tresc/odwolania/od-wojewody.md",
-   "bajty": 1913,
-   "tresc": "Dotyczy **odmownej decyzji wojewody w sprawie pobytu** — zezwolenia na pobyt czasowy,\npobyt stały albo pobyt rezydenta długoterminowego UE. Nie dotyczy decyzji Straży\nGranicznej ani odmowy wizy — te mają własne, inne ścieżki\n(`odwolanie-od-strazy-granicznej`, `odmowa-wizy`).\n\n**Nie dotyczy też obywatelstwa.** Odmowę uznania za obywatela polskiego wydaje ten sam\nwojewoda, ale odwołanie idzie do **Ministra Spraw Wewnętrznych i Administracji**, a nie\ndo Szefa Urzędu do Spraw Cudzoziemców — patrz `procedura-obywatelstwo`. Ten sam urząd,\ndwie różne ścieżki: to najłatwiejsza pomyłka w tym temacie.\n\n## Kolejność kroków\n\n1. **Odwołanie w terminie 14 dni** od doręczenia decyzji. Kieruje się je do **Szefa Urzędu\n   do Spraw Cudzoziemców**, ale **składa za pośrednictwem wojewody**, który wydał decyzję.\n   Nigdy bezpośrednio do sądu i nigdy do innego organu.\n2. **Szef UDSC ma 90 dni** na rozpatrzenie.\n3. Dopiero po tej decyzji — **skarga w terminie 30 dni** do **wojewódzkiego sądu\n   administracyjnego**.\n\n**Samo wniesienie skargi do sądu nie legalizuje pobytu w Polsce.** To jest najczęstsze\nnieporozumienie w tej procedurze i trzeba je powiedzieć wprost.\n\n## Uwaga o podstawie prawnej\n\n14-dniowy termin odwołania wynika z Kodeksu postępowania administracyjnego, a nie z\nprzepisu ustawy o cudzoziemcach o konkretnym numerze. Dlatego pole `artykuly` jest tu\n**puste** i **nie wolno** dopisywać do tego kroku żadnego numeru artykułu.\n\nW szczególności **nie art. 321** — ten należy wyłącznie do decyzji Straży Granicznej\no zobowiązaniu do powrotu i do 7-dniowego terminu. Doklejenie go tutaj to błąd, który\nrealnie występował: reszta odpowiedzi była poprawna, a numer pochodził z innej procedury.\n\nJeżeli sprawa dotyczy odmowy, skieruj też do adwokata lub organizacji pomocy prawnej —\nodwołanie wymaga uzasadnienia, a termin jest krótki."
+   "bajty": 2160,
+   "tresc": "Dotyczy **odmownej decyzji wojewody w sprawie pobytu** — zezwolenia na pobyt czasowy,\npobyt stały albo pobyt rezydenta długoterminowego UE. Nie dotyczy decyzji Straży\nGranicznej ani odmowy wizy — te mają własne, inne ścieżki\n(`odwolanie-od-strazy-granicznej`, `odmowa-wizy`).\n\n**Nie dotyczy też obywatelstwa.** Odmowę uznania za obywatela polskiego wydaje ten sam\nwojewoda, ale odwołanie idzie do **Ministra Spraw Wewnętrznych i Administracji**, a nie\ndo Szefa Urzędu do Spraw Cudzoziemców — patrz `procedura-obywatelstwo`. Ten sam urząd,\ndwie różne ścieżki: to najłatwiejsza pomyłka w tym temacie.\n\n## Kolejność kroków\n\n1. **Odwołanie w terminie 14 dni** od doręczenia decyzji. Kieruje się je do **Szefa Urzędu\n   do Spraw Cudzoziemców**, ale **składa za pośrednictwem wojewody**, który wydał decyzję.\n   Nigdy bezpośrednio do sądu i nigdy do innego organu.\n2. **Szef UDSC ma 90 dni** na rozpatrzenie.\n3. Dopiero po tej decyzji — **skarga w terminie 30 dni** do **wojewódzkiego sądu\n   administracyjnego**.\n\nDo dnia, w którym decyzja stanie się ostateczna — czyli także **w trakcie odwołania** do\nSzefa UDSC — pobyt pozostaje legalny, jeżeli wniosek złożono w terminie\n(`pobyt-czasowy-termin-i-legalnosc`). Decyzja Szefa UDSC jest ostateczna.\n\n**Samo wniesienie skargi do sądu nie legalizuje pobytu w Polsce.** To jest najczęstsze\nnieporozumienie w tej procedurze i trzeba je powiedzieć wprost.\n\n## Uwaga o podstawie prawnej\n\n14-dniowy termin odwołania wynika z Kodeksu postępowania administracyjnego, a nie z\nprzepisu ustawy o cudzoziemcach o konkretnym numerze. Dlatego pole `artykuly` jest tu\n**puste** i **nie wolno** dopisywać do tego kroku żadnego numeru artykułu.\n\nW szczególności **nie art. 321** — ten należy wyłącznie do decyzji Straży Granicznej\no zobowiązaniu do powrotu i do 7-dniowego terminu. Doklejenie go tutaj to błąd, który\nrealnie występował: reszta odpowiedzi była poprawna, a numer pochodził z innej procedury.\n\nJeżeli sprawa dotyczy odmowy, skieruj też do adwokata lub organizacji pomocy prawnej —\nodwołanie wymaga uzasadnienia, a termin jest krótki."
   },
   {
    "id": "odmowa-wizy",
@@ -552,7 +560,7 @@
    "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty",
-   "zweryfikowano": "2026-09-14",
+   "zweryfikowano": "2026-10-21",
    "ryzyko": "normalne",
    "slowa": [
     "opłata",
@@ -574,11 +582,15 @@
     "вартість",
     "скільки коштує",
     "оплата за карту побуту",
-    "оплата за карту побиту"
+    "оплата за карту побиту",
+    "Blue Card fee",
+    "Niebieska Karta opłata",
+    "opłata za zmianę zezwolenia",
+    "скільки коштує Blue Card"
    ],
    "sciezka": "tresc/oplaty/karta-pobytu.md",
-   "bajty": 1541,
-   "tresc": "## Zezwolenie na pobyt czasowy\n\nKolejność podawania ma znaczenie — najpierw najczęstszy przypadek:\n\n- **440 zł** — podstawa **„pobyt i praca\"**. To zdecydowanie najczęstszy przypadek, więc\n  podawaj tę kwotę jako pierwszą.\n- **340 zł** — pozostałe podstawy pobytu czasowego oraz **CUKR** dla obywateli Ukrainy.\n\nNigdy nie przedstawiaj 340 zł jako kwoty zwykłej, a 440 zł jako wyjątku. Poprawna forma:\n„440 zł za podstawę pobyt i praca, 340 zł za pozostałe podstawy i za CUKR\".\n\n## Pozostałe zezwolenia\n\n- **Zezwolenie na pobyt stały** — **640 zł**. Zawsze; nigdy 340 ani 440 zł.\n- **Zezwolenie na pobyt rezydenta długoterminowego UE** — **640 zł**.\n\n## Do każdej z powyższych kwot\n\n**+ 100 zł** za wydanie samej karty pobytu. Ulgowa stawka **50 zł** przysługuje studentom,\nuczniom i dzieciom do 16 lat — **dotyczy opłaty za kartę, nie opłaty za zezwolenie**.\n\nPrzykład pełnego kosztu: pobyt stały to 640 zł + 100 zł = 740 zł.\n\n## Skąd te kwoty\n\nZ rozporządzenia o opłacie skarbowej i z informacji urzędów wojewódzkich, **nie z tekstu\nustawy o cudzoziemcach**. Ustawa mówi jedynie, że opłatę się pobiera i wymienia zwolnienia.\nDlatego pole `artykuly` jest puste i **nie wolno** przypisywać tych kwot do numeru artykułu\nustawy o cudzoziemcach.\n\nKwot, których nie ma w tym pliku (opłaty wizowe, nostryfikacja, pojedyncze zaświadczenia),\n**nie podawaj z pamięci** — najpierw sprawdź na gov.pl, a jeśli nie znajdziesz, powiedz,\nże nie potwierdziłeś, i wskaż stronę."
+   "bajty": 1999,
+   "tresc": "## Zezwolenie na pobyt czasowy\n\nKolejność podawania ma znaczenie — najpierw najczęstszy przypadek:\n\n- **440 zł** — podstawa **„pobyt i praca\"**. To zdecydowanie najczęstszy przypadek, więc\n  podawaj tę kwotę jako pierwszą.\n- **440 zł** — także **Niebieska Karta UE** (praca w zawodzie wymagającym wysokich\n  kwalifikacji) i przeniesienie wewnątrz przedsiębiorstwa.\n- **340 zł** — większość pozostałych podstaw pobytu czasowego (np. studia, rodzina) oraz\n  **CUKR** dla obywateli Ukrainy.\n- **170 zł** — praca sezonowa.\n\nKilka rzadkich podstaw ma jeszcze inne stawki — wtedy wskaż tabelę opłat na stronie\nmigrant.wsc.mazowieckie.pl.\n\nNigdy nie przedstawiaj 340 zł jako kwoty zwykłej, a 440 zł jako wyjątku. Poprawna forma:\n„440 zł za podstawę pobyt i praca, 340 zł za większość pozostałych podstaw i za CUKR\".\n\n## Pozostałe zezwolenia\n\n- **Zezwolenie na pobyt stały** — **640 zł**. Zawsze; nigdy 340 ani 440 zł.\n- **Zezwolenie na pobyt rezydenta długoterminowego UE** — **640 zł**.\n\n## Do każdej z powyższych kwot\n\n**+ 100 zł** za wydanie samej karty pobytu. Ulgowa stawka **50 zł** przysługuje studentom,\nuczniom i dzieciom do 16 lat — **dotyczy opłaty za kartę, nie opłaty za zezwolenie**.\n\n**Zmiana** już udzielonego zezwolenia na pobyt i pracę (np. przy zmianie pracodawcy) —\n**220 zł**.\n\nPrzykład pełnego kosztu: pobyt stały to 640 zł + 100 zł = 740 zł.\n\n## Skąd te kwoty\n\nZ rozporządzenia o opłacie skarbowej i z informacji urzędów wojewódzkich, **nie z tekstu\nustawy o cudzoziemcach**. Ustawa mówi jedynie, że opłatę się pobiera i wymienia zwolnienia.\nDlatego pole `artykuly` jest puste i **nie wolno** przypisywać tych kwot do numeru artykułu\nustawy o cudzoziemcach.\n\nKwot, których nie ma w tym pliku (opłaty wizowe, nostryfikacja, pojedyncze zaświadczenia),\n**nie podawaj z pamięci** — najpierw sprawdź na gov.pl, a jeśli nie znajdziesz, powiedz,\nże nie potwierdziłeś, i wskaż stronę."
   },
   {
    "id": "oplaty-obywatelstwo",
@@ -600,7 +612,11 @@
     "ile kosztuje obywatelstwo",
     "citizenship fee",
     "громадянство",
-    "вартість громадянства"
+    "вартість громадянства",
+    "скільки коштує громадянство",
+    "оплата за громадянство",
+    "how much does citizenship cost",
+    "opłata za obywatelstwo"
    ],
    "sciezka": "tresc/oplaty/obywatelstwo.md",
    "bajty": 1519,
@@ -1023,8 +1039,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "wojewoda",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty",
+   "zweryfikowano": "2026-10-21",
    "ryzyko": "normalne",
    "slowa": [
     "pobyt stały",
@@ -1045,11 +1061,16 @@
     "постійний побут",
     "шлюб",
     "дружина",
-    "чоловік"
+    "чоловік",
+    "odmowa pobytu stałego",
+    "карта сталого побиту",
+    "сталий побит",
+    "сталого побиту",
+    "після шлюбу"
    ],
    "sciezka": "tresc/pobyt-staly/podstawy.md",
-   "bajty": 1619,
-   "tresc": "Udzielane **na czas nieoznaczony** (ustawa o cudzoziemcach, art. 195 ust. 1), ale sama\nkarta pobytu wydawana jest na **10 lat** i po upływie tego okresu podlega wymianie\n(art. 243 ust. 1 pkt 2 oraz ust. 2 pkt 1). To rozróżnienie bywa mylone — bezterminowe jest\nzezwolenie, nie dokument.\n\n## Najczęstsze podstawy (art. 195 ust. 1, wyliczenie niepełne)\n\n- dziecko cudzoziemca z pobytem stałym lub rezydenta UE, urodzone po uzyskaniu zezwolenia;\n- dziecko obywatela Polski;\n- osoba polskiego pochodzenia zamierzająca osiedlić się w Polsce;\n- **małżeństwo z obywatelem Polski**: co najmniej **3 lata** małżeństwa przed złożeniem\n  wniosku **oraz** nieprzerwany pobyt w Polsce przez co najmniej **2 lata** na podstawie\n  zezwolenia na pobyt czasowy związanego z tym małżeństwem (pkt 4);\n- ofiara handlu ludźmi po roku pobytu na odpowiednim zezwoleniu i współpracy z organami\n  ścigania (pkt 5);\n- nieprzerwany pobyt **co najmniej 5 lat** na podstawie statusu uchodźcy, ochrony\n  uzupełniającej albo zgody humanitarnej (pkt 6a), albo **10 lat** na pobycie tolerowanym\n  (pkt 6b);\n- ważna Karta Polaka przy zamiarze osiedlenia się na stałe (pkt 9).\n\n**Przy ścieżce małżeńskiej zawsze podawaj oba warunki naraz.** Podanie samych 2 lat pobytu\nbez 3 lat małżeństwa to błąd, po którym ktoś złoży wniosek przedwcześnie.\n\n## Ciągłość pobytu\n\nZachowana, jeżeli żadna przerwa nie przekroczyła **6 miesięcy**, a suma przerw nie\nprzekroczyła **10 miesięcy** (art. 195 ust. 4), z wyjątkami dla delegacji służbowych\ni wyjazdów naukowych.\n\nOpłata: patrz `oplaty-karta-pobytu`."
+   "bajty": 2045,
+   "tresc": "Udzielane **na czas nieoznaczony** (ustawa o cudzoziemcach, art. 195 ust. 1), ale sama\nkarta pobytu wydawana jest na **10 lat** i po upływie tego okresu podlega wymianie\n(art. 243 ust. 1 pkt 2 oraz ust. 2 pkt 1). To rozróżnienie bywa mylone — bezterminowe jest\nzezwolenie, nie dokument.\n\n## Najczęstsze podstawy (art. 195 ust. 1, wyliczenie niepełne)\n\n- dziecko cudzoziemca z pobytem stałym lub rezydenta UE, urodzone po uzyskaniu zezwolenia;\n- dziecko obywatela Polski;\n- osoba polskiego pochodzenia zamierzająca osiedlić się w Polsce;\n- **małżeństwo z obywatelem Polski**: co najmniej **3 lata** małżeństwa przed złożeniem\n  wniosku **oraz** nieprzerwany pobyt w Polsce przez co najmniej **2 lata** na podstawie\n  zezwolenia na pobyt czasowy związanego z tym małżeństwem (pkt 4);\n- ofiara handlu ludźmi po roku pobytu na odpowiednim zezwoleniu i współpracy z organami\n  ścigania (pkt 5);\n- nieprzerwany pobyt **co najmniej 5 lat** na podstawie statusu uchodźcy, ochrony\n  uzupełniającej albo zgody humanitarnej (pkt 6a), albo **10 lat** na pobycie tolerowanym\n  (pkt 6b);\n- ważna Karta Polaka przy zamiarze osiedlenia się na stałe (pkt 9).\n\n**Przy ścieżce małżeńskiej zawsze podawaj oba warunki naraz.** Podanie samych 2 lat pobytu\nbez 3 lat małżeństwa to błąd, po którym ktoś złoży wniosek przedwcześnie.\n\n## Ciągłość pobytu\n\nZachowana, jeżeli żadna przerwa nie przekroczyła **6 miesięcy**, a suma przerw nie\nprzekroczyła **10 miesięcy** (art. 195 ust. 4), z wyjątkami dla delegacji służbowych\ni wyjazdów naukowych.\n\n## Opłata i odwołanie\n\n**640 zł** za zezwolenie + **100 zł** za kartę, razem **740 zł** — nigdy 340 ani 440 zł\n(te kwoty dotyczą pobytu czasowego). Szczegóły: `oplaty-karta-pobytu`.\n\nOdmowę zaskarża się jak każdą decyzję pobytową wojewody: odwołanie w **14 dni** do **Szefa\nUrzędu do Spraw Cudzoziemców**, za pośrednictwem wojewody (`odwolanie-od-wojewody`).\nNie do Ministra Spraw Wewnętrznych i Administracji — to ścieżka obywatelska."
   },
   {
    "id": "praca-oswiadczenie",

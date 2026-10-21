@@ -8,7 +8,7 @@ organ: Szef Urzędu do Spraw Cudzoziemców
 zweryfikowano: 2026-09-14
 wyklucza: [odmowa-wizy, odwolanie-od-strazy-granicznej]
 ryzyko: wysokie
-slowa: [odwołanie, odwołania, odwołać się, odmowa wojewody, wojewoda odmówił, odmówiono mi zezwolenia, decyzja odmowna, appeal, refusal, voivode refused, оскарження, відмова воєводи, воєвода відмовив, odmówiono mi karty pobytu, odmowa karty pobytu, residence card refused, refused a residence card, відмовили в карті, відмова в карті]
+slowa: [odwołanie, odwołania, odwołać się, odmowa wojewody, wojewoda odmówił, odmówiono mi zezwolenia, decyzja odmowna, appeal, refusal, voivode refused, оскарження, відмова воєводи, воєвода відмовив, odmówiono mi karty pobytu, odmowa karty pobytu, мені відмовили, отримав відмову, was refused, permit refused]
 ---
 
 Dotyczy **odmownej decyzji wojewody w sprawie pobytu** — zezwolenia na pobyt czasowy,
@@ -29,6 +29,10 @@ dwie różne ścieżki: to najłatwiejsza pomyłka w tym temacie.
 2. **Szef UDSC ma 90 dni** na rozpatrzenie.
 3. Dopiero po tej decyzji — **skarga w terminie 30 dni** do **wojewódzkiego sądu
    administracyjnego**.
+
+Do dnia, w którym decyzja stanie się ostateczna — czyli także **w trakcie odwołania** do
+Szefa UDSC — pobyt pozostaje legalny, jeżeli wniosek złożono w terminie
+(`pobyt-czasowy-termin-i-legalnosc`). Decyzja Szefa UDSC jest ostateczna.
 
 **Samo wniesienie skargi do sądu nie legalizuje pobytu w Polsce.** To jest najczęstsze
 nieporozumienie w tej procedurze i trzeba je powiedzieć wprost.

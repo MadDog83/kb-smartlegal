@@ -7,7 +7,7 @@ organ: wojewoda
 zrodlo: https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego
 zweryfikowano: 2026-09-14
 ryzyko: wysokie
-slowa: [odmowa obywatelstwa, odwołanie obywatelstwo, ile trwa obywatelstwo, gdzie złożyć wniosek o obywatelstwo, termin obywatelstwo, citizenship refused, citizenship appeal, відмова у громадянстві, оскарження громадянства, скільки триває]
+slowa: [odmowa obywatelstwa, odwołanie obywatelstwo, ile trwa obywatelstwo, gdzie złożyć wniosek o obywatelstwo, termin obywatelstwo, citizenship refused, citizenship appeal, відмова у громадянстві, оскарження громадянства, скільки триває, ile trwa uznanie za obywatela, how long does citizenship take, citizenship decision, скільки розглядають громадянство, w sprawie obywatelstwa, на громадянство, ile czeka się na obywatelstwo, рішення про громадянство]
 ---
 
 ## Uznanie za obywatela (decyzja wojewody)

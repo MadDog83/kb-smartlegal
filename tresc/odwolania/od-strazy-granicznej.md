@@ -36,5 +36,12 @@ do czegokolwiek innego.
 - Zakaz można **uchylić** na wniosek, jeżeli osoba wykonała obowiązki z decyzji, wraca
   z przyczyn humanitarnych albo skorzystała z programu dobrowolnego powrotu (art. 320).
 
+## Czego nie wiemy
+
+Opracowane źródła nie podają, ile trwa rozpatrzenie odwołania, czy samo odwołanie wstrzymuje
+wykonanie decyzji, jaką drogą je wysłać ani jak wygląda dalsza droga sądowa. Nie podawaj
+tych informacji z pamięci i nie przenoś tu terminów z odwołania od wojewody (14 dni,
+90 dni, 30 dni) — to inna procedura.
+
 Ze względu na siedmiodniowy termin **zawsze skieruj do adwokata lub organizacji pomocy
 prawnej dla migrantów** i zaproponuj przycisk pomocy osobistej.
