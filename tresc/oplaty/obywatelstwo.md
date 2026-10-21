@@ -7,7 +7,7 @@ organ: wojewoda
 zrodlo: https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego
 zweryfikowano: 2026-09-14
 ryzyko: normalne
-slowa: [obywatelstwo, obywatela, uznanie za obywatela, ile kosztuje obywatelstwo, citizenship fee, громадянство, вартість громадянства]
+slowa: [obywatelstwo, obywatela, uznanie za obywatela, ile kosztuje obywatelstwo, citizenship fee, громадянство, вартість громадянства, скільки коштує громадянство, оплата за громадянство, how much does citizenship cost, opłata za obywatelstwo]
 ---
 
 - **Uznanie za obywatela polskiego** decyzją **wojewody** — opłata skarbowa **1000 zł**.
