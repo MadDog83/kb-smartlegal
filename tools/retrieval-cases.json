@@ -802,5 +802,26 @@
     "q": "How do I change the address on my residence card?",
     "oczekiwane": [],
     "zakazane": "odwolanie-od-wojewody"
+  },
+  {
+    "id": "obyw-koszt-ua",
+    "q": "Скільки коштує подання заяви на громадянство?",
+    "oczekiwane": [
+      "oplaty-obywatelstwo"
+    ]
+  },
+  {
+    "id": "obyw-koszt-pl",
+    "q": "Ile kosztuje obywatelstwo polskie?",
+    "oczekiwane": [
+      "oplaty-obywatelstwo"
+    ]
+  },
+  {
+    "id": "obyw-koszt-en",
+    "q": "How much does Polish citizenship cost?",
+    "oczekiwane": [
+      "oplaty-obywatelstwo"
+    ]
   }
 ]
