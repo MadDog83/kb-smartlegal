@@ -4,7 +4,8 @@ tytul: Przekroczony termin legalnego pobytu (wygasła wiza lub karta)
 ustawa: ustawa o cudzoziemcach
 artykuly: [105, 108, 299, 315]
 organ: Straż Graniczna
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [przekroczyłem termin, po terminie, przeterminowana wiza, wygasła wiza, zostałem dłużej, overstay, overstayed, expired visa, прострочив, протермінована віза, залишився довше]
 ---

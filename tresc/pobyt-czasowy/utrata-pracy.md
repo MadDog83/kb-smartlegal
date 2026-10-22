@@ -2,10 +2,10 @@
 id: utrata-pracy
 tytul: Utrata pracy przy zezwoleniu na pobyt czasowy i pracę
 ustawa: ustawa o cudzoziemcach
-artykuly: [101, 121, 123]
+artykuly: [101, 114, 121, 123]
 organ: wojewoda
 zrodlo: https://www.biznes.gov.pl/pl/portal/00210
-zweryfikowano: 2026-09-22
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 wyklucza: [utrata-karty-pobytu]
 slowa: [utrata pracy, straciłem pracę, stracić pracę, zwolnili mnie, zwolnienie z pracy, bez pracy, koniec umowy, rozwiązanie umowy, pracodawca mnie zwolnił, lost my job, lost job, fired, laid off, unemployed, втратив роботу, втрата роботи, звільнили, без роботи, закінчився договір]
@@ -39,7 +39,8 @@ Co dalej:
 Nie dotyczy Niebieskiej Karty UE ani innych podstaw pobytu — mają osobne zasady; nie
 przenoś na nie tych terminów.
 
-W internecie można trafić na informację o **3 miesiącach** bez pracy. To wymóg unijnej
-dyrektywy 2024/1233, której Polska według stanu z września 2026 nie wpisała do ustawy.
-W urzędzie obowiązuje reguła 30 dni. Nie obiecuj dłuższego okresu — powołanie się na
-dyrektywę to sprawa dla prawnika.
+**Wyjątek: 3 miesiące.** Gdy zezwolenie udzielono na pracę w **zawodzie pożądanym dla
+polskiej gospodarki** (art. 114 ust. 1a), okres bez pracy może trwać do **3 miesięcy**,
+nie więcej niż **2 razy** w okresie ważności zezwolenia — również pod warunkiem
+zawiadomienia wojewody (art. 123 ust. 3). Wszystkich innych obowiązuje reguła 30 dni.
+Nie zakładaj, że użytkownik ma takie zezwolenie — zapytaj; wynika to z decyzji.

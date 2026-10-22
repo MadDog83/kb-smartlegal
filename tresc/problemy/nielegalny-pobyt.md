@@ -2,9 +2,10 @@
 id: nielegalny-pobyt
 tytul: Pobyt w Polsce bez ważnego tytułu pobytowego
 ustawa: ustawa o cudzoziemcach
-artykuly: [99, 100, 315, 318, 319, 321]
+artykuly: [100, 315, 318, 319, 321]
 organ: Straż Graniczna
-zweryfikowano: 2026-09-16
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [nielegalny pobyt, nielegalnie, bez dokumentów, przeszedłem granicę, przekroczyłem granicę, illegal stay, illegally, illegal crossing, without documents, нелегально, нелегальний, незаконний перетин, без документів]
 ---
@@ -13,9 +14,9 @@ slowa: [nielegalny pobyt, nielegalnie, bez dokumentów, przeszedłem granicę, p
 którą trzeba powiedzieć — częsta i kosztowna pomyłka polega na doradzeniu takiej osobie,
 żeby „poszła do urzędu i złożyła wniosek o kartę pobytu".
 
-- Odmawia się **wszczęcia postępowania**, jeżeli cudzoziemiec przebywa w Polsce nielegalnie
-  (ustawa o cudzoziemcach, art. 99 ust. 1).
-- Odmawia się **udzielenia zezwolenia** z tej samej przyczyny (art. 100 ust. 1).
+- Odmawia się **udzielenia zezwolenia** na pobyt czasowy, jeżeli wniosek złożono w czasie
+  nielegalnego pobytu albo cudzoziemiec przebywa w Polsce nielegalnie (ustawa
+  o cudzoziemcach, art. 100 ust. 1 pkt 9).
 
 ## Co się najprawdopodobniej stanie
 

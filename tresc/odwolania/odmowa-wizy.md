@@ -5,7 +5,8 @@ ustawa: ustawa o cudzoziemcach
 artykuly: [65, 74a, 75, 76]
 artykuly_zakazane: [299, 321]
 organ: organ, który wydał odmowę
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 wyklucza: [odwolanie-od-wojewody, odwolanie-od-strazy-granicznej]
 ryzyko: wysokie
 slowa: [odmowa wizy, odmówiono wizy, wiza krajowa, ponowne rozpatrzenie, visa refusal, visa refused, відмова у візі, повторний розгляд]
@@ -19,6 +20,9 @@ Straży Granicznej. To osobna procedura i mieszanie jej z pozostałymi to częst
 **Wniosek o ponowne rozpatrzenie sprawy**, kierowany do **tego samego organu**, który
 wydał odmowę. Termin złożenia: **14 dni** od doręczenia decyzji, i w takim samym terminie
 **14 dni** sprawa jest rozpatrywana (ustawa o cudzoziemcach, art. 75 oraz art. 76 ust. 2).
+
+Wyjątek: jeżeli wizy odmówił **komendant placówki Straży Granicznej** (na granicy),
+przysługuje **odwołanie do Komendanta Głównego Straży Granicznej** (art. 76 ust. 1 pkt 2).
 
 Odmowa wydawana jest na urzędowym blankiecie i musi zawierać podstawę oraz pouczenie
 o prawie do ponownego rozpatrzenia.

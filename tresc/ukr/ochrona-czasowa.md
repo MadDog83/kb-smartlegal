@@ -4,7 +4,8 @@ tytul: Ochrona czasowa dla obywateli Ukrainy — podstawa i kiedy wygasa
 ustawa: ustawa o udzielaniu cudzoziemcom ochrony na terytorium RP
 artykuly: [106, 109b]
 organ: organ gminy
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20031281176
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [ochrona czasowa, status UKR, UKR, uchodźcy z Ukrainy, wygaśnięcie ochrony, temporary protection, тимчасовий захист, статус UKR, коли втрачається захист]
 ---
@@ -14,7 +15,9 @@ opiera się już na ustawie z 2022 r. o pomocy obywatelom Ukrainy, tylko jest wb
 w **ustawę o udzielaniu cudzoziemcom ochrony na terytorium RP**. Wszystkie numery artykułów
 w tym pliku należą do **tej** ustawy — nigdy nie przypisuj ich ustawie o cudzoziemcach.
 
-Pobyt osoby korzystającej z ochrony czasowej uznaje się za legalny na podstawie art. 106.
+Pobyt osoby korzystającej z ochrony czasowej uznaje się za legalny na podstawie art. 106 —
+dopóki obowiązuje decyzja Rady UE o ochronie czasowej, obecnie do 4 marca 2028 r.
+(patrz `ukr-termin-2027`).
 
 ## Kiedy ochrona wygasa (art. 109b)
 

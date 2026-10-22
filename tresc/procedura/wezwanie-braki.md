@@ -4,7 +4,8 @@ tytul: Wezwanie do uzupełnienia braków lub dokumentów w sprawie o kartę poby
 ustawa: ustawa o cudzoziemcach
 artykuly: [108]
 organ: wojewoda
-zweryfikowano: 2026-09-22
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [wezwanie, wezwanie do uzupełnienia, uzupełnienie braków, braki formalne, brakujące dokumenty, pismo z urzędu, pismo od wojewody, termin na uzupełnienie, letter from the office, missing documents, request for documents, виклик, лист з ужонду, лист від воєводи, доповнити документи, недоліки заяви]
 ---
@@ -19,8 +20,9 @@ paszportu, niewypełniona część wniosku).
 - Od tego zależy legalność pobytu w trakcie postępowania: chroni ona tylko wniosek złożony
   w terminie i bez braków formalnych albo z brakami **uzupełnionymi w terminie** (ustawa
   o cudzoziemcach, art. 108 ust. 1 pkt 2) — patrz `pobyt-czasowy-termin-i-legalnosc`.
-- Stempel w paszporcie urząd wbija dopiero wtedy, gdy wniosek nie ma braków formalnych
-  albo zostały one uzupełnione w terminie.
+- Zaświadczenie potwierdzające złożenie wniosku (od uruchomienia MOS 27 kwietnia 2026 r.
+  zamiast stempla w paszporcie) urząd wydaje dopiero wtedy, gdy wniosek nie ma braków
+  formalnych albo zostały one uzupełnione w terminie (art. 108 ust. 1 pkt 1).
 
 **Braki merytoryczne** — dokumenty potwierdzające to, co napisano we wniosku (umowa,
 zaświadczenia, dowód dochodu). Brak ich w terminie może skończyć się **odmową**, od której

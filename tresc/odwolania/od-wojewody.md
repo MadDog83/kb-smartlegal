@@ -5,7 +5,8 @@ ustawa: ustawa o cudzoziemcach
 artykuly: []
 artykuly_zakazane: [321]
 organ: Szef Urzędu do Spraw Cudzoziemców
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 wyklucza: [odmowa-wizy, odwolanie-od-strazy-granicznej]
 ryzyko: wysokie
 slowa: [odwołanie, odwołania, odwołać się, odmowa wojewody, wojewoda odmówił, odmówiono mi zezwolenia, decyzja odmowna, appeal, refusal, voivode refused, оскарження, відмова воєводи, воєвода відмовив, odmówiono mi karty pobytu, odmowa karty pobytu, мені відмовили, отримав відмову, was refused, permit refused]

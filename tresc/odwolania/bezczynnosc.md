@@ -1,13 +1,13 @@
 ---
 id: bezczynnosc
 tytul: Urząd nie odpowiada od miesięcy — ponaglenie i skarga na bezczynność
-ustawa:
-artykuly: []
+ustawa: ustawa z 12 marca 2022 r. o pomocy obywatelom Ukrainy
+artykuly: [100d]
 organ: wojewoda
-zrodlo: https://www.gov.pl/web/udsc/zawieszenie-biegu-terminow-zalatwiania-spraw-cudzoziemskich
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000583
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
-slowa: [bezczynność, przewlekłość, urząd nie odpowiada, czekam od roku, ponaglenie, skarga na bezczynność, nie ma decyzji, inactivity, delay, no decision, бездіяльність, урядк не відповідає, чекаю рік]
+slowa: [bezczynność, przewlekłość, urząd nie odpowiada, czekam od roku, ponaglenie, skarga na bezczynność, nie ma decyzji, inactivity, delay, no decision, бездіяльність, урядк не відповідає, чекаю рік, has not decided, no decision for a year, complain about the delay, довго не розглядають, немає рішення рік, nie wydał decyzji]
 ---
 
 **To pytanie ma odpowiedź odwrotną od intuicyjnej i łatwo tu zaszkodzić.**
@@ -31,16 +31,14 @@ W tym okresie:
 Zawieszenie biegu terminów **nie wstrzymuje rozpatrywania spraw** — wnioski są nadal
 rozpatrywane i przyjmowane.
 
-## Data końcowa jest faktem zmiennym — sprawdź ją zawsze
+## Do kiedy
 
-Portal UDSC podaje zawieszenie **do 4 marca 2026 r.**, ale okres ten był przedłużany i
-według doniesień sięga **4 marca 2027 r.** Tych dwóch dat nie udało się pogodzić na dzień
-weryfikacji tego pliku.
+Zawieszenie obowiązuje **do 4 marca 2027 r.** (ustawa z 12 marca 2022 r. o pomocy
+obywatelom Ukrainy, art. 100d; tekst jednolity z 2026 r.). Dotyczy wszystkich
+cudzoziemców, nie tylko obywateli Ukrainy, a także zmiany Niebieskiej Karty UE.
 
-**Dlatego nigdy nie odpowiadaj na to pytanie z pamięci.** Najpierw sprawdź na gov.pl/UDSC,
-czy zawieszenie nadal obowiązuje. Jeżeli nie potwierdzisz — powiedz wprost, że w sprawach
-cudzoziemskich terminy są zawieszone i że możliwość wniesienia ponaglenia zależy od tego,
-czy zawieszenie jeszcze trwa.
+Termin był już przesuwany. Bliżej tej daty sprawdź na gov.pl/UDSC, czy nie przedłużono
+go ponownie.
 
 Nigdy nie zachęcaj do złożenia ponaglenia ani skargi bez tego sprawdzenia: w okresie
 zawieszenia takie pismo nie odniesie skutku, a osoba może ponieść koszty adwokata i opłaty

@@ -4,7 +4,8 @@ tytul: Ofiary handlu ludźmi — zaświadczenie i legalność pobytu
 ustawa: ustawa o cudzoziemcach
 artykuly: [170, 171, 172, 195]
 organ: Straż Graniczna
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [handel ludźmi, ofiara handlu ludźmi, wyzysk, zmuszanie do pracy, trafficking, victim of trafficking, торгівля людьми, жертва торгівлі людьми, примус]
 ---
