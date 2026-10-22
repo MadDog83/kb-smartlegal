@@ -1,0 +1,43 @@
+{
+  "zapisano": "2026-10-22",
+  "tematy": {
+    "utrata-karty-pobytu": {
+      "zrodlo": "https://www.gov.pl/web/udsc/nowe-stawki-oplat-za-dokumenty-wydawane-cudzoziemcom",
+      "obecne": [
+        "100",
+        "200",
+        "300"
+      ]
+    },
+    "nadanie-obywatelstwa": {
+      "zrodlo": "https://www.gov.pl/web/uw-pomorski/nadanie-obywatelstwa-polskiego-przez-prezydenta-rp",
+      "obecne": []
+    },
+    "oplaty-karta-pobytu": {
+      "zrodlo": "https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty",
+      "obecne": [
+        "440",
+        "340",
+        "170",
+        "640",
+        "100",
+        "50",
+        "220"
+      ]
+    },
+    "oplaty-obywatelstwo": {
+      "zrodlo": "https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego",
+      "obecne": [
+        "1000"
+      ]
+    },
+    "pobyt-staly-podstawy": {
+      "zrodlo": "https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty",
+      "obecne": [
+        "640",
+        "100",
+        "440"
+      ]
+    }
+  }
+}
