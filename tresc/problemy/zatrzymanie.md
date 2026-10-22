@@ -2,9 +2,10 @@
 id: zatrzymanie
 tytul: Zatrzymanie cudzoziemca i ośrodek strzeżony
 ustawa: ustawa o cudzoziemcach
-artykuly: [317, 394]
+artykuly: [394, 398]
 organ: Straż Graniczna
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [zatrzymanie, ośrodek strzeżony, areszt dla cudzoziemców, detencja, zatrzymali mnie, detention, detention centre, затримання, центр для іноземців]
 ---
@@ -18,10 +19,11 @@ Zatrzymania dokonuje Straż Graniczna albo Policja; przy przymusowym wykonaniu d
 wyłącznie Straż Graniczna (art. 394 ust. 2).
 
 Po zatrzymaniu Policja niezwłocznie przekazuje osobę Straży Granicznej. Ta, zależnie od
-okoliczności, stosuje środki alternatywne — poręczenie, obowiązek stawiennictwa, złożenie
-dokumentu podróży do depozytu, wskazane miejsce pobytu, analogiczne do art. 317 — albo
-występuje do sądu o umieszczenie w ośrodku strzeżonym lub zastosowanie aresztu, albo do
-wojewody o cofnięcie zezwolenia (art. 394 ust. 3–4).
+okoliczności, stosuje środki alternatywne — obowiązek zgłaszania się, zabezpieczenie
+pieniężne, złożenie dokumentu podróży do depozytu, wskazane miejsce zamieszkania
+(art. 398 ust. 2) — albo występuje do sądu o umieszczenie w ośrodku strzeżonym lub
+zastosowanie aresztu, albo do wojewody o cofnięcie zezwolenia na pobyt stały lub pobyt
+rezydenta długoterminowego UE (art. 394 ust. 4).
 
 **O umieszczeniu w ośrodku strzeżonym i o areszcie decyduje sąd**, a nie organ
 administracji. To istotne: jest to postępowanie sądowe, w którym przysługuje obrona.

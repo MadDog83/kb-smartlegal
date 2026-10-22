@@ -823,5 +823,47 @@
     "oczekiwane": [
       "oplaty-obywatelstwo"
     ]
+  },
+  {
+    "id": "ukr-2027-uk2",
+    "q": "До коли діє тимчасовий захист для українців?",
+    "oczekiwane": [
+      "ukr-termin-2027"
+    ]
+  },
+  {
+    "id": "ukr-2027-pl",
+    "q": "Do kiedy obowiązuje ochrona czasowa dla Ukraińców?",
+    "oczekiwane": [
+      "ukr-termin-2027"
+    ]
+  },
+  {
+    "id": "ukr-2027-en",
+    "q": "Until when is temporary protection for Ukrainians valid?",
+    "oczekiwane": [
+      "ukr-termin-2027"
+    ]
+  },
+  {
+    "id": "bezczynnosc-ua",
+    "q": "Мою заяву на карту побиту не розглядають уже рік. Що робити?",
+    "oczekiwane": [
+      "bezczynnosc"
+    ]
+  },
+  {
+    "id": "bezczynnosc-pl2",
+    "q": "Czy mogę złożyć ponaglenie, bo urząd nie wydał decyzji od roku?",
+    "oczekiwane": [
+      "bezczynnosc"
+    ]
+  },
+  {
+    "id": "bezczynnosc-en",
+    "q": "The office has not decided my case for a year. Can I complain?",
+    "oczekiwane": [
+      "bezczynnosc"
+    ]
   }
 ]

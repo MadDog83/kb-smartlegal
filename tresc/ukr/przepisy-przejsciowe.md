@@ -4,7 +4,8 @@ tytul: Przepisy przejściowe dla osób, które miały PESEL UKR przed 2026 r.
 ustawa: ustawa z 23 stycznia 2026 r. o wygaszeniu rozwiązań
 artykuly: [20, 24, 25, 26]
 organ: organ gminy
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000203
+zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [potwierdzenie tożsamości, status NUE, straciłem status UKR, paszport do gminy, stary PESEL, NUE, підтвердження особи, статус NUE, втратив статус UKR]
 ---

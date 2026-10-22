@@ -4,7 +4,8 @@ tytul: Odwołanie od decyzji o zobowiązaniu do powrotu
 ustawa: ustawa o cudzoziemcach
 artykuly: [315, 316, 318, 319, 320, 321]
 organ: Komendant Główny Straży Granicznej
-zweryfikowano: 2026-09-14
+zrodlo: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650
+zweryfikowano: 2026-10-22
 wyklucza: [odmowa-wizy, odwolanie-od-wojewody]
 ryzyko: wysokie
 slowa: [decyzja o zobowiązaniu do powrotu, decyzja powrotowa, deportacja, zakaz wjazdu, return decision, Border Guard, рішення про повернення, заборона в'їзду, депортація]
@@ -25,16 +26,18 @@ do czegokolwiek innego.
 ## Co jeszcze zawiera taka decyzja
 
 - **Termin dobrowolnego wyjazdu od 8 do 30 dni** od doręczenia (art. 315 ust. 1). Terminu
-  nie wyznacza się, gdy istnieje ryzyko ucieczki albo wymagają tego względy obronności
-  i bezpieczeństwa — wtedy decyzja podlega natychmiastowemu wykonaniu (art. 315 ust. 2 i 5).
+  nie wyznacza się, gdy istnieje prawdopodobieństwo ucieczki albo wymagają tego względy
+  obronności lub bezpieczeństwa (art. 315 ust. 2). Natychmiastowemu wykonaniu podlega
+  decyzja wydana bez terminu ze względów bezpieczeństwa (art. 315 ust. 5).
 - Termin dobrowolnego wyjazdu można **przedłużyć, maksymalnie do roku**, przy ważnych
   przyczynach, takich jak obowiązek osobistego stawiennictwa, nauka małoletniego dziecka
   czy długotrwałe więzi rodzinne (art. 316).
-- **Zakaz ponownego wjazdu**, którego długość zależy od podstawy (art. 318–319):
-  najczęściej od 6 miesięcy do 3 lat, przy cięższych podstawach 3–5 lat, a przy
-  najcięższych, w tym powtórnym naruszeniu, 5–10 lat.
-- Zakaz można **uchylić** na wniosek, jeżeli osoba wykonała obowiązki z decyzji, wraca
-  z przyczyn humanitarnych albo skorzystała z programu dobrowolnego powrotu (art. 320).
+- **Zakaz ponownego wjazdu**, którego długość zależy od podstawy decyzji (art. 318–319):
+  od 6 miesięcy do 3 lat, od roku do 3 lat albo od 3 do 5 lat, a od 5 do 10 lat, gdy
+  wymagają tego względy obronności lub bezpieczeństwa państwa.
+- Zakaz można **cofnąć** na wniosek, decyzją organu, który go orzekł, jeżeli osoba wykonała
+  obowiązki z decyzji, jej wjazd uzasadniają względy humanitarne albo otrzymała pomoc
+  w dobrowolnym powrocie (art. 320).
 
 ## Czego nie wiemy
 

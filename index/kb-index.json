@@ -1,5 +1,5 @@
 {
- "zbudowano": "2026-10-21",
+ "zbudowano": "2026-10-22",
  "liczbaWpisow": 48,
  "artykulyUstaw": {
   "3": [
@@ -182,9 +182,6 @@
   "316": [
    "ustawa o cudzoziemcach"
   ],
-  "317": [
-   "ustawa o cudzoziemcach"
-  ],
   "318": [
    "ustawa o cudzoziemcach"
   ],
@@ -199,6 +196,12 @@
   ],
   "394": [
    "ustawa o cudzoziemcach"
+  ],
+  "398": [
+   "ustawa o cudzoziemcach"
+  ],
+  "100d": [
+   "ustawa z 12 marca 2022 r. o pomocy obywatelom Ukrainy"
   ],
   "74a": [
    "ustawa o cudzoziemcach"
@@ -343,7 +346,7 @@
    "wyklucza": [],
    "organ": "wojewoda",
    "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
-   "zweryfikowano": "2026-09-14",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "odmowa obywatelstwa",
@@ -411,13 +414,15 @@
   {
    "id": "bezczynnosc",
    "tytul": "Urząd nie odpowiada od miesięcy — ponaglenie i skarga na bezczynność",
-   "ustawa": null,
-   "artykuly": [],
+   "ustawa": "ustawa z 12 marca 2022 r. o pomocy obywatelom Ukrainy",
+   "artykuly": [
+    "100d"
+   ],
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "wojewoda",
-   "zrodlo": "https://www.gov.pl/web/udsc/zawieszenie-biegu-terminow-zalatwiania-spraw-cudzoziemskich",
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220000583",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "bezczynność",
@@ -432,11 +437,17 @@
     "no decision",
     "бездіяльність",
     "урядк не відповідає",
-    "чекаю рік"
+    "чекаю рік",
+    "has not decided",
+    "no decision for a year",
+    "complain about the delay",
+    "довго не розглядають",
+    "немає рішення рік",
+    "nie wydał decyzji"
    ],
    "sciezka": "tresc/odwolania/bezczynnosc.md",
-   "bajty": 2073,
-   "tresc": "**To pytanie ma odpowiedź odwrotną od intuicyjnej i łatwo tu zaszkodzić.**\n\nStandardowo przy przewlekłym postępowaniu przysługuje **ponaglenie**, a potem **skarga na\nbezczynność** do sądu administracyjnego. W sprawach cudzoziemskich ta droga została jednak\n**zawieszona ustawowo**.\n\nNa podstawie ustawy z 12 września 2025 r. (Dz. U. poz. 1301) zawieszono bieg terminów\nzałatwiania spraw prowadzonych przez wojewodę — o udzielenie i cofnięcie zezwolenia na\npobyt czasowy, pobyt stały i status rezydenta UE oraz o zmianę zezwolenia na pobyt i pracę.\nW tym okresie:\n\n- wojewoda **nie ma obowiązku** zawiadamiać o niezałatwieniu sprawy w terminie;\n- **nie przekazuje ponagleń** do Szefa Urzędu do Spraw Cudzoziemców;\n- **przepisów o bezczynności i przewlekłości nie stosuje się**;\n- organu **nie można ukarać grzywną** ani obciążyć sankcją finansową za przekroczenie\n  terminu, a opóźnienie nie stanowi podstawy roszczeń z tytułu naruszenia prawa do\n  szybkiego załatwienia sprawy.\n\nZawieszenie biegu terminów **nie wstrzymuje rozpatrywania spraw** — wnioski są nadal\nrozpatrywane i przyjmowane.\n\n## Data końcowa jest faktem zmiennym — sprawdź ją zawsze\n\nPortal UDSC podaje zawieszenie **do 4 marca 2026 r.**, ale okres ten był przedłużany i\nwedług doniesień sięga **4 marca 2027 r.** Tych dwóch dat nie udało się pogodzić na dzień\nweryfikacji tego pliku.\n\n**Dlatego nigdy nie odpowiadaj na to pytanie z pamięci.** Najpierw sprawdź na gov.pl/UDSC,\nczy zawieszenie nadal obowiązuje. Jeżeli nie potwierdzisz — powiedz wprost, że w sprawach\ncudzoziemskich terminy są zawieszone i że możliwość wniesienia ponaglenia zależy od tego,\nczy zawieszenie jeszcze trwa.\n\nNigdy nie zachęcaj do złożenia ponaglenia ani skargi bez tego sprawdzenia: w okresie\nzawieszenia takie pismo nie odniesie skutku, a osoba może ponieść koszty adwokata i opłaty\nsądowej bez żadnego efektu.\n\nZe względu na tę niepewność **kieruj do adwokata albo organizacji pomocy prawnej** i\nzaproponuj przycisk pomocy osobistej."
+   "bajty": 1846,
+   "tresc": "**To pytanie ma odpowiedź odwrotną od intuicyjnej i łatwo tu zaszkodzić.**\n\nStandardowo przy przewlekłym postępowaniu przysługuje **ponaglenie**, a potem **skarga na\nbezczynność** do sądu administracyjnego. W sprawach cudzoziemskich ta droga została jednak\n**zawieszona ustawowo**.\n\nNa podstawie ustawy z 12 września 2025 r. (Dz. U. poz. 1301) zawieszono bieg terminów\nzałatwiania spraw prowadzonych przez wojewodę — o udzielenie i cofnięcie zezwolenia na\npobyt czasowy, pobyt stały i status rezydenta UE oraz o zmianę zezwolenia na pobyt i pracę.\nW tym okresie:\n\n- wojewoda **nie ma obowiązku** zawiadamiać o niezałatwieniu sprawy w terminie;\n- **nie przekazuje ponagleń** do Szefa Urzędu do Spraw Cudzoziemców;\n- **przepisów o bezczynności i przewlekłości nie stosuje się**;\n- organu **nie można ukarać grzywną** ani obciążyć sankcją finansową za przekroczenie\n  terminu, a opóźnienie nie stanowi podstawy roszczeń z tytułu naruszenia prawa do\n  szybkiego załatwienia sprawy.\n\nZawieszenie biegu terminów **nie wstrzymuje rozpatrywania spraw** — wnioski są nadal\nrozpatrywane i przyjmowane.\n\n## Do kiedy\n\nZawieszenie obowiązuje **do 4 marca 2027 r.** (ustawa z 12 marca 2022 r. o pomocy\nobywatelom Ukrainy, art. 100d; tekst jednolity z 2026 r.). Dotyczy wszystkich\ncudzoziemców, nie tylko obywateli Ukrainy, a także zmiany Niebieskiej Karty UE.\n\nTermin był już przesuwany. Bliżej tej daty sprawdź na gov.pl/UDSC, czy nie przedłużono\ngo ponownie.\n\nNigdy nie zachęcaj do złożenia ponaglenia ani skargi bez tego sprawdzenia: w okresie\nzawieszenia takie pismo nie odniesie skutku, a osoba może ponieść koszty adwokata i opłaty\nsądowej bez żadnego efektu.\n\nZe względu na tę niepewność **kieruj do adwokata albo organizacji pomocy prawnej** i\nzaproponuj przycisk pomocy osobistej."
   },
   {
    "id": "odwolanie-od-strazy-granicznej",
@@ -456,8 +467,8 @@
     "odwolanie-od-wojewody"
    ],
    "organ": "Komendant Główny Straży Granicznej",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "decyzja o zobowiązaniu do powrotu",
@@ -471,8 +482,8 @@
     "депортація"
    ],
    "sciezka": "tresc/odwolania/od-strazy-granicznej.md",
-   "bajty": 2005,
-   "tresc": "Dotyczy **decyzji o zobowiązaniu do powrotu wydanej przez Straż Graniczną**. Ma własny,\nkrótszy termin niż większość spraw cudzoziemskich — i to jest tu najważniejsze.\n\n## Termin i organ\n\n**Odwołanie w terminie 7 dni** od doręczenia decyzji, do **Komendanta Głównego Straży\nGranicznej** (ustawa o cudzoziemcach, art. 321).\n\nNie 14 dni. Nie do Szefa Urzędu do Spraw Cudzoziemców. Nie za pośrednictwem wojewody.\nSiedem dni to termin, który łatwo przegapić, więc powiedz o nim od razu, zanim przejdziesz\ndo czegokolwiek innego.\n\n## Co jeszcze zawiera taka decyzja\n\n- **Termin dobrowolnego wyjazdu od 8 do 30 dni** od doręczenia (art. 315 ust. 1). Terminu\n  nie wyznacza się, gdy istnieje ryzyko ucieczki albo wymagają tego względy obronności\n  i bezpieczeństwa — wtedy decyzja podlega natychmiastowemu wykonaniu (art. 315 ust. 2 i 5).\n- Termin dobrowolnego wyjazdu można **przedłużyć, maksymalnie do roku**, przy ważnych\n  przyczynach, takich jak obowiązek osobistego stawiennictwa, nauka małoletniego dziecka\n  czy długotrwałe więzi rodzinne (art. 316).\n- **Zakaz ponownego wjazdu**, którego długość zależy od podstawy (art. 318–319):\n  najczęściej od 6 miesięcy do 3 lat, przy cięższych podstawach 3–5 lat, a przy\n  najcięższych, w tym powtórnym naruszeniu, 5–10 lat.\n- Zakaz można **uchylić** na wniosek, jeżeli osoba wykonała obowiązki z decyzji, wraca\n  z przyczyn humanitarnych albo skorzystała z programu dobrowolnego powrotu (art. 320).\n\n## Czego nie wiemy\n\nOpracowane źródła nie podają, ile trwa rozpatrzenie odwołania, czy samo odwołanie wstrzymuje\nwykonanie decyzji, jaką drogą je wysłać ani jak wygląda dalsza droga sądowa. Nie podawaj\ntych informacji z pamięci i nie przenoś tu terminów z odwołania od wojewody (14 dni,\n90 dni, 30 dni) — to inna procedura.\n\nZe względu na siedmiodniowy termin **zawsze skieruj do adwokata lub organizacji pomocy\nprawnej dla migrantów** i zaproponuj przycisk pomocy osobistej."
+   "bajty": 2138,
+   "tresc": "Dotyczy **decyzji o zobowiązaniu do powrotu wydanej przez Straż Graniczną**. Ma własny,\nkrótszy termin niż większość spraw cudzoziemskich — i to jest tu najważniejsze.\n\n## Termin i organ\n\n**Odwołanie w terminie 7 dni** od doręczenia decyzji, do **Komendanta Głównego Straży\nGranicznej** (ustawa o cudzoziemcach, art. 321).\n\nNie 14 dni. Nie do Szefa Urzędu do Spraw Cudzoziemców. Nie za pośrednictwem wojewody.\nSiedem dni to termin, który łatwo przegapić, więc powiedz o nim od razu, zanim przejdziesz\ndo czegokolwiek innego.\n\n## Co jeszcze zawiera taka decyzja\n\n- **Termin dobrowolnego wyjazdu od 8 do 30 dni** od doręczenia (art. 315 ust. 1). Terminu\n  nie wyznacza się, gdy istnieje prawdopodobieństwo ucieczki albo wymagają tego względy\n  obronności lub bezpieczeństwa (art. 315 ust. 2). Natychmiastowemu wykonaniu podlega\n  decyzja wydana bez terminu ze względów bezpieczeństwa (art. 315 ust. 5).\n- Termin dobrowolnego wyjazdu można **przedłużyć, maksymalnie do roku**, przy ważnych\n  przyczynach, takich jak obowiązek osobistego stawiennictwa, nauka małoletniego dziecka\n  czy długotrwałe więzi rodzinne (art. 316).\n- **Zakaz ponownego wjazdu**, którego długość zależy od podstawy decyzji (art. 318–319):\n  od 6 miesięcy do 3 lat, od roku do 3 lat albo od 3 do 5 lat, a od 5 do 10 lat, gdy\n  wymagają tego względy obronności lub bezpieczeństwa państwa.\n- Zakaz można **cofnąć** na wniosek, decyzją organu, który go orzekł, jeżeli osoba wykonała\n  obowiązki z decyzji, jej wjazd uzasadniają względy humanitarne albo otrzymała pomoc\n  w dobrowolnym powrocie (art. 320).\n\n## Czego nie wiemy\n\nOpracowane źródła nie podają, ile trwa rozpatrzenie odwołania, czy samo odwołanie wstrzymuje\nwykonanie decyzji, jaką drogą je wysłać ani jak wygląda dalsza droga sądowa. Nie podawaj\ntych informacji z pamięci i nie przenoś tu terminów z odwołania od wojewody (14 dni,\n90 dni, 30 dni) — to inna procedura.\n\nZe względu na siedmiodniowy termin **zawsze skieruj do adwokata lub organizacji pomocy\nprawnej dla migrantów** i zaproponuj przycisk pomocy osobistej."
   },
   {
    "id": "odwolanie-od-wojewody",
@@ -487,8 +498,8 @@
     "odwolanie-od-strazy-granicznej"
    ],
    "organ": "Szef Urzędu do Spraw Cudzoziemców",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "odwołanie",
@@ -534,8 +545,8 @@
     "odwolanie-od-strazy-granicznej"
    ],
    "organ": "organ, który wydał odmowę",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "odmowa wizy",
@@ -548,8 +559,8 @@
     "повторний розгляд"
    ],
    "sciezka": "tresc/odwolania/odmowa-wizy.md",
-   "bajty": 1750,
-   "tresc": "Odmowa wizy **nie jest odwołaniem** w takim sensie jak decyzja wojewody czy decyzja\nStraży Granicznej. To osobna procedura i mieszanie jej z pozostałymi to częsty błąd.\n\n## Środek prawny\n\n**Wniosek o ponowne rozpatrzenie sprawy**, kierowany do **tego samego organu**, który\nwydał odmowę. Termin złożenia: **14 dni** od doręczenia decyzji, i w takim samym terminie\n**14 dni** sprawa jest rozpatrywana (ustawa o cudzoziemcach, art. 75 oraz art. 76 ust. 2).\n\nOdmowa wydawana jest na urzędowym blankiecie i musi zawierać podstawę oraz pouczenie\no prawie do ponownego rozpatrzenia.\n\n## Czego nie robić\n\n- Nie kierować sprawy do Szefa Urzędu do Spraw Cudzoziemców.\n- Nie nazywać tego „odwołaniem do organu wyższego stopnia\".\n- **Nie cytować art. 321 ani innych przepisów o zobowiązaniu do powrotu** — nie dotyczą\n  wizy.\n- Nie przechodzić po cichu na temat zezwolenia na pobyt. Jeżeli pytanie jest o wizę,\n  odpowiedź ma być o wizie.\n\n## Typowe podstawy odmowy\n\nWpis w wykazie osób niepożądanych lub w SIS; brak środków na pobyt i podróż powrotną;\nbrak ubezpieczenia; zagrożenie dla obronności, bezpieczeństwa lub interesów Polski;\nnieprawdziwe dane lub podrobione dokumenty; niepotwierdzony cel albo warunki pobytu;\nuzasadnione wątpliwości co do zamiaru terminowego wyjazdu (art. 65 ust. 1, wyliczenie\nniewyczerpujące). Dla wiz studenckich przewidziano dodatkowe podstawy (art. 65 ust. 1a–1b).\n\nDla porządku: sam wniosek o wizę krajową rozpatruje się w **15 dni**, z możliwością\nprzedłużenia do 30 dni, a w szczególnych przypadkach konsultacji o kolejne 5 dni\n(art. 74a ust. 1–2).\n\nPrzy odmowie warto skierować do adwokata — termin jest krótki, a uzasadnienie wniosku\ndecyduje o wyniku."
+   "bajty": 1937,
+   "tresc": "Odmowa wizy **nie jest odwołaniem** w takim sensie jak decyzja wojewody czy decyzja\nStraży Granicznej. To osobna procedura i mieszanie jej z pozostałymi to częsty błąd.\n\n## Środek prawny\n\n**Wniosek o ponowne rozpatrzenie sprawy**, kierowany do **tego samego organu**, który\nwydał odmowę. Termin złożenia: **14 dni** od doręczenia decyzji, i w takim samym terminie\n**14 dni** sprawa jest rozpatrywana (ustawa o cudzoziemcach, art. 75 oraz art. 76 ust. 2).\n\nWyjątek: jeżeli wizy odmówił **komendant placówki Straży Granicznej** (na granicy),\nprzysługuje **odwołanie do Komendanta Głównego Straży Granicznej** (art. 76 ust. 1 pkt 2).\n\nOdmowa wydawana jest na urzędowym blankiecie i musi zawierać podstawę oraz pouczenie\no prawie do ponownego rozpatrzenia.\n\n## Czego nie robić\n\n- Nie kierować sprawy do Szefa Urzędu do Spraw Cudzoziemców.\n- Nie nazywać tego „odwołaniem do organu wyższego stopnia\".\n- **Nie cytować art. 321 ani innych przepisów o zobowiązaniu do powrotu** — nie dotyczą\n  wizy.\n- Nie przechodzić po cichu na temat zezwolenia na pobyt. Jeżeli pytanie jest o wizę,\n  odpowiedź ma być o wizie.\n\n## Typowe podstawy odmowy\n\nWpis w wykazie osób niepożądanych lub w SIS; brak środków na pobyt i podróż powrotną;\nbrak ubezpieczenia; zagrożenie dla obronności, bezpieczeństwa lub interesów Polski;\nnieprawdziwe dane lub podrobione dokumenty; niepotwierdzony cel albo warunki pobytu;\nuzasadnione wątpliwości co do zamiaru terminowego wyjazdu (art. 65 ust. 1, wyliczenie\nniewyczerpujące). Dla wiz studenckich przewidziano dodatkowe podstawy (art. 65 ust. 1a–1b).\n\nDla porządku: sam wniosek o wizę krajową rozpatruje się w **15 dni**, z możliwością\nprzedłużenia do 30 dni, a w szczególnych przypadkach konsultacji o kolejne 5 dni\n(art. 74a ust. 1–2).\n\nPrzy odmowie warto skierować do adwokata — termin jest krótki, a uzasadnienie wniosku\ndecyduje o wyniku."
   },
   {
    "id": "oplaty-karta-pobytu",
@@ -885,8 +896,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "wojewoda",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-22",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "normalne",
    "slowa": [
     "ile czeka się na decyzję",
@@ -924,8 +935,8 @@
     "чи можу працювати поки чекаю"
    ],
    "sciezka": "tresc/pobyt-czasowy/termin-i-legalnosc.md",
-   "bajty": 1783,
-   "tresc": "## Termin złożenia wniosku\n\nOsobiście, **najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach,\nart. 105 ust. 1). To jest data, od której zależy wszystko poniżej.\n\nDotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia\nsię nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.\nWniosek złożony dzień po terminie nie daje ochrony z art. 108.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nW praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\nArt. 108 dotyczy legalności **pobytu**, nie prawa do **pracy**. Czy i u kogo wolno pracować\nw trakcie postępowania, opracowane źródła nie mówią. Nie odpowiadaj z pamięci — sprawdź\ngov.pl albo skieruj do pomocy osobistej.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
+   "bajty": 2000,
+   "tresc": "## Termin złożenia wniosku\n\n**Najpóźniej ostatniego dnia legalnego pobytu** (ustawa o cudzoziemcach, art. 105 ust. 1);\nod 27 kwietnia 2026 r. elektronicznie przez MOS (`mos-inpol`). To jest data, od której\nzależy wszystko poniżej.\n\nDotyczy to także **kolejnego** zezwolenia, gdy obecna karta się kończy. Karty ani zezwolenia\nsię nie przedłuża — składa się nowy wniosek, i to przed upływem obecnego legalnego pobytu.\nWniosek złożony dzień po terminie nie daje ochrony z art. 108.\n\n## Termin rozpatrzenia\n\nDecyzję wydaje się **w terminie 60 dni** liczonym od chwili, gdy nastąpiło ostatnie\nze zdarzeń kończących kompletowanie sprawy — osobiste stawiennictwo, uzupełnienie braków\nformalnych i tym podobne (art. 112a ust. 1–2).\n\nBieg tego terminu jest jednak **zawieszony do 4 marca 2027 r.** (ustawa o pomocy obywatelom\nUkrainy, dotyczy wszystkich cudzoziemców — patrz `bezczynnosc`), więc w praktyce bywa dłużej. Jeżeli użytkownik pyta o realny czas oczekiwania w konkretnym\nurzędzie, nie podawaj liczby z pamięci — sprawdź komunikaty urzędu wojewódzkiego.\n\n## Legalność pobytu w trakcie postępowania\n\nPobyt uznaje się za legalny od dnia złożenia wniosku do dnia, w którym decyzja stanie się\nostateczna — **pod warunkiem** że wniosek złożono w terminie i bez braków formalnych\n(art. 108 ust. 1 pkt 2).\n\n**Ten warunek jest istotą sprawy.** Kto złożył wniosek po terminie legalnego pobytu, tej\nochrony nie ma i samo złożenie wniosku mu jej nie da — patrz `przekroczony-termin`.\n\nArt. 108 dotyczy legalności **pobytu**, nie prawa do **pracy**. Czy i u kogo wolno pracować\nw trakcie postępowania, opracowane źródła nie mówią. Nie odpowiadaj z pamięci — sprawdź\ngov.pl albo skieruj do pomocy osobistej.\n\n## Po decyzji odmownej\n\nNa wyjazd jest **30 dni** od dnia, w którym decyzja odmowna stała się ostateczna\n(art. 299 ust. 6 pkt 1), a ten okres jest legalny (art. 299 ust. 7). Odwołanie opisuje\n`odwolanie-od-wojewody`."
   },
   {
    "id": "utrata-pracy",
@@ -933,6 +944,7 @@
    "ustawa": "ustawa o cudzoziemcach",
    "artykuly": [
     "101",
+    "114",
     "121",
     "123"
    ],
@@ -942,7 +954,7 @@
    ],
    "organ": "wojewoda",
    "zrodlo": "https://www.biznes.gov.pl/pl/portal/00210",
-   "zweryfikowano": "2026-09-22",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "utrata pracy",
@@ -966,8 +978,8 @@
     "закінчився договір"
    ],
    "sciezka": "tresc/pobyt-czasowy/utrata-pracy.md",
-   "bajty": 1859,
-   "tresc": "Dotyczy **zezwolenia na pobyt czasowy i pracę** (tzw. jednolitego). Od dnia utraty pracy\nbiegną dwa terminy:\n\n- **15 dni roboczych** na **pisemne** zawiadomienie wojewody, który udzielił zezwolenia\n  (ustawa o cudzoziemcach, art. 121 ust. 1). Gdy zezwolenie wydał w drugiej instancji Szef\n  Urzędu do Spraw Cudzoziemców — do wojewody, który orzekał w pierwszej instancji (art. 121\n  ust. 2). Obowiązek jest spełniony także wtedy, gdy w tym terminie złożysz wniosek o zmianę\n  zezwolenia (art. 121 ust. 3).\n- **30 dni** ochrony: przez 30 dni od utraty pracy zezwolenia nie cofa się z tego powodu\n  (nie stosuje się art. 101 pkt 1 i 2) — **pod warunkiem**, że zawiadomienie zostało\n  złożone albo nie dotarło z przyczyn niezależnych od cudzoziemca (art. 123 ust. 1).\n  W tym czasie można szukać nowego pracodawcy.\n\nTa ochrona przysługuje **tylko raz** w okresie ważności zezwolenia (art. 123 ust. 2).\n\nPracodawca ma własny obowiązek zawiadomienia wojewody (art. 121 ust. 4). **Nie zwalnia on\ncudzoziemca** z jego zawiadomienia.\n\nCo dalej:\n\n- nowa praca → wniosek o zmianę zezwolenia albo nowe zezwolenie, patrz `zmiana-pracodawcy`;\n- brak zawiadomienia w terminie albo 30 dni bez nowej pracy i bez wniosku → zezwolenie może\n  zostać cofnięte (art. 101), a wtedy kończy się legalny pobyt na tej podstawie. W takiej\n  sytuacji skieruj do pomocy prawnej i do przycisku pomocy osobistej.\n\nNie dotyczy Niebieskiej Karty UE ani innych podstaw pobytu — mają osobne zasady; nie\nprzenoś na nie tych terminów.\n\nW internecie można trafić na informację o **3 miesiącach** bez pracy. To wymóg unijnej\ndyrektywy 2024/1233, której Polska według stanu z września 2026 nie wpisała do ustawy.\nW urzędzie obowiązuje reguła 30 dni. Nie obiecuj dłuższego okresu — powołanie się na\ndyrektywę to sprawa dla prawnika."
+   "bajty": 1990,
+   "tresc": "Dotyczy **zezwolenia na pobyt czasowy i pracę** (tzw. jednolitego). Od dnia utraty pracy\nbiegną dwa terminy:\n\n- **15 dni roboczych** na **pisemne** zawiadomienie wojewody, który udzielił zezwolenia\n  (ustawa o cudzoziemcach, art. 121 ust. 1). Gdy zezwolenie wydał w drugiej instancji Szef\n  Urzędu do Spraw Cudzoziemców — do wojewody, który orzekał w pierwszej instancji (art. 121\n  ust. 2). Obowiązek jest spełniony także wtedy, gdy w tym terminie złożysz wniosek o zmianę\n  zezwolenia (art. 121 ust. 3).\n- **30 dni** ochrony: przez 30 dni od utraty pracy zezwolenia nie cofa się z tego powodu\n  (nie stosuje się art. 101 pkt 1 i 2) — **pod warunkiem**, że zawiadomienie zostało\n  złożone albo nie dotarło z przyczyn niezależnych od cudzoziemca (art. 123 ust. 1).\n  W tym czasie można szukać nowego pracodawcy.\n\nTa ochrona przysługuje **tylko raz** w okresie ważności zezwolenia (art. 123 ust. 2).\n\nPracodawca ma własny obowiązek zawiadomienia wojewody (art. 121 ust. 4). **Nie zwalnia on\ncudzoziemca** z jego zawiadomienia.\n\nCo dalej:\n\n- nowa praca → wniosek o zmianę zezwolenia albo nowe zezwolenie, patrz `zmiana-pracodawcy`;\n- brak zawiadomienia w terminie albo 30 dni bez nowej pracy i bez wniosku → zezwolenie może\n  zostać cofnięte (art. 101), a wtedy kończy się legalny pobyt na tej podstawie. W takiej\n  sytuacji skieruj do pomocy prawnej i do przycisku pomocy osobistej.\n\nNie dotyczy Niebieskiej Karty UE ani innych podstaw pobytu — mają osobne zasady; nie\nprzenoś na nie tych terminów.\n\n**Wyjątek: 3 miesiące.** Gdy zezwolenie udzielono na pracę w **zawodzie pożądanym dla\npolskiej gospodarki** (art. 114 ust. 1a), okres bez pracy może trwać do **3 miesięcy**,\nnie więcej niż **2 razy** w okresie ważności zezwolenia — również pod warunkiem\nzawiadomienia wojewody (art. 123 ust. 3). Wszystkich innych obowiązuje reguła 30 dni.\nNie zakładaj, że użytkownik ma takie zezwolenie — zapytaj; wynika to z decyzji."
   },
   {
    "id": "zmiana-pracodawcy",
@@ -1171,7 +1183,6 @@
    "tytul": "Pobyt w Polsce bez ważnego tytułu pobytowego",
    "ustawa": "ustawa o cudzoziemcach",
    "artykuly": [
-    "99",
     "100",
     "315",
     "318",
@@ -1181,8 +1192,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "Straż Graniczna",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-16",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "nielegalny pobyt",
@@ -1200,8 +1211,8 @@
     "без документів"
    ],
    "sciezka": "tresc/problemy/nielegalny-pobyt.md",
-   "bajty": 2805,
-   "tresc": "**Nielegalny pobyt zamyka drogę do zezwolenia, a nie otwiera jej.** To jest pierwsza rzecz,\nktórą trzeba powiedzieć — częsta i kosztowna pomyłka polega na doradzeniu takiej osobie,\nżeby „poszła do urzędu i złożyła wniosek o kartę pobytu\".\n\n- Odmawia się **wszczęcia postępowania**, jeżeli cudzoziemiec przebywa w Polsce nielegalnie\n  (ustawa o cudzoziemcach, art. 99 ust. 1).\n- Odmawia się **udzielenia zezwolenia** z tej samej przyczyny (art. 100 ust. 1).\n\n## Co się najprawdopodobniej stanie\n\nZgłoszenie się do organu w takiej sytuacji zwykle kończy się **decyzją o zobowiązaniu do\npowrotu**: termin dobrowolnego wyjazdu od **8 do 30 dni** (art. 315 ust. 1), a wraz z nią\n**zakaz ponownego wjazdu**, najczęściej od **6 miesięcy do 3 lat**, przy cięższych\npodstawach dłużej (art. 318–319). Odwołanie od takiej decyzji ma **7 dni** i idzie do\nKomendanta Głównego Straży Granicznej (art. 321).\n\nO tym trzeba uprzedzić uczciwie, zanim padnie jakakolwiek rada proceduralna.\n\n## Co naprawdę może pomóc\n\n- **Ochrona międzynarodowa** — **wyłącznie** dla osoby, która rzeczywiście uciekła przed\n  wojną lub prześladowaniem. To nie jest sposób na zalegalizowanie pobytu i nie wolno go\n  tak przedstawiać: wniosek złożony bez takiej przyczyny kończy się decyzją odmowną,\n  a po niej decyzją o zobowiązaniu do powrotu wraz z zakazem wjazdu. Najpierw ustal, czy\n  przesłanka zachodzi — dopiero potem mów o procedurze (wniosek składa się w Straży\n  Granicznej; na czas postępowania pobyt jest legalny).\n- Dla obywateli Ukrainy — **ochrona czasowa / status UKR**, jeżeli osoba podlega tym\n  przepisom. Nie zakładaj tego z góry: pytaj, nie domyślaj się obywatelstwa.\n- Wąskie podstawy: **zgoda na pobyt ze względów humanitarnych** oraz przesłanki dla ofiar\n  handlu ludźmi. Ocenia je organ we własnym postępowaniu — nie „zamawia się\" ich wnioskiem\n  o kartę pobytu.\n\n## Czego nie wolno napisać\n\n- Że złożenie wniosku o pobyt czasowy rozwiąże sprawę.\n- Że w trakcie rozpatrywania wniosku wolno legalnie zostać — patrz `przekroczony-termin`.\n- Listy wymaganych dokumentów, w szczególności nieistniejącego „wyjaśnienia przyczyn\n  nielegalnego wjazdu\".\n- Że istnieje abolicja albo automatyczna legalizacja. W obowiązujących przepisach jej nie ma.\n- Że wniosek o ochronę międzynarodową to „pierwszy krok\" albo sposób na zalegalizowanie\n  pobytu. Wolno o niej wspomnieć dopiero po ustaleniu, że osoba uciekła przed wojną lub\n  prześladowaniem — inaczej jest to podpowiadanie nadużycia procedury.\n\n**Zawsze skieruj do adwokata lub organizacji pomocy prawnej dla migrantów** i zaproponuj\nprzycisk pomocy osobistej. To sytuacja o poważnych skutkach prawnych, nie kwestia\nwypełnienia formularza."
+   "bajty": 2798,
+   "tresc": "**Nielegalny pobyt zamyka drogę do zezwolenia, a nie otwiera jej.** To jest pierwsza rzecz,\nktórą trzeba powiedzieć — częsta i kosztowna pomyłka polega na doradzeniu takiej osobie,\nżeby „poszła do urzędu i złożyła wniosek o kartę pobytu\".\n\n- Odmawia się **udzielenia zezwolenia** na pobyt czasowy, jeżeli wniosek złożono w czasie\n  nielegalnego pobytu albo cudzoziemiec przebywa w Polsce nielegalnie (ustawa\n  o cudzoziemcach, art. 100 ust. 1 pkt 9).\n\n## Co się najprawdopodobniej stanie\n\nZgłoszenie się do organu w takiej sytuacji zwykle kończy się **decyzją o zobowiązaniu do\npowrotu**: termin dobrowolnego wyjazdu od **8 do 30 dni** (art. 315 ust. 1), a wraz z nią\n**zakaz ponownego wjazdu**, najczęściej od **6 miesięcy do 3 lat**, przy cięższych\npodstawach dłużej (art. 318–319). Odwołanie od takiej decyzji ma **7 dni** i idzie do\nKomendanta Głównego Straży Granicznej (art. 321).\n\nO tym trzeba uprzedzić uczciwie, zanim padnie jakakolwiek rada proceduralna.\n\n## Co naprawdę może pomóc\n\n- **Ochrona międzynarodowa** — **wyłącznie** dla osoby, która rzeczywiście uciekła przed\n  wojną lub prześladowaniem. To nie jest sposób na zalegalizowanie pobytu i nie wolno go\n  tak przedstawiać: wniosek złożony bez takiej przyczyny kończy się decyzją odmowną,\n  a po niej decyzją o zobowiązaniu do powrotu wraz z zakazem wjazdu. Najpierw ustal, czy\n  przesłanka zachodzi — dopiero potem mów o procedurze (wniosek składa się w Straży\n  Granicznej; na czas postępowania pobyt jest legalny).\n- Dla obywateli Ukrainy — **ochrona czasowa / status UKR**, jeżeli osoba podlega tym\n  przepisom. Nie zakładaj tego z góry: pytaj, nie domyślaj się obywatelstwa.\n- Wąskie podstawy: **zgoda na pobyt ze względów humanitarnych** oraz przesłanki dla ofiar\n  handlu ludźmi. Ocenia je organ we własnym postępowaniu — nie „zamawia się\" ich wnioskiem\n  o kartę pobytu.\n\n## Czego nie wolno napisać\n\n- Że złożenie wniosku o pobyt czasowy rozwiąże sprawę.\n- Że w trakcie rozpatrywania wniosku wolno legalnie zostać — patrz `przekroczony-termin`.\n- Listy wymaganych dokumentów, w szczególności nieistniejącego „wyjaśnienia przyczyn\n  nielegalnego wjazdu\".\n- Że istnieje abolicja albo automatyczna legalizacja. W obowiązujących przepisach jej nie ma.\n- Że wniosek o ochronę międzynarodową to „pierwszy krok\" albo sposób na zalegalizowanie\n  pobytu. Wolno o niej wspomnieć dopiero po ustaleniu, że osoba uciekła przed wojną lub\n  prześladowaniem — inaczej jest to podpowiadanie nadużycia procedury.\n\n**Zawsze skieruj do adwokata lub organizacji pomocy prawnej dla migrantów** i zaproponuj\nprzycisk pomocy osobistej. To sytuacja o poważnych skutkach prawnych, nie kwestia\nwypełnienia formularza."
   },
   {
    "id": "ofiary-handlu-ludzmi",
@@ -1216,8 +1227,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "Straż Graniczna",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "handel ludźmi",
@@ -1247,8 +1258,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "Straż Graniczna",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "przekroczyłem termin",
@@ -1304,14 +1315,14 @@
    "tytul": "Zatrzymanie cudzoziemca i ośrodek strzeżony",
    "ustawa": "ustawa o cudzoziemcach",
    "artykuly": [
-    "317",
-    "394"
+    "394",
+    "398"
    ],
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "Straż Graniczna",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "zatrzymanie",
@@ -1325,8 +1336,8 @@
     "центр для іноземців"
    ],
    "sciezka": "tresc/problemy/zatrzymanie.md",
-   "bajty": 1501,
-   "tresc": "Cudzoziemca, wobec którego istnieją podstawy do wydania decyzji o zobowiązaniu do powrotu\nalbo który uchyla się od jej wykonania, **można zatrzymać na czas nie dłuższy niż 48 godzin**\n(ustawa o cudzoziemcach, art. 394 ust. 1). Ten sam limit dotyczy zatrzymania w celu\nprzymusowego wykonania decyzji lub przekazania do innego państwa (ust. 1a).\n\nZatrzymania dokonuje Straż Graniczna albo Policja; przy przymusowym wykonaniu decyzji —\nwyłącznie Straż Graniczna (art. 394 ust. 2).\n\nPo zatrzymaniu Policja niezwłocznie przekazuje osobę Straży Granicznej. Ta, zależnie od\nokoliczności, stosuje środki alternatywne — poręczenie, obowiązek stawiennictwa, złożenie\ndokumentu podróży do depozytu, wskazane miejsce pobytu, analogiczne do art. 317 — albo\nwystępuje do sądu o umieszczenie w ośrodku strzeżonym lub zastosowanie aresztu, albo do\nwojewody o cofnięcie zezwolenia (art. 394 ust. 3–4).\n\n**O umieszczeniu w ośrodku strzeżonym i o areszcie decyduje sąd**, a nie organ\nadministracji. To istotne: jest to postępowanie sądowe, w którym przysługuje obrona.\n\nW tej sytuacji **zawsze** kieruj do adwokata albo organizacji pomocy prawnej dla migrantów —\nterminy są liczone w godzinach, a stawka jest najwyższa z możliwych. Zaproponuj też przycisk\npomocy osobistej.\n\nOpracowane źródła obejmują ten rozdział jedynie na poziomie struktury. Szczegółów przebiegu\npostępowania przed sądem tu nie ma — powiedz to wprost zamiast uzupełniać z pamięci."
+   "bajty": 1571,
+   "tresc": "Cudzoziemca, wobec którego istnieją podstawy do wydania decyzji o zobowiązaniu do powrotu\nalbo który uchyla się od jej wykonania, **można zatrzymać na czas nie dłuższy niż 48 godzin**\n(ustawa o cudzoziemcach, art. 394 ust. 1). Ten sam limit dotyczy zatrzymania w celu\nprzymusowego wykonania decyzji lub przekazania do innego państwa (ust. 1a).\n\nZatrzymania dokonuje Straż Graniczna albo Policja; przy przymusowym wykonaniu decyzji —\nwyłącznie Straż Graniczna (art. 394 ust. 2).\n\nPo zatrzymaniu Policja niezwłocznie przekazuje osobę Straży Granicznej. Ta, zależnie od\nokoliczności, stosuje środki alternatywne — obowiązek zgłaszania się, zabezpieczenie\npieniężne, złożenie dokumentu podróży do depozytu, wskazane miejsce zamieszkania\n(art. 398 ust. 2) — albo występuje do sądu o umieszczenie w ośrodku strzeżonym lub\nzastosowanie aresztu, albo do wojewody o cofnięcie zezwolenia na pobyt stały lub pobyt\nrezydenta długoterminowego UE (art. 394 ust. 4).\n\n**O umieszczeniu w ośrodku strzeżonym i o areszcie decyduje sąd**, a nie organ\nadministracji. To istotne: jest to postępowanie sądowe, w którym przysługuje obrona.\n\nW tej sytuacji **zawsze** kieruj do adwokata albo organizacji pomocy prawnej dla migrantów —\nterminy są liczone w godzinach, a stawka jest najwyższa z możliwych. Zaproponuj też przycisk\npomocy osobistej.\n\nOpracowane źródła obejmują ten rozdział jedynie na poziomie struktury. Szczegółów przebiegu\npostępowania przed sądem tu nie ma — powiedz to wprost zamiast uzupełniać z pamięci."
   },
   {
    "id": "dokumenty-i-karta",
@@ -1514,8 +1525,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "wojewoda",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-22",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20130001650",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "wezwanie",
@@ -1536,8 +1547,8 @@
     "недоліки заяви"
    ],
    "sciezka": "tresc/procedura/wezwanie-braki.md",
-   "bajty": 1541,
-   "tresc": "Pismo z urzędu wojewódzkiego z prośbą o dokumenty to **wezwanie**. Termin podany w piśmie\njest **nieprzekraczalny** — liczy się od doręczenia. Najpierw ustal, czego dotyczy:\n\n**Braki formalne** — dokumenty, bez których sprawa w ogóle nie może się zacząć (np. kopia\npaszportu, niewypełniona część wniosku).\n\n- Nieuzupełnienie w terminie → wniosek **pozostaje bez rozpoznania**, czyli sprawy nie ma.\n- Od tego zależy legalność pobytu w trakcie postępowania: chroni ona tylko wniosek złożony\n  w terminie i bez braków formalnych albo z brakami **uzupełnionymi w terminie** (ustawa\n  o cudzoziemcach, art. 108 ust. 1 pkt 2) — patrz `pobyt-czasowy-termin-i-legalnosc`.\n- Stempel w paszporcie urząd wbija dopiero wtedy, gdy wniosek nie ma braków formalnych\n  albo zostały one uzupełnione w terminie.\n\n**Braki merytoryczne** — dokumenty potwierdzające to, co napisano we wniosku (umowa,\nzaświadczenia, dowód dochodu). Brak ich w terminie może skończyć się **odmową**, od której\nprzysługuje odwołanie — patrz `odwolanie-od-wojewody`.\n\nJak złożyć: osobiście, pocztą albo w sposób wskazany w piśmie — w oryginale lub kopii\npoświadczonej; **skan wgrany do systemu nie zastępuje dokumentu**, jeśli urząd go żąda\nw oryginale. Zachowaj dowód nadania.\n\nNie zdążysz albo nie masz dokumentu → jeszcze przed upływem terminu skontaktuj się\nz urzędem i skorzystaj z pomocy prawnej lub przycisku pomocy osobistej. Nie zakładaj, że\ntermin zostanie przedłużony, i nie czekaj po cichu."
+   "bajty": 1668,
+   "tresc": "Pismo z urzędu wojewódzkiego z prośbą o dokumenty to **wezwanie**. Termin podany w piśmie\njest **nieprzekraczalny** — liczy się od doręczenia. Najpierw ustal, czego dotyczy:\n\n**Braki formalne** — dokumenty, bez których sprawa w ogóle nie może się zacząć (np. kopia\npaszportu, niewypełniona część wniosku).\n\n- Nieuzupełnienie w terminie → wniosek **pozostaje bez rozpoznania**, czyli sprawy nie ma.\n- Od tego zależy legalność pobytu w trakcie postępowania: chroni ona tylko wniosek złożony\n  w terminie i bez braków formalnych albo z brakami **uzupełnionymi w terminie** (ustawa\n  o cudzoziemcach, art. 108 ust. 1 pkt 2) — patrz `pobyt-czasowy-termin-i-legalnosc`.\n- Zaświadczenie potwierdzające złożenie wniosku (od uruchomienia MOS 27 kwietnia 2026 r.\n  zamiast stempla w paszporcie) urząd wydaje dopiero wtedy, gdy wniosek nie ma braków\n  formalnych albo zostały one uzupełnione w terminie (art. 108 ust. 1 pkt 1).\n\n**Braki merytoryczne** — dokumenty potwierdzające to, co napisano we wniosku (umowa,\nzaświadczenia, dowód dochodu). Brak ich w terminie może skończyć się **odmową**, od której\nprzysługuje odwołanie — patrz `odwolanie-od-wojewody`.\n\nJak złożyć: osobiście, pocztą albo w sposób wskazany w piśmie — w oryginale lub kopii\npoświadczonej; **skan wgrany do systemu nie zastępuje dokumentu**, jeśli urząd go żąda\nw oryginale. Zachowaj dowód nadania.\n\nNie zdążysz albo nie masz dokumentu → jeszcze przed upływem terminu skontaktuj się\nz urzędem i skorzystaj z pomocy prawnej lub przycisku pomocy osobistej. Nie zakładaj, że\ntermin zostanie przedłużony, i nie czekaj po cichu."
   },
   {
    "id": "wlasciwy-organ",
@@ -1656,8 +1667,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "organ gminy",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20031281176",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "ochrona czasowa",
@@ -1671,8 +1682,8 @@
     "коли втрачається захист"
    ],
    "sciezka": "tresc/ukr/ochrona-czasowa.md",
-   "bajty": 1573,
-   "tresc": "**Uwaga na akt prawny.** Od 5 marca 2026 r. specjalny reżim dla obywateli Ukrainy nie\nopiera się już na ustawie z 2022 r. o pomocy obywatelom Ukrainy, tylko jest wbudowany\nw **ustawę o udzielaniu cudzoziemcom ochrony na terytorium RP**. Wszystkie numery artykułów\nw tym pliku należą do **tej** ustawy — nigdy nie przypisuj ich ustawie o cudzoziemcach.\n\nPobyt osoby korzystającej z ochrony czasowej uznaje się za legalny na podstawie art. 106.\n\n## Kiedy ochrona wygasa (art. 109b)\n\nOchrona czasowa **wygasa** między innymi, gdy cudzoziemiec:\n\n1. **nie złożył wniosku o PESEL** w wyznaczonym terminie;\n2. **wyjechał z Polski na okres dłuższy niż 30 dni**;\n3. pisemnie **zrzekł się** ochrony w dowolnym organie gminy;\n4. **otrzymał** zezwolenie na pobyt stały lub czasowy, status rezydenta UE, status uchodźcy,\n   ochronę uzupełniającą, pobyt tolerowany albo zgodę humanitarną;\n5. złożył wniosek o **ochronę międzynarodową**;\n6. uzyskał ochronę czasową w **innym państwie UE**;\n7. **nabył obywatelstwo** Polski lub innego państwa UE.\n\nOchrona wygasa w dniu zajścia zdarzenia (art. 109b ust. 2) — nie z chwilą wydania\njakiejkolwiek decyzji. To ważne: nikt o tym nie zawiadamia.\n\nPunkt 2 jest w praktyce najczęstszy i najbardziej zaskakujący. **Wyjazd ponad 30 dni to\nsamodzielna podstawa utraty ochrony**, niezależna od powodu wyjazdu.\n\nJeżeli ktoś pyta, bo już wyjechał albo planuje dłuższy wyjazd — powiedz to wprost i skieruj\ndo organizacji pomocy prawnej dla migrantów, bo skutkiem jest utrata legalności pobytu."
+   "bajty": 1687,
+   "tresc": "**Uwaga na akt prawny.** Od 5 marca 2026 r. specjalny reżim dla obywateli Ukrainy nie\nopiera się już na ustawie z 2022 r. o pomocy obywatelom Ukrainy, tylko jest wbudowany\nw **ustawę o udzielaniu cudzoziemcom ochrony na terytorium RP**. Wszystkie numery artykułów\nw tym pliku należą do **tej** ustawy — nigdy nie przypisuj ich ustawie o cudzoziemcach.\n\nPobyt osoby korzystającej z ochrony czasowej uznaje się za legalny na podstawie art. 106 —\ndopóki obowiązuje decyzja Rady UE o ochronie czasowej, obecnie do 4 marca 2028 r.\n(patrz `ukr-termin-2027`).\n\n## Kiedy ochrona wygasa (art. 109b)\n\nOchrona czasowa **wygasa** między innymi, gdy cudzoziemiec:\n\n1. **nie złożył wniosku o PESEL** w wyznaczonym terminie;\n2. **wyjechał z Polski na okres dłuższy niż 30 dni**;\n3. pisemnie **zrzekł się** ochrony w dowolnym organie gminy;\n4. **otrzymał** zezwolenie na pobyt stały lub czasowy, status rezydenta UE, status uchodźcy,\n   ochronę uzupełniającą, pobyt tolerowany albo zgodę humanitarną;\n5. złożył wniosek o **ochronę międzynarodową**;\n6. uzyskał ochronę czasową w **innym państwie UE**;\n7. **nabył obywatelstwo** Polski lub innego państwa UE.\n\nOchrona wygasa w dniu zajścia zdarzenia (art. 109b ust. 2) — nie z chwilą wydania\njakiejkolwiek decyzji. To ważne: nikt o tym nie zawiadamia.\n\nPunkt 2 jest w praktyce najczęstszy i najbardziej zaskakujący. **Wyjazd ponad 30 dni to\nsamodzielna podstawa utraty ochrony**, niezależna od powodu wyjazdu.\n\nJeżeli ktoś pyta, bo już wyjechał albo planuje dłuższy wyjazd — powiedz to wprost i skieruj\ndo organizacji pomocy prawnej dla migrantów, bo skutkiem jest utrata legalności pobytu."
   },
   {
    "id": "pesel-ukr",
@@ -1716,8 +1727,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "organ gminy",
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000203",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
     "potwierdzenie tożsamości",
@@ -1742,8 +1753,8 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": null,
-   "zrodlo": null,
-   "zweryfikowano": "2026-09-14",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20031281176",
+   "zweryfikowano": "2026-10-22",
    "ryzyko": "normalne",
    "slowa": [
     "do kiedy",
@@ -1755,11 +1766,15 @@
     "extension",
     "до якого часу",
     "продовження",
-    "строк захисту"
+    "строк захисту",
+    "до коли діє захист",
+    "до коли діє тимчасовий захист",
+    "do kiedy obowiązuje ochrona",
+    "until when is temporary protection"
    ],
    "sciezka": "tresc/ukr/termin-2027.md",
-   "bajty": 1465,
-   "tresc": "To są **dwie różne rzeczy prawne i nie wolno ich mieszać** — mylenie ich jest najczęstszym\nnieporozumieniem w tym temacie.\n\n- **Polski termin krajowy — 4 marca 2027 r.** Stała data wynikająca z polskich przepisów,\n  zgodnie z informacją oficjalnego portalu MOS. Wcześniej w wielu przepisach figurowała\n  data 4 marca 2026 r., zastąpiona właśnie tą.\n- **Ramy unijne „ochrona czasowa\" — 4 marca 2028 r.** Rada UE przedłużyła sam mechanizm\n  decyzją wykonawczą (EU) 2026/1912. To przedłużenie **na poziomie UE**, a nie automatyczna\n  zmiana polskiej daty.\n\n**Nigdy nie twierdź ani nie sugeruj**, że polski termin krajowy przesunięto na 2028 r.,\nani że wnioski będą po prostu przyjmowane dalej po 4 marca 2027 r. — chyba że wynik\nwyszukiwania wprost wskazuje polski akt prawny albo oficjalne ogłoszenie polskiego rządu\nzmieniające tę datę. Sama decyzja Rady UE tym nie jest.\n\nNa pytanie „czy po 4 marca 2027 będą przyjmować wnioski\" odpowiadaj tak: ramy unijne\nprzedłużono do 2028 r., ale polski termin krajowy to nadal oficjalnie 4 marca 2027 r.,\nmoże zostać przedłużony odrębną polską nowelizacją albo nie, i warto sprawdzić gov.pl/UDSC\nlub mos.cudzoziemcy.gov.pl bliżej tej daty zamiast zakładać automatyczne przedłużenie.\n\nTen plik celowo nie zawiera numerów artykułów: obie daty pochodzą z różnych aktów i z\nkomunikatów urzędowych, więc przypisanie ich do jednego przepisu byłoby mylące."
+   "bajty": 1307,
+   "tresc": "To dwie różne daty dla różnych rzeczy — mylenie ich jest najczęstszym nieporozumieniem\nw tym temacie.\n\n- **Legalny pobyt w ramach ochrony czasowej (status UKR) — do 4 marca 2028 r.** Ustawa\n  o udzielaniu cudzoziemcom ochrony uznaje pobyt beneficjenta ochrony czasowej za legalny,\n  dopóki obowiązuje decyzja Rady UE o ochronie czasowej. Rada UE przedłużyła ją do 4 marca\n  2028 r. (decyzja wykonawcza 2026/1912, komunikat UDSC z 6 sierpnia 2026 r.). Ochrona\n  może wygasnąć wcześniej z przyczyn osobistych — patrz `ukr-ochrona-czasowa`.\n- **4 marca 2027 r. to inne terminy**, z ustawy z 12 marca 2022 r. o pomocy obywatelom\n  Ukrainy i z ustawy z 23 stycznia 2026 r.: koniec przedłużenia z mocy prawa wiz krajowych,\n  zezwoleń na pobyt czasowy i kart pobytu obywateli Ukrainy, ważność dawnych zaświadczeń,\n  termin wniosków o kartę CUKR (`cukr`) i koniec zawieszenia terminów w sprawach pobytowych\n  (`bezczynnosc`).\n\nNigdy nie mów, że ochrona czasowa kończy się 4 marca 2027 r. Na pytanie „do kiedy mogę\nlegalnie przebywać na statusie UKR\" odpowiedź brzmi: do 4 marca 2028 r., o ile status nie\nwygaśnie wcześniej. Daty bywają przesuwane — bliżej nich sprawdź gov.pl/UDSC.\n\nPlik celowo nie podaje numerów artykułów: daty pochodzą z kilku różnych ustaw."
   },
   {
    "id": "wiza-krajowa",
