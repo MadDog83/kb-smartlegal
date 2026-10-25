@@ -4,7 +4,7 @@ tytul: Uznanie za obywatela polskiego — warunki
 ustawa: ustawa o obywatelstwie polskim
 artykuly: [30]
 organ: wojewoda
-zrodlo: https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego
+zrodlo: https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego
 zweryfikowano: 2026-09-16
 ryzyko: normalne
 slowa: [obywatelstwo, uznanie za obywatela, jak dostać obywatelstwo, warunki obywatelstwa, polski paszport, naturalizacja, obywatelstwo przez małżeństwo, żonaty z Polką, żona Polaka, mąż Polki, ile lat do obywatelstwa, Karta Polaka obywatelstwo, citizenship, become Polish citizen, naturalisation, citizenship through marriage, громадянство, як отримати громадянство, умови громадянства, громадянство через шлюб]

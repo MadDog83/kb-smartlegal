@@ -3,7 +3,7 @@ id: praca-oswiadczenie
 tytul: Oświadczenie o powierzeniu pracy cudzoziemcowi
 artykuly: []
 organ: starosta (powiatowy urząd pracy)
-zrodlo: https://warszawa.praca.gov.pl/oswiadczenie-o-powierzeniu-wykonywania-pracy-cudzoziemcowi1
+zrodlo: https://zielonalinia.gov.pl/od-1-grudnia-2025-r-wazne-zmiany-w-oswiadczeniu-o-powierzeniu-pracy-cudzoziemcowi/
 zweryfikowano: 2026-09-22
 ryzyko: normalne
 slowa: [oświadczenie o powierzeniu pracy, oświadczenie o powierzeniu wykonywania pracy, oświadczenie, 24 miesiące, Białoruś, Mołdawia, Armenia, Gruzja, declaration of entrusting work, work declaration, освядчення, заява про доручення роботи, Білорусь, Молдова, Вірменія, Грузія]

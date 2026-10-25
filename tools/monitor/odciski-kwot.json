@@ -1,5 +1,5 @@
 {
-  "zapisano": "2026-10-22",
+  "zapisano": "2026-10-25",
   "tematy": {
     "utrata-karty-pobytu": {
       "zrodlo": "https://www.gov.pl/web/udsc/nowe-stawki-oplat-za-dokumenty-wydawane-cudzoziemcom",
@@ -11,7 +11,9 @@
     },
     "nadanie-obywatelstwa": {
       "zrodlo": "https://www.gov.pl/web/uw-pomorski/nadanie-obywatelstwa-polskiego-przez-prezydenta-rp",
-      "obecne": []
+      "obecne": [
+        "1669"
+      ]
     },
     "oplaty-karta-pobytu": {
       "zrodlo": "https://migrant.wsc.mazowieckie.pl/pl/wskazowki/oplaty",
@@ -37,6 +39,32 @@
         "640",
         "100",
         "440"
+      ]
+    },
+    "procedura-obywatelstwo": {
+      "zrodlo": "https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego",
+      "obecne": [
+        "1000"
+      ]
+    },
+    "praca-oswiadczenie": {
+      "zrodlo": "https://zielonalinia.gov.pl/od-1-grudnia-2025-r-wazne-zmiany-w-oswiadczeniu-o-powierzeniu-pracy-cudzoziemcowi/",
+      "obecne": [
+        "400",
+        "100"
+      ]
+    },
+    "cukr": {
+      "zrodlo": "https://www.gov.pl/web/udsc/CUKR-procedura",
+      "obecne": [
+        "340",
+        "100"
+      ]
+    },
+    "uznanie-za-obywatela": {
+      "zrodlo": "https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego",
+      "obecne": [
+        "1000"
       ]
     }
   }

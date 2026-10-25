@@ -4,7 +4,7 @@ tytul: Obywatelstwo — organ, termin i odwołanie
 ustawa: ustawa o obywatelstwie polskim
 artykuly: [30]
 organ: wojewoda
-zrodlo: https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego
+zrodlo: https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego
 zweryfikowano: 2026-10-22
 ryzyko: wysokie
 slowa: [odmowa obywatelstwa, odwołanie obywatelstwo, ile trwa obywatelstwo, gdzie złożyć wniosek o obywatelstwo, termin obywatelstwo, citizenship refused, citizenship appeal, відмова у громадянстві, оскарження громадянства, скільки триває, ile trwa uznanie za obywatela, how long does citizenship take, citizenship decision, скільки розглядають громадянство, w sprawie obywatelstwa, на громадянство, ile czeka się na obywatelstwo, рішення про громадянство]
