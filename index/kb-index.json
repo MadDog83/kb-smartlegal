@@ -1,5 +1,5 @@
 {
- "zbudowano": "2026-10-22",
+ "zbudowano": "2026-10-25",
  "liczbaWpisow": 48,
  "artykulyUstaw": {
   "3": [
@@ -345,7 +345,7 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "wojewoda",
-   "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
+   "zrodlo": "https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego",
    "zweryfikowano": "2026-10-22",
    "ryzyko": "wysokie",
    "slowa": [
@@ -382,7 +382,7 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "wojewoda",
-   "zrodlo": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/Uznanie_za_obywatela_polskiego",
+   "zrodlo": "https://www.gov.pl/web/uw-lodzki/uznanie-za-obywatela-polskiego",
    "zweryfikowano": "2026-09-16",
    "ryzyko": "normalne",
    "slowa": [
@@ -1092,7 +1092,7 @@
    "artykuly_zakazane": [],
    "wyklucza": [],
    "organ": "starosta (powiatowy urząd pracy)",
-   "zrodlo": "https://warszawa.praca.gov.pl/oswiadczenie-o-powierzeniu-wykonywania-pracy-cudzoziemcowi1",
+   "zrodlo": "https://zielonalinia.gov.pl/od-1-grudnia-2025-r-wazne-zmiany-w-oswiadczeniu-o-powierzeniu-pracy-cudzoziemcowi/",
    "zweryfikowano": "2026-09-22",
    "ryzyko": "normalne",
    "slowa": [

@@ -23,15 +23,20 @@ const liczba = (s) => s.replace(/[  ]/g, "");
 
 /** Tekst strony bez znaczników, ze spacjami tysięcy usuniętymi tak samo jak w tematach. */
 function tekstStrony(url) {
-  // curl, nie fetch: w środowisku zaplanowanego zadania ruch idzie przez proxy.
-  const html = execFileSync("curl", ["-sS", "-f", "--http1.1", "-A", "Mozilla/5.0", "-m", "60", url], {
+  // curl, nie fetch: w środowisku zaplanowanego zadania ruch idzie przez proxy. Ponowienie,
+  // bo gov.pl co jakiś czas zrywa połączenie (22 października: strona UdSC raz tak, raz nie).
+  const html = execFileSync("curl", ["-sS", "-f", "--http1.1", "-A", "Mozilla/5.0", "-m", "60",
+    "--retry", "2", "--retry-delay", "5", "--retry-all-errors", url], {
     maxBuffer: 32 << 20,
   }).toString("utf8");
   return html
     .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/g, " ")
-    .replace(/\s+/g, " ");
+    .replace(/\s+/g, " ")
+    // „1669,00 zł" i „1.000,00 zł" na stronach urzędów, „1669 zł" w tematach.
+    .replace(/(\d{1,3})\.(\d{3})(?=(,\d{2})?\s*zł)/g, "$1$2")
+    .replace(/(\d),00(?=\s*zł)/g, "$1");
 }
 
 const strony = new Map();
